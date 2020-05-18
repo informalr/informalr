@@ -18,6 +18,12 @@ He'll add you to the `informalr` server.
 
 See this video for an introduction about a similar Discord server: [YouTube](https://youtu.be/zyn5VyNjz5I) [download (.OGG)](http://richelbilderbeek.nl/dutch_by_kids_students.ogv)
 
+## Team
+
+Not set in stone, as we do not have picked a weekday yet.
+
+ * Geert
+
 ## Meetings
 
  * Date: Undecided yet
