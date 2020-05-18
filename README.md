@@ -22,6 +22,7 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
 
 Not set in stone, as we do not have picked a weekday yet.
 
+ * Apu
  * Geert
  * Harry
 
