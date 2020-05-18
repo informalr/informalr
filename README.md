@@ -53,6 +53,7 @@ That we follow the literature, which means we will:
  * Use a package as a development unit (not an R script, not a vignette)
  * Use `git` for version control, where each person has his/her own branch
  * Use GitHub for collaboration
+ * Employ test-driven development
  * Use Travis CI for continuous integration
  * Use `lintr` to check for style
  * Use `covr` to check for code coverage
