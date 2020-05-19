@@ -10,6 +10,8 @@ richel   |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=
 
 The `informalr` R team!
 
+![informalr logo](pics/informalr_logo.png)
+
 ## Coding via Discord
 
 We develop our packages, while chatting on Discord.
