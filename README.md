@@ -25,6 +25,7 @@ Not set in stone, as we do not have picked a weekday yet.
  * Apu
  * Geert
  * Harry
+ * [Willy](https://github.com/FrieseWoudloper) 
 
 ## Meetings
 
