@@ -26,6 +26,10 @@ Not set in stone, as we do not have picked a weekday yet.
  * Geert
  * Harry
 
+## Project
+
+Unknown.
+
 ## Meetings
 
  * Date: Undecided yet
@@ -47,6 +51,9 @@ End of lesson    |(x+2):00
 Date       |Activity
 -----------|--------------------------------------------------------------------------
 Today      |Find team members
+.          |`git`
+.          |Build a package
+
 
 ## FAQ
 
