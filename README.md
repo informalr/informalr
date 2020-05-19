@@ -51,12 +51,15 @@ End of lesson    |(x+2):00
 
 ## Long-term schedule
 
-Date       |Activity
------------|--------------------------------------------------------------------------
-Today      |Find team members
-.          |`git`
-.          |Build a package
-
+Date            |Activity
+----------------|--------------------------------------------------------------------------
+Today           |Find team members
+.               |`git` and `swirl`
+.               |Work on shared prepped trivial package
+After 4 meetings|Go/No Go, vote on next project
+.               |Create own trivial package, use prepped superpackage
+After 8 meetings|Go/No Go, vote on next project
+.               |Decide on project
 
 ## FAQ
 
