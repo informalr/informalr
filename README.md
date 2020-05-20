@@ -24,8 +24,9 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
 
 Not set in stone, as we do not have picked a weekday yet.
 
- * Apu
- * Geert
+ * [Anne](https://github.com/fastnotfurious) 
+ * [Apu](https://github.com/AparajithaRamesh)
+ * [Geert](https://github.com/bogeert) 
  * Harry
  * [Willy](https://github.com/FrieseWoudloper) 
 
