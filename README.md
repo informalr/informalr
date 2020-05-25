@@ -28,6 +28,7 @@ Not set in stone, as we do not have picked a weekday yet.
  * [Apu](https://github.com/AparajithaRamesh)
  * [Geert](https://github.com/bogeert) 
  * Harry
+ * [Pedro](https://github.com/Neves-P) 
  * Lizzie
  * [Willy](https://github.com/FrieseWoudloper) 
 
