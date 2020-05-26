@@ -22,8 +22,6 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
 
 ## Team
 
-Not set in stone, as we do not have picked a weekday yet.
-
  * [Anne](https://github.com/fastnotfurious) 
  * [Apu](https://github.com/AparajithaRamesh)
  * [Geert](https://github.com/bogeert) 
@@ -48,9 +46,9 @@ We follow this timetable:
 What             | Time
 -----------------|------
 Doors open       |18:00
-Lesson starts    |18:15
+Work starts      |18:15
 Break time!      |19:00
-Lesson continues |19:15
+Work continues   |19:15
 End of lesson    |20:00
 
 ## Long-term schedule
@@ -58,8 +56,7 @@ End of lesson    |20:00
 Date            |Activity
 ----------------|--------------------------------------------------------------------------
 Done            |Find team members
-.               |`git` and `swirl`
-.               |Work on shared prepped trivial package
+.               |`git` and `swirl`, work on shared prepped trivial package
 After 4 meetings|Go/No Go, vote on next project
 .               |Create own trivial package, use prepped superpackage
 After 8 meetings|Go/No Go, vote on next project
