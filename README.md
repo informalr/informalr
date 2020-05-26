@@ -39,25 +39,25 @@ Unknown.
 
 ## Meetings
 
- * Date: Undecided yet
- * Time: Undecided yet
+ * Date: Tuesdays 
+ * Time: 18:00-20:00
  * On Discord
 
 We follow this timetable:
 
 What             | Time
 -----------------|------
-Doors open       |(x+0):00
-Lesson starts    |(x+0):15
-Break time!      |(x+1):00
-Lesson continues |(x+1):15
-End of lesson    |(x+2):00
+Doors open       |18:00
+Lesson starts    |18:15
+Break time!      |19:00
+Lesson continues |19:15
+End of lesson    |20:00
 
 ## Long-term schedule
 
 Date            |Activity
 ----------------|--------------------------------------------------------------------------
-Today           |Find team members
+Done            |Find team members
 .               |`git` and `swirl`
 .               |Work on shared prepped trivial package
 After 4 meetings|Go/No Go, vote on next project
