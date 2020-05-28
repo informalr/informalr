@@ -27,7 +27,8 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
  * [Geert](https://github.com/bogeert) 
  * Harry
  * Maxim
- * [Pedro](https://github.com/Neves-P) 
+ * [Pedro](https://github.com/Neves-P)
+ * [Stefano](https://github.com/swom)
  * Lizzie
  * [Willy](https://github.com/FrieseWoudloper) 
 
