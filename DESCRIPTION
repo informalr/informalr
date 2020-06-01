@@ -1,0 +1,20 @@
+Package: informalr
+Title: Learn R Informally In A Team
+Version: 0.1
+Authors@R: c(
+    person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
+Maintainer: Richèl J.C. Bilderbeek <richel@richelbilderbeek.nl>
+Description:
+    There are multiple ways to learn R.
+    One way is to join the informalr team.
+    There, one can learn R informally in a team.
+License: GPL-3
+LazyData: true
+RoxygenNote: 7.1.0
+VignetteBuilder: knitr
+URL: https://github.com/richelbilderbeek/informalr
+BugReports: https://github.com/richelbilderbeek/informalr/issues
+Imports:
+    knitr
+Language: en-US
+Encoding: UTF-8
