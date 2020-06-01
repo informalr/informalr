@@ -2,3 +2,5 @@
 pics/
 informalr.Rproj
 LICENSE
+^.*\.Rproj$
+^\.Rproj\.user$
