@@ -20,4 +20,5 @@ Language: en-US
 Encoding: UTF-8
 Suggests: 
     testthat,
+    tibble,
     rmarkdown
