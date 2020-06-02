@@ -19,4 +19,5 @@ Imports:
 Language: en-US
 Encoding: UTF-8
 Suggests: 
-    testthat
+    testthat,
+    rmarkdown

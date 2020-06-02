@@ -1,0 +1,37 @@
+---
+title: "demo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{demo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Load our package and others we need:
+
+```{r setup}
+library(informalr)
+library(knitr)
+library(tibble)
+```
+
+Put our names in a tibble:
+
+```{r}
+table <- tibble(
+  name = c("Anne", "Richel"),
+  github_username = c(
+    "fastnotfurious", 
+    get_richels_github_username()
+  )
+)
+kable(table)
+```
+
