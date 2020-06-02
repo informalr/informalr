@@ -121,7 +121,9 @@ After this, the team decides on a project by majority vote.
 
 There is none.
 
-
-Richel was here!     
+Geert was here
+Richel was here!
 Me too (Willy)
 testje
+Anne as well 
+
