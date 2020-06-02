@@ -38,7 +38,7 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
  * [Maxim](https://github.com/MaximBaranov87)
  * [Pedro](https://github.com/Neves-P)
  * [Stefano](https://github.com/swom)
- * Lizzie
+ * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Willy](https://github.com/FrieseWoudloper) 
 
 ## Project
