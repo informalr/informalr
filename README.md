@@ -35,7 +35,7 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
  * [Apu](https://github.com/AparajithaRamesh)
  * [Geert](https://github.com/bogeert) 
  * Harry
- * Maxim
+ * [Maxim](https://github.com/MaximBaranov87)
  * [Pedro](https://github.com/Neves-P)
  * [Stefano](https://github.com/swom)
  * Lizzie
