@@ -122,5 +122,5 @@ After this, the team decides on a project by majority vote.
 There is none.
 
 
-Richel was here!
+Richel was here!     
 Me too (Willy)
