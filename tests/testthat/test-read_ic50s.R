@@ -1,0 +1,12 @@
+test_that("use", {
+  skip("Issue 17. Issue #17")
+  table <- read_ic50s()
+  expect_true("tool" %in% names(table))
+  expect_true("haplotype" %in% names(table))
+  expect_true("sequence" %in% names(table))
+  expect_true("ic50" %in% names(table))
+  expect_true(is.factor(table$tool))
+  expect_true(is.character(table$haplotype))
+  expect_true(is.character(table$sequence))
+  expect_true(is.numeric(table$ic50))
+})
