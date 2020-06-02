@@ -122,6 +122,11 @@ After this, the team decides on a project by majority vote.
 There is none.
 
 
+<<<<<<< HEAD
 Richel was here!
 
 Anne was here!
+=======
+Richel was here!     
+Me too (Willy)
+>>>>>>> 6c16e76b3481a8c0c136c85a0b48c1c44350e888
