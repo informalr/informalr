@@ -19,5 +19,5 @@ username <- get_richels_github_username()
 expect_equal("richelbilderbeek", username)
 }
 \author{
-Richel Bilderbeek
+Richel
 }
