@@ -121,11 +121,9 @@ After this, the team decides on a project by majority vote.
 
 There is none.
 
-<<<<<<< HEAD
-
-
 Richel was here!
 
+<<<<<<< HEAD
 Anne was here again!
      
 Me too (Willy)
@@ -140,4 +138,9 @@ Anne as well
 Lizzie was here :)
 Pedro was here
 >>>>>>> 9bf71577fadb7bc0d9ee1b0dc6971a8f09e8f9c0
+=======
+Geert was here as well, 2nd!!
+Willy was also here
+>>>>>>> 088c0fc7d3a55c57ee7fda7e0acc433fe9a9e150
 
+Pedro was here!
