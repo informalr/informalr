@@ -31,15 +31,15 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
 
 ## Team
 
- * [Anne](https://github.com/fastnotfurious) 
+ * [Anne](https://github.com/fastnotfurious)
  * [Apu](https://github.com/AparajithaRamesh)
- * [Geert](https://github.com/bogeert) 
+ * [Geert](https://github.com/bogeert)
  * Harry
  * [Maxim](https://github.com/MaximBaranov87)
  * [Pedro](https://github.com/Neves-P)
  * [Stefano](https://github.com/swom)
  * [Lizzie](https://github.com/Lizzie-Roeble)
- * [Willy](https://github.com/FrieseWoudloper) 
+ * [Willy](https://github.com/FrieseWoudloper)
 
 ## Project
 
@@ -47,7 +47,7 @@ Unknown.
 
 ## Meetings
 
- * Date: Tuesdays 
+ * Date: Tuesdays
  * Time: 18:00-20:00
  * On Discord
 
@@ -96,7 +96,7 @@ for multiple videos we will follow.
 
 ### What is meant by 'in a team'?
 
-That we work together. 
+That we work together.
 A beginner will be taught by a more experienced team member.
 We will be doing pair programming.
 
@@ -105,7 +105,7 @@ We will be doing pair programming.
 This means that:
 
  * You are allowed to grab a beer
- * If you cannot be there, this is always fine 
+ * If you cannot be there, this is always fine
  * We only work during our meetings
 
 ### How will we do that?
@@ -127,7 +127,7 @@ There is none.
 Richel was here!
 
 Anne was here!
-     
+
 Me too (Willy)
 
 MAxim was here again and again
@@ -136,8 +136,6 @@ Geert was here
 Richel was here!
 Me too (Willy)
 testje
-Anne as well 
-Lizzie was here :)
+Anne as well
+Lizzie was here :) :)
 Pedro was here
->>>>>>> 9bf71577fadb7bc0d9ee1b0dc6971a8f09e8f9c0
-
