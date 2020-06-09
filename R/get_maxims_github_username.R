@@ -10,4 +10,3 @@
 get_maxims_github_username <- function() {
   "MaximBaranov87"
 }
-

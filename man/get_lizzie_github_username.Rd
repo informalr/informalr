@@ -2,12 +2,19 @@
 % Please edit documentation in R/get_lizzie_github_username.R
 \name{get_lizzie_github_username}
 \alias{get_lizzie_github_username}
-\title{username <- get_lizzie_github_username()
-expect_equal("Lizzie-Roeble", username)}
+\title{Get Lizzie's GitHub username}
 \usage{
 get_lizzie_github_username()
 }
+\value{
+Lizzie's GitHub username
+}
 \description{
+Get Lizzie's GitHub username
+}
+\examples{
+library(testthat)
+
 username <- get_lizzie_github_username()
 expect_equal("Lizzie-Roeble", username)
 }

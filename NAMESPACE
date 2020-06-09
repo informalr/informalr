@@ -3,5 +3,7 @@
 export(get_annes_github_username)
 export(get_geerts_github_username)
 export(get_lizzie_github_username)
+export(get_maxims_github_username)
+export(get_pedros_github_username)
 export(get_richels_github_username)
 export(get_willys_github_username)
