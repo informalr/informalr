@@ -38,7 +38,7 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
  * [Maxim](https://github.com/MaximBaranov87)
  * [Pedro](https://github.com/Neves-P)
  * [Stefano](https://github.com/swom)
- * Lizzie
+ * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Willy](https://github.com/FrieseWoudloper) 
 
 ## Project
@@ -121,14 +121,29 @@ After this, the team decides on a project by majority vote.
 
 There is none.
 
-
 <<<<<<< HEAD
+
+
 Richel was here!
 
 Anne was here!
-=======
-Richel was here!     
+     
 Me too (Willy)
 
-Geert was here!
+MAxim was here again and again
+=======
+Geert was here
+Richel was here!
+Me too (Willy)
+<<<<<<< HEAD
+
+Geert was here again!
 >>>>>>> 6c16e76b3481a8c0c136c85a0b48c1c44350e888
+=======
+testje
+Anne as well 
+Lizzie was here :)
+Pedro was here
+>>>>>>> 9bf71577fadb7bc0d9ee1b0dc6971a8f09e8f9c0
+
+>>>>>>> 251c162194f4dec0d8b74122882b36202e58f189
