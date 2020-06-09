@@ -121,9 +121,6 @@ After this, the team decides on a project by majority vote.
 
 There is none.
 
-<<<<<<< HEAD
-
-
 Richel was here!
 
 Anne was here!
@@ -139,3 +136,7 @@ testje
 Anne as well
 Lizzie was here :) :)
 Pedro was here
+09-06-2020 Maxim was here
+
+
+Pedro was here!
