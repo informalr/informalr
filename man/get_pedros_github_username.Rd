@@ -13,10 +13,8 @@ Pedro's GitHub username
 Get Pedro's GitHub username
 }
 \examples{
-library(testthat)
-
 username <- get_pedros_github_username()
-expect_equal("Neves-P", username)
+testthat::expect_equal("Neves-P", username)
 }
 \author{
 Pedro Neves
