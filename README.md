@@ -123,13 +123,12 @@ There is none.
 
 Richel was here!
 
-<<<<<<< HEAD
 Anne was here again!
      
 Me too (Willy)
 
 MAxim was here again and again
-=======
+
 Geert was here
 Richel was here!
 Me too (Willy)
@@ -137,14 +136,14 @@ testje
 Anne as well 
 Lizzie was here :)
 Pedro was here
->>>>>>> 9bf71577fadb7bc0d9ee1b0dc6971a8f09e8f9c0
-<<<<<<< HEAD
+
 09-06-2020 Maxim was here
-=======
-=======
+
 Geert was here as well, 2nd!!
 Willy was also here
->>>>>>> 088c0fc7d3a55c57ee7fda7e0acc433fe9a9e150
->>>>>>> 4fec42dbc202ebb68f6d547ac28845b494c012cd
 
 Pedro was here!
+Geert was here as well, 2nd!!     
+Willy was also here - I can create a branch!!!!  
+Geert again!
+   
