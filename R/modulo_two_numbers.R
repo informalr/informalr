@@ -9,5 +9,6 @@
 #' @author Willy Tadema
 #' @export
 modulo_two_numbers <- function(a, b) {
+  stopifnot(is.numeric(a) & is.numeric(b))
   a %% b
 }
