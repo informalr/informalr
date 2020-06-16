@@ -122,22 +122,33 @@ After this, the team decides on a project by majority vote.
 There is none.
 
 <<<<<<< HEAD
-<<<<<<< HEAD
-
-
 Richel was here!
 
-Anne was here!
-Something     
+Anne was here again!
+     
 Me too (Willy)
 
 MAxim was here again and again
-=======
-Geert was here
-=======
->>>>>>> 8d236115afa2823ad4620f45f980ddd3c4c7cd98
-Richel was here!
 
+Geert was here
+Richel was here!
+Me too (Willy)
+testje
+Anne as well 
+Lizzie was here :)
+Pedro was here
+
+09-06-2020 Maxim was here
+
+Geert was here as well, 2nd!!
+Willy was also here
+
+Pedro was here!
 Geert was here as well, 2nd!!     
 Willy was also here - I can create a branch!!!!  
 Geert again!
+
+Another trivial change!
+
+=======
+>>>>>>> develop
