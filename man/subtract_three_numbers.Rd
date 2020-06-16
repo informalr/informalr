@@ -16,6 +16,7 @@ subtract_three_numbers(a)
 Subtract three numbers
 }
 \examples{
+\dontrun{}
 library(testthat)
 expect_equal(2, subtract_three_numbers(5))
 }

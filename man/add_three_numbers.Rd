@@ -20,6 +20,7 @@ The sum of the three numbers
 Add up three numbers
 }
 \examples{
+\dontrun{}
 library(testthat)
 expect_equal(6, add_three_numbers(1, 2, 3))
 }

@@ -18,6 +18,7 @@ The division of number `a` by number `b`.
 Divide two numbers
 }
 \examples{
+\dontrun{}
 testthat::expect_equal(
   divide_two_numbers(a = 2, b = 5),
   0.4
