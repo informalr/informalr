@@ -1,6 +1,7 @@
 #' Get Maxim's GitHub username
 #' @return Maxim's GitHub username
 #' @examples
+#' \dontrun{}
 #' library(testthat)
 #'
 #' username <- get_maxims_github_username()
