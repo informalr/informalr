@@ -4,4 +4,3 @@ informalr.Rproj
 LICENSE
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.DS_Store\.orig$

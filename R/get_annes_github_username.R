@@ -1,7 +1,6 @@
 #' Anne's GitHub username
 #' @return Anne's GitHub username
 #' @examples
-#' \dontrun{}
 #' library(testthat)
 #'
 #' username <- get_annes_github_username()

@@ -4,7 +4,6 @@
 #' @param b A number
 #' @return The modulo of \code{a} and \code{b}
 #' @examples
-#' \dontrun{}
 #' modulo_two_numbers(4, 2)
 #' modulo_two_numbers(10, 5)
 #' @author Willy Tadema

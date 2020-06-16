@@ -18,7 +18,6 @@ The modulo of \code{a} and \code{b}
 Get the modulo of two numbers
 }
 \examples{
-\dontrun{}
 modulo_two_numbers(4, 2)
 modulo_two_numbers(10, 5)
 }

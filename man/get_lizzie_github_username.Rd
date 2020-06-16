@@ -13,7 +13,6 @@ Lizzie's GitHub username
 Get Lizzie's GitHub username
 }
 \examples{
-\dontrun{}
 library(testthat)
 
 username <- get_lizzie_github_username()
