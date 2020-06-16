@@ -4,6 +4,7 @@
 #' @param b A number
 #' @return The sum of the two numbers
 #' @examples
+#' \dontrun{}
 #' library(testthat)
 #' expect_equal(5, add_two_numbers(2, 3))
 #' @author Richel Bilderbeek
