@@ -4,9 +4,9 @@
 #' @return 3 from a subtracted
 #' @examples
 #' library(testthat)
-#' expect_equal(5, subtract_three_numbers(2))
+#' expect_equal(2, subtract_three_numbers(5))
 #' @author Geert van den Bogaart
 #' @export
-add_three_numbers <- function(a) {
+subtract_three_numbers <- function(a) {
   a - 3
 }
