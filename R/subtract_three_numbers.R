@@ -1,4 +1,4 @@
-#' Add up two numbers
+#' Subtract three numbers
 #'
 #' @param a A number
 #' @return 3 from a subtracted
