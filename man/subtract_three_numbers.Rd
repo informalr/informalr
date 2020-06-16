@@ -2,7 +2,7 @@
 % Please edit documentation in R/subtract_three_numbers.R
 \name{subtract_three_numbers}
 \alias{subtract_three_numbers}
-\title{Add up two numbers}
+\title{Subtract three numbers}
 \usage{
 subtract_three_numbers(a)
 }
@@ -13,7 +13,7 @@ subtract_three_numbers(a)
 3 from a subtracted
 }
 \description{
-Add up two numbers
+Subtract three numbers
 }
 \examples{
 library(testthat)

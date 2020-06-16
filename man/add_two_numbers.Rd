@@ -18,6 +18,7 @@ The sum of the two numbers
 Add up two numbers
 }
 \examples{
+\dontrun{}
 library(testthat)
 expect_equal(5, add_two_numbers(2, 3))
 }
