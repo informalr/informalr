@@ -15,7 +15,8 @@ VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/informalr
 BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
-    knitr
+    knitr,
+    lintr
 Language: en-US
 Encoding: UTF-8
 Suggests: 
