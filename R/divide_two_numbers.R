@@ -1,4 +1,4 @@
-#' Get the modulo of two numbers
+#' Divide two numbers
 #'
 #' @param a A number
 #' @param b A number
