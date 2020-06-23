@@ -9,6 +9,11 @@
 #' @author Willy Tadema
 #' @export
 modulo_two_numbers <- function(a, b) {
-  stopifnot(is.numeric(a) & is.numeric(b))
+  if (!is.numeric(a)) {
+    stop("The first argument is not a number")
+  }
+  else if (!is.numeric(b)) {
+    stop("The second argument is not a number")
+  }
   a %% b
 }
