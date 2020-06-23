@@ -10,6 +10,27 @@
 #' @author Anne-Kathrin Kleine
 #' @export
 add_three_numbers <- function(a, b, c) {
+  if (is.na(a)) {
+    stop("First argument must be a number")
+  }
+  if (!is.numerical(a)) {
+    stop("First argument must be a number")
+  }
+  if (is.na(b)) {
+    stop("Second argument must be a number")
+  }
+  if (!is.numerical(b)) {
+    stop("Second argument must be a number")
+  }
+  if (is.na(c)) {
+    stop("Third argument must be a number")
+  }
+  if (!is.numerical(c)) {
+    stop("Third argument must be a number")
+  }
   a + b + c
 }
+
+
+
 
