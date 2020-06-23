@@ -16,4 +16,3 @@ test_that("add_three_numbers", {
     "Third argument must be a number"
   )
 })
-
