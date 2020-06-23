@@ -9,5 +9,11 @@
 #' @author Richel Bilderbeek
 #' @export
 add_two_numbers <- function(a, b) {
+  if (is.numeric(a) == FALSE) {
+    stop("First argument must be a number")
+  }
+  if (!is.numeric(b)) {
+    stop("Second argument must be a number")
+  }
   a + b
 }
