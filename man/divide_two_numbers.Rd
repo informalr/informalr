@@ -22,4 +22,8 @@ testthat::expect_equal(
   divide_two_numbers(a = 2, b = 5),
   0.4
 )
+
+}
+\author{
+Pedro
 }
