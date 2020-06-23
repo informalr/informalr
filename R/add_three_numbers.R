@@ -30,4 +30,3 @@ add_three_numbers <- function(a, b, c) {
   }
   a + b + c
 }
-
