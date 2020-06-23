@@ -11,6 +11,8 @@
 #'   divide_two_numbers(a = 2, b = 5),
 #'   0.4
 #' )
+#'
+#' @author Pedro
 divide_two_numbers <- function(a, b) {
   a / b
 }
