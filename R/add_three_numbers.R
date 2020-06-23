@@ -13,27 +13,21 @@ add_three_numbers <- function(a, b, c) {
   if (is.na(a)) {
     stop("First argument must be a number")
   }
-  if (!is.numerical(a)) {
+  if (!is.numeric(a)) {
     stop("First argument must be a number")
   }
   if (is.na(b)) {
     stop("Second argument must be a number")
   }
-  if (!is.numerical(b)) {
+  if (!is.numeric(b)) {
     stop("Second argument must be a number")
   }
   if (is.na(c)) {
     stop("Third argument must be a number")
   }
-  if (!is.numerical(c)) {
+  if (!is.numeric(c)) {
     stop("Third argument must be a number")
   }
   a + b + c
 }
-<<<<<<< HEAD
 
-
-
-
-=======
->>>>>>> 8ff4a5dee797045f6115de537569df43c7935fba
