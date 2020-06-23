@@ -30,7 +30,10 @@ add_three_numbers <- function(a, b, c) {
   }
   a + b + c
 }
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 8ff4a5dee797045f6115de537569df43c7935fba
