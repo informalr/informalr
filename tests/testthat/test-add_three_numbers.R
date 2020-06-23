@@ -13,7 +13,7 @@ test_that("add_three_numbers", {
   )
   expect_error(
     add_three_numbers(5, 5, "nonsense"),
-    "Last argument must be a number"
+    "Third argument must be a number"
   )
 })
 
