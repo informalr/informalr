@@ -7,31 +7,26 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 
 Load our package and others we need:
 
 ```{r setup}
 library(informalr)
-library(knitr)
-library(tibble)
 ```
 
-Put our names in a tibble:
+## Usernames
+
+Richel's GitHub username is:
 
 ```{r}
-table <- tibble(
-  name = c("Anne", "Richel"),
-  github_username = c(
-    "fastnotfurious", 
-    get_richels_github_username()
-  )
-)
-kable(table)
+get_richels_github_username()
 ```
 
+## Trivial mathematics
+
+There are too many, that wonder the sum of
+123456789 and 987654321:
+
+```{r}
+add_two_numbers(123456789, 987654321)
+```
