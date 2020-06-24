@@ -21,7 +21,7 @@ Divide 3 numbers
 }
 \examples{
 library(testthat)
-expect_equal(1, divide_three_numbers((10 / 5) / 2))
+expect_equal(divide_three_numbers(10, 5, 2), 1)
 }
 \author{
 lizzie
