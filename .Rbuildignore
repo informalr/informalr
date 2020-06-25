@@ -5,4 +5,3 @@ LICENSE
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.DS_Store\.orig$
-^\.pre-commit-config\.yaml$
