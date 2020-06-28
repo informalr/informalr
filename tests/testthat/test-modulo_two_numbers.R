@@ -12,7 +12,15 @@ test_that("use", {
 
 test_that("abuse", {
   expect_error(modulo_two_numbers("a", 42),
-               "The first argument is not a number")
+               "The first argument must be a number")
   expect_error(modulo_two_numbers(42, "b"),
-               "The second argument is not a number")
+               "The second argument must be a number")
+  expect_error(modulo_two_numbers(NULL, 42),
+               "The first argument must be a number")
+  expect_error(modulo_two_numbers(42, NULL),
+               "The second argument must be a number")
+  expect_error(modulo_two_numbers(NA, 42),
+               "The first argument must be a number")
+  expect_error(modulo_two_numbers(42, NA),
+               "The second argument must be a number")
 })
