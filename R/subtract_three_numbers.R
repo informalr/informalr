@@ -8,5 +8,8 @@
 #' @author Geert van den Bogaart
 #' @export
 subtract_three_numbers <- function(a) {
+  if (is.numeric(a) == FALSE) {
+    stop("Argument must be a number")
+  }
   a - 3
 }
