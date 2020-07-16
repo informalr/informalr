@@ -44,6 +44,8 @@ See this video for an introduction about a similar Discord server: [YouTube](htt
 ## Project
 
 Unknown.
+Proposal: create a [text adventure game](https://github.com/informalr/textadventure#textadventure).
+
 
 ## Meetings
 
