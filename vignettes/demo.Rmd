@@ -28,7 +28,7 @@ Put our names in a tibble:
 table <- tibble(
   name = c("Anne", "Richel"),
   github_username = c(
-    "fastnotfurious", 
+    "fastnotfurious",
     get_richels_github_username()
   )
 )
