@@ -21,13 +21,18 @@ The `informalr` R team!
 
 ![informalr logo](pics/informalr_logo.png)
 
+## New season
+
+We start again on Tuesday August 18 2020 from the usual 18:00-20:00.
+There is the option to meet at 
+[a yet unknown location](https://github.com/informalr/informalr/issues/38)
+or on Discord.
+
 ## Coding via Discord
 
-We develop our packages, while chatting on Discord.
+For those that prefer online, we use Discord to chat.
 To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
 He'll add you to the `informalr` server.
-
-See this video for an introduction about a similar Discord server: [YouTube](https://youtu.be/zyn5VyNjz5I) [download (.OGG)](http://richelbilderbeek.nl/dutch_by_kids_students.ogv)
 
 ## Team
 
