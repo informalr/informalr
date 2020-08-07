@@ -11,7 +11,6 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
 `develop`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=develop)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=develop)](https://codecov.io/github/informalr/informalr/branch/develop)
 `anne`   |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=anne)](https://travis-ci.org/informalr/informalr)   |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=anne)](https://codecov.io/github/informalr/informalr/branch/anne)
-`apu`    |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=apu)](https://travis-ci.org/informalr/informalr)    |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=apu)](https://codecov.io/github/informalr/informalr/branch/apu)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
 `harry`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=harry)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=harry)](https://codecov.io/github/informalr/informalr/branch/harry)
 `maxim`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=maxim)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=maxim)](https://codecov.io/github/informalr/informalr/branch/maxim)
@@ -30,7 +29,6 @@ The `informalr` R team!
 ## Team
 
  * [Anne](https://github.com/fastnotfurious)
- * [Apu](https://github.com/AparajithaRamesh)
  * [Geert](https://github.com/bogeert)
  * Harry
  * [Maxim](https://github.com/MaximBaranov87)
