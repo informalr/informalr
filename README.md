@@ -1,5 +1,11 @@
 # informalr
 
+```
+*******************************************************
+* First meeting of new season: Tuesday August 18 2020 *
+*******************************************************
+```
+
 Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)                                                      |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
@@ -21,19 +27,6 @@ The `informalr` R team!
 
 ![informalr logo](pics/informalr_logo.png)
 
-## New season
-
-We start again on Tuesday August 18 2020 from the usual 18:00-20:00.
-There is the option to meet at 
-[a yet unknown location](https://github.com/informalr/informalr/issues/38)
-or on Discord.
-
-## Coding via Discord
-
-For those that prefer online, we use Discord to chat.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
-He'll add you to the `informalr` server.
-
 ## Team
 
  * [Anne](https://github.com/fastnotfurious)
@@ -46,17 +39,16 @@ He'll add you to the `informalr` server.
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Willy](https://github.com/FrieseWoudloper)
 
-## Project
-
-Unknown.
-
-Proposal: create a [text adventure game](https://github.com/informalr/textadventure#textadventure).
-
 ## Meetings
 
- * Date: Tuesdays
+ * Date: Tuesday August 18 2020, then every Tuesday
  * Time: 18:00-20:00
- * On Discord
+ * Where IRL: meeting room 5171.708, Linnaeusborg, Zernike
+ * Where online: Discord.
+
+![](linneausborg_annotated.png)
+
+> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.708
 
 We follow this timetable:
 
@@ -68,16 +60,43 @@ Break time!      |19:00
 Work continues   |19:15
 End of lesson    |20:00
 
+## Coding via Discord
+
+For those that prefer online, we use Discord to chat.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
+He'll add you to the `informalr` server.
+
+## Project
+
+Unknown.
+
+Proposal: create a [text adventure game](https://github.com/informalr/textadventure#textadventure).
+
 ## Long-term schedule
 
-Date            |Activity
-----------------|--------------------------------------------------------------------------
-Done            |Find team members
-.               |`git` and `swirl`, work on shared prepped trivial package
-After 4 meetings|Go/No Go, vote on next project
-.               |Create own trivial package, use prepped superpackage
-After 8 meetings|Go/No Go, vote on next project
-.               |Decide on project
+Week|Activity
+----|----------
+ 32 |Teach newbies, start suggesting projects, start vignettes, vote for deadline
+ 33 |.
+ 34 |.
+ 35 |Vote for project(s)
+ 36 |.
+ 37 |.
+ 38 |.
+ 39 |.
+ 40 |.
+ 41 |Autumn holiday
+ 42 |.
+ 43 |.
+ 44 |.
+ 45 |.
+ 46 |.
+ 47 |.
+ 48 |.
+ 49 |.
+ 50 |.
+ 51 |.
+ 52 |Christmas holiday
 
 ## FAQ
 
@@ -123,6 +142,14 @@ By working on projects as a team. In practice, we will be writing packages.
 
 First, we'll write some trivial packages to get used to the workflow.
 After this, the team decides on a project by majority vote.
+
+To be precise, you will learn, in this order:
+
+ * `git` minimal workflow: add, clone, commit, pull, push
+ * R package minimum: tests, writing trivial functions by copying existing code
+ * `git` branching: checkout, merge
+ * R package basic: write simple functions, write vignettes
+ * Projects
 
 ### What should my minimal level be?
 
