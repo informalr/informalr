@@ -2,7 +2,7 @@
 
 ```
 *******************************************************
-* First meeting of new season: Tuesday August 18 2020 *
+* First meeting of new season: Tuesday August 25 2020 *
 *******************************************************
 ```
 
