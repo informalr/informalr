@@ -39,7 +39,7 @@ The `informalr` R team!
 
 ## Meetings
 
- * Date: Tuesday August 18 2020, then every Tuesday
+ * Date: Tuesday August 25 2020, then every Tuesday
  * Time: 18:00-20:00
  * Where IRL: meeting room 5171.708, Linnaeusborg, Zernike
  * Where online: Discord.
@@ -74,8 +74,7 @@ Proposal: create a [text adventure game](https://github.com/informalr/textadvent
 
 Week|Activity
 ----|----------
- 32 |Teach newbies, start suggesting projects, start vignettes, vote for deadline, Willy absent
- 33 |.
+ 33 |Teach newbies, start suggesting projects, start vignettes, vote for deadline, Willy absent
  34 |.
  35 |Vote for project(s)
  36 |.
