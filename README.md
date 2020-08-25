@@ -75,11 +75,9 @@ Proposal: create a [text adventure game](https://github.com/informalr/textadvent
 
 Week|Activity
 ----|----------
- 33 |Teach newbies, start suggesting projects, start vignettes, vote for deadline, Willy absent
- 34 |.
- 35 |Vote for project(s)
+ 35 |Teach newbies, start suggesting projects, start vignettes, vote for deadline
  36 |.
- 37 |.
+ 37 |Vote for project(s)
  38 |.
  39 |.
  40 |.
