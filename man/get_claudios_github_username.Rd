@@ -15,7 +15,7 @@ Get Claudio's GitHub username
 \examples{
 library(testthat)
 
-username <- get_richels_github_username()
+username <- get_claudios_github_username()
 expect_equal("janclod", username)
 }
 \author{
