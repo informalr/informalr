@@ -1,0 +1,39 @@
+---
+title: "informalr: some trivial mathematical functions"
+author: "Willy Tadema"
+output: rmarkdown::html_vignette
+date: "`r Sys.Date()`"
+vignette: >
+  %\VignetteIndexEntry{willy}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Load the package:
+```{r setup}
+library(informalr)
+```
+
+## Github username
+
+Get Willy's Github username:
+
+```{r}
+get_willys_github_username()
+```
+
+## Modulo of two numbers
+
+The modulo operation is the remainder when dividing.      
+Get the modulo of 4 and 3:
+
+```{r}
+modulo_two_numbers(4, 3)
+```
