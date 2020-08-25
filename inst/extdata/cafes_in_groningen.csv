@@ -1,0 +1,116 @@
+latitude,longitude,id,name,opening_hours,outdoor_seating,smoking,wheelchair,wheelchair_toilets,url,city,housenumber,postcode,street,website
+53.2193577,6.5640251,node/264259561,Mr. Mofongo,Mo-Sa 11:00-03:00+,yes,outside,limited,no,NA,NA,NA,NA,NA,NA
+53.2109614,6.5647475,way/604914353,Starbucks,NA,NA,NA,yes,NA,NA,NA,NA,NA,NA,NA
+53.2260089,6.5977883,node/608527382,Westerhof,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2121355,6.5661422,way/783840714,MendiniRestaurant,NA,yes,NA,yes,NA,https://www.groningermuseum.nl/bezoek/mendinirestaurant,NA,NA,NA,NA,NA
+53.2166259,6.5638943,node/918944223,Café De Beurs,NA,yes,NA,limited,NA,NA,NA,NA,NA,NA,NA
+53.2183038,6.5711668,node/1129293295,Stadtlander,NA,yes,NA,limited,NA,http://www.eetcafestadtlander.nl,Groningen,35,9711PJ,Poelestraat,NA
+53.2180028,6.5706047,node/1129293301,Chupitos,NA,NA,NA,NA,NA,NA,Groningen,9,9711PC,Peperstraat,https://chupitos.nl/locations/groningen
+53.2177448,6.5666874,node/1233343988,Favolosa,NA,yes,NA,no,NA,NA,Groningen,7,9711LA,Herestraat,NA
+53.2184278,6.5705218,node/1546912654,Het Concerthuis,NA,yes,NA,NA,NA,NA,Groningen,30,9712KB,Poelestraat,NA
+53.2203351,6.566601,node/1817743854,Coffee Company,"Mo-We,Fr 08:00-18:00, Th 08:00-21:00, Sa 09:00-19:00, Su 10:00-18:00",NA,NA,limited,no,NA,Groningen,39,9712HB,Oude Ebbingestraat,https://coffeecompany.nl/
+53.2152649,6.569897,node/1987169048,Coffee Break,"Mo,Tu,We,Fr 08:00-18:00; Th 08:00-21:30; Sa 09:00-18:00; Su 10:00-18:00",NA,no,yes,NA,NA,Groningen,22,9711HG,Gedempte Zuiderdiep,http://www.coffee-break.nl
+53.2128184,6.5561843,node/2386496399,Café Bolhuis,NA,NA,NA,NA,NA,NA,Groningen,1,9726CN,Wester Badstraat,NA
+53.2259065,6.5622361,node/2430169395,Brasserie het Paleis,NA,NA,NA,NA,NA,NA,Groningen,113,9712LM,Boterdiep,http://www.paleisbrasserie.nl/
+53.2121432,6.575164,node/2570752414,Kroeg van Klaas,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,http://www.kroegvanklaas.nl
+53.199559,6.5829983,node/2570752416,Singelier,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,https://www.singelier.nl/
+53.2070117,6.5778125,node/2655868349,Waterloobar,"Mo 19:00-00:00; Tu-Sa 16:00-00:00,00:00-01:00; Su 00:00-01:00",NA,NA,NA,NA,NA,Groningen,51,9725BB,Verlengde Oosterweg,http://waterloobar.nl
+53.2410641,6.5657136,node/2738066238,theeschenkerij,NA,yes,NA,NA,NA,NA,Groningen,1,9738TC,Winsumerweg,NA
+53.2061083,6.5467602,node/2739501191,Kiosk Stadspark,NA,NA,NA,NA,NA,NA,Groningen,3,9727KG,Stadspark,NA
+53.2293863,6.5445084,node/2746995527,Barista Café,NA,NA,NA,yes,NA,NA,Groningen,200d,9742AM,Dierenriemstraat,http://www.baristacafe.nl/
+53.2080471,6.5704617,node/2748273580,Stephen's Smaakatelier,NA,NA,NA,NA,NA,NA,Groningen,68,9725CW,Vechtstraat,NA
+53.2236069,6.5533706,node/2749223546,Mah̄alo,Mo-Su 10:00-17:00,yes,NA,NA,NA,NA,Groningen,1,9717GD,Verlengde Grachtstraat,http://www.mahalo.nu/
+53.2237266,6.5535945,node/2749234894,De Bres,NA,NA,NA,NA,NA,NA,Groningen,71,9717HL,Grachtstraat,NA
+53.2223809,6.5690248,node/2751600155,Soof,NA,NA,NA,NA,NA,NA,Groningen,9,9711XA,W.A. Scholtenstraat,NA
+53.2290578,6.5613764,node/2751743848,Carré,NA,NA,NA,NA,NA,NA,Groningen,4a,9715CA,Bankastraat,NA
+53.2272424,6.5700097,node/2751749536,Salmagundis,NA,NA,NA,NA,NA,NA,Groningen,8c,9714BB,Oosterhamrikkade,NA
+53.2165273,6.558427,node/2751906989,Lunch & Lavazza,NA,NA,NA,NA,NA,NA,Groningen,14,9718CR,Astraat,https://www.koffieenlunchlokaal.nl/
+53.214978,6.5580942,node/2751908366,Double A,NA,NA,NA,yes,yes,NA,Groningen,18,9718AS,Westerkade,https://stadscafedoublea.nl/
+53.2183853,6.5493719,node/2751911497,Goud eten,Tu-Fr 07:00-20:00; Sa-Su 09:00-20:00,NA,NA,NA,NA,NA,Groningen,31,9718LB,Jan Lutmastraat,http://www.goudeten.nl
+53.2158911,6.5578504,node/2751915001,denderz,Mo-We 09:30-17:30; Th 09:30-21:00; Fr-Su 09:30-17:30,NA,NA,NA,NA,NA,Groningen,5,9718AP,Westerkade,https://www.denderz.nl/
+53.2151849,6.5571361,node/2751916731,Kaldi Groningen,NA,NA,NA,NA,NA,NA,Groningen,62,9718AC,Westerhaven,https://kaldi.nl
+53.2168181,6.5598016,node/2752215826,Café De Sigaar,NA,yes,NA,limited,no,NA,Groningen,2,9712AC,Hoge der A,https://www.cafedesigaar.nl/
+53.2173226,6.5658631,node/2752216678,Toshka,NA,NA,NA,NA,NA,NA,Groningen,20,9711KT,Vismarkt,NA
+53.2162982,6.5696881,node/2752216826,050 Inspiratiecafé,NA,NA,NA,NA,NA,NA,Groningen,21,9711LR,Carolieweg,NA
+53.218542,6.5648468,node/2752219905,de Prins,NA,NA,NA,no,NA,NA,Groningen,3,9712CH,Zwanestraat,https://www.cafedeprins.nl/
+53.2182914,6.5637512,node/2752221198,Smooth Brothers,NA,NA,NA,yes,no,NA,Groningen,31,9712CK,Zwanestraat,NA
+53.2165398,6.570238,node/2752221320,coffeecompany,NA,NA,NA,NA,NA,NA,Groningen,33,9711LR,Carolieweg,NA
+53.2184695,6.5707793,node/2752221446,Time-Out,NA,yes,NA,limited,NA,NA,Groningen,34,9712KB,Poelestraat,NA
+53.2186988,6.5650244,node/2752222911,Croissanterie het Opstapje,NA,NA,NA,NA,NA,NA,Groningen,4,9712GH,Oude Boteringestraat,https://hetopstapje.nl/
+53.2183395,6.564589,node/2752222994,De Beautyfabriek,NA,NA,NA,NA,NA,NA,Groningen,4,9712CL,Zwanestraat,NA
+53.2181374,6.567565,node/2752223234,Hooghoudt,NA,yes,NA,NA,NA,NA,Groningen,42,9711LV,Grote Markt,NA
+53.2174684,6.5633335,node/2752223563,Funky Freak,NA,NA,NA,NA,NA,NA,Groningen,46,9712BX,Stoeldraaierstraat,NA
+53.2181841,6.566631,node/2752224385,News Cafe,NA,yes,NA,yes,NA,NA,Groningen,5,9712JZ,Waagplein,https://www.newscafe.nl/
+53.2176516,6.5632158,node/2752224584,Novo Konditerei,NA,NA,NA,NA,NA,NA,Groningen,52,9712BX,Stoeldraaierstraat,NA
+53.2208048,6.566239,node/2752224865,Kattencafé OP Z'N KOP,Mo 11:00-19:00; Tu-We 10:00-19:00; Th-Sa 10:00-20:30; Su 11:00-19:00,NA,NA,NA,NA,NA,Groningen,57,9712HC,Oude Ebbingestraat,https://opznkop.nl/
+53.2164617,6.5611397,node/2752225173,Doppio Espresso,NA,yes,NA,limited,no,NA,Groningen,6,9711HX,Brugstraat,https://www.doppio-espresso.nl
+53.2212982,6.5659094,node/2752226568,LUI,NA,NA,NA,NA,NA,NA,Groningen,71,9712HE,Oude Ebbingestraat,NA
+53.2150391,6.568915,node/2752227180,Moong,NA,NA,NA,NA,NA,NA,Groningen,80,9711LL,Herestraat,https://www.moong.nu/
+53.2217773,6.5653651,node/2752227334,Food Matterz Cafe,NA,NA,NA,NA,NA,http://www.foodmatterz.nl,Groningen,86,9712HM,Oude Ebbingestraat,NA
+53.2217003,6.5683972,node/3008416044,Theeschenkerij,Apr-Oct: 10:00-18:00; Nov-Mar off,NA,NA,yes,NA,NA,NA,NA,NA,NA,NA
+53.241254,6.5336071,node/3043417092,Sociëteit Corps van Leerlingen,08:00-21:00,NA,no,yes,NA,NA,NA,NA,NA,NA,http://www.sv-cvl.nl/
+53.2395148,6.5344938,node/3835515624,Moyee,Mo-Th 08:30-17:00; Fr 08:30-16:00,NA,NA,yes,NA,NA,NA,NA,NA,NA,NA
+53.2367297,6.5310096,node/3835515629,Sportsbar,Mo-Sa 10:00-00:30; Su 10:00-19:00,NA,NA,yes,yes,NA,NA,NA,NA,NA,http://www.sportsbar-groningen.nl/sportbar/
+53.2197916,6.5669655,node/3936126876,Bommen Berend,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2181564,6.5627756,node/3936126882,Simon Lévelt,Mo-Fr 08:30-18:00; Sa 09:30-17:30; Su 12:00-17:00,yes,NA,yes,yes,NA,NA,NA,NA,NA,NA
+53.2189634,6.5621163,node/3936126883,PS,"Mo-We,Fr,Sa 09:00-18:00; Th 09:00-21:00; Su 11:00-18:00",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2188181,6.5627383,node/3936126885,Starbucks,Mo-Th 09:00-20:00; Fr-Su 10:00-19:00,no,NA,yes,NA,NA,NA,NA,NA,NA,NA
+53.2224999,6.5579672,node/4026601381,Moyee,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2188478,6.5572209,node/4075311373,Havenzicht,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2181048,6.5634466,node/4118387661,Bagels & Beans,Mo-Fr 09:30-17:30; Sa 09:30-17:00,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2193699,6.5628348,node/4118387682,A-Café,Mo-Th 08:30-17:00; Fr 08:30-15:00,NA,NA,yes,NA,NA,NA,NA,NA,NA,NA
+53.2166808,6.5641003,node/4155868265,Pronk,NA,yes,NA,limited,NA,NA,NA,NA,NA,NA,NA
+53.2194396,6.5617551,node/4217402200,Black & Bloom,"Mo-Fr 08:30-18:30, Sa 09:00-18:00, Su 11:00-17:00",NA,NA,NA,NA,http://blackandbloom.nl/,NA,NA,NA,NA,NA
+53.2183955,6.5642955,node/4232108589,Palazzo Coffee,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2186426,6.5623891,node/4233983995,De Soepwinkel,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2176278,6.5635537,node/4234030389,Croissanterie Pigalle,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2190314,6.5623021,node/4234108989,N•25,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2191111,6.5622365,node/4234109189,Bij Britta,Tu-Sa 10:00-17:00,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2191679,6.5622041,node/4234109289,Feel Good,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2200257,6.5613164,node/4234138191,Tucano Coffee,Mo-Sa 10:00-20:00; Su 11:00-21:00,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2202028,6.561134,node/4234138192,Lust,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2202101,6.5614511,node/4234142592,++,"Mo-Fr 10:00-21:00, Sa,Su 12:00-20:00",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2131172,6.5658032,node/4246170994,Bartista,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2171152,6.5688397,node/4246253387,van diepen,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2171718,6.5687846,node/4246253388,casa de la musica,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2165942,6.569171,node/4246253754,t Gronings broodjeshuis,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2167418,6.56907,node/4246345419,pappa joe's,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2169754,6.5678954,node/4246707296,Boven Jan,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2170968,6.5678098,node/4246707494,Croissanterie Du Nord,NA,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2175755,6.5680329,node/4246737800,de Doos,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2150906,6.5677794,node/4246751697,wadapartja,Mo 11:00-18:00; Tu-We 09:00-18:00; Th-Fr 09:00-22:00; Sa 10:00-22:00; Su 12:00-20:00,NA,NA,limited,no,NA,Groningen,39-41,9711HB,Gedempte Zuiderdiep,https://wadapartja.nl/
+53.214682,6.5661864,node/4246757403,De Luna,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2171147,6.5684438,node/4246778190,De Betere Tijden,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2147068,6.5635982,node/4246796791,Lokanta Günes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2146265,6.5658683,node/4246812592,Eetcafé d'Oude Brandweer,Su-We 17:00-00:00; Th-Sa 12:00-00:00,NA,NA,NA,NA,NA,Groningen,75,9711HC,Gedempte Zuiderdiep,http://ouwebrandweer.nl
+53.227239,6.5618669,node/4311557595,B&E,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2184612,6.5737987,node/4312638690,Broodjes & zo,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2134781,6.565453,node/4312638789,Provence,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2365967,6.5678409,node/4322756991,oak,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2207321,6.5630731,node/4345699266,Spaak,Mo-Fr 08:30-18:00; Sa-Su 09:30-18:00,yes,NA,NA,NA,NA,Groningen,66,9712GN,Oude Boteringestraat,https://spaak.cc/
+53.2290769,6.5604249,node/4530606193,Longneck,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2296259,6.5590943,node/4530704190,CCG Buurtcafé,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2174088,6.5704035,node/4706324111,Café De Zolder,NA,NA,NA,NA,NA,NA,Groningen,3a,9711PA,Papengang,NA
+53.21466,6.5652282,node/4827541422,Doppio Espresso,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,https://www.doppio-espresso.nl
+53.2167398,6.5613439,node/4866272422,Nespresso Boutique,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2223268,6.5762088,node/4935327522,De Gezonde Planeet,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2208707,6.5766445,node/5012413064,Petit Café,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2129712,6.5655721,node/5016458125,TOET het toetjesparadijs,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.1917384,6.552039,node/5079396885,Food & Shop,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.209634200000004,6.5402341,node/5153852508,Tuinland Groningen Café,NA,NA,NA,NA,NA,NA,Groningen,91,9727AH,Peizerweg,NA
+53.2400952,6.5376274,node/5271916305,Energy Academy Europe Take-Away,Mo-Fr 08:30-15:00,NA,NA,yes,yes,NA,NA,NA,NA,NA,NA
+53.2184595,6.5743554,node/5312287221,Poeslief,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2167683,6.5771021,node/5359251549,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2401687,6.5310865,node/5564408221,The Coffee Bean Station,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2148838,6.5327272,node/5566481130,Brasserie,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.22002,6.5616158,node/5637099322,Rå økologisk salatbar,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2220244,6.5581859,node/5844052986,Chef Serveert,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2087221,6.5071963,node/6053099567,Het Suykercafé,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,https://dorpshuishoogkerk.nl/suykercafe/
+53.2169718,6.565713,node/6153579887,Lola,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2190457,6.5677346,node/6358120854,Poffertjeskraam,NA,yes,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2158219,6.5597294,node/6702512286,Het pomphuus,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2404065,6.5345331,node/6745875529,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2188833,6.5697815,node/7006179956,Stach,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2052783,6.5873565,node/7233434667,Coffee corner,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2359298,6.5222356,node/7238565385,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+53.2176136,6.565074,node/7485399330,Food Matterz Cafe,NA,NA,NA,NA,NA,http://www.foodmatterz.nl,Groningen,21,9712CA,Vismarkt,https://www.nelson.nl/winkels/nelson-groningen-premium-299-151
