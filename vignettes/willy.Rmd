@@ -1,0 +1,27 @@
+---
+title: "informalr: some trivial mathematical functions"
+author: "Willy Tadema"
+output: rmarkdown::html_vignette
+date: "`r Sys.Date()`"
+vignette: >
+  %\VignetteIndexEntry{willy}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Load the package:
+```{r setup}
+library(informalr)
+```
+
+Load the package:
+```{r setup}
+library(informalr)
+```
