@@ -50,13 +50,14 @@ The `informalr` R team!
 
 We follow this timetable:
 
-What             | Time
------------------|------
-Doors open       |18:00
-Work starts      |18:15
-Break time!      |19:00
-Work continues   |19:15
-End of lesson    |20:00
+What                     | Time
+-------------------------|------
+Richel @ LB main entrance|18:00
+Doors open               |18:05
+Work starts              |18:15
+Break time!              |19:00
+Work continues           |19:15
+End of lesson            |20:00
 
 ## Coding via Discord
 
