@@ -21,7 +21,19 @@ Load the package:
 library(informalr)
 ```
 
-Load the package:
-```{r setup}
-library(informalr)
+## Github username
+
+Get Willy's Github username:
+
+```{r}
+get_willys_github_username()
+```
+
+## Modulo of two numbers
+
+The modulo operation is the remainder when dividing.      
+Get the modulo of two numbers:
+
+```{r}
+get_willys_github_username()
 ```
