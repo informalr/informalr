@@ -30,3 +30,13 @@ There are too many, that wonder the sum of
 ```{r}
 add_two_numbers(123456789, 987654321)
 ```
+
+
+## Plot
+
+```{r}
+x <- seq(0, 10)
+y <- x * x
+plot(x, y)
+```
+
