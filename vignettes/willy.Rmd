@@ -32,8 +32,8 @@ get_willys_github_username()
 ## Modulo of two numbers
 
 The modulo operation is the remainder when dividing.      
-Get the modulo of two numbers:
+Get the modulo of 4 and 3:
 
 ```{r}
-get_willys_github_username()
+modulo_two_numbers(4, 3)
 ```
