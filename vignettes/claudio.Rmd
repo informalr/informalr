@@ -1,0 +1,32 @@
+---
+title: "claudio"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{claudio}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
+Load our package and others we need:
+
+```{r setup}
+library(informalr)
+```
+
+## Usernames
+
+Claudio's GitHub username is:
+
+```{r}
+get_claudios_github_username()
+```
+
+## Trivial mathematics
+
+There are too many, that wonder the sum of
+20, 9, 12, and 1989:
+
+```{r}
+add_four_numbers(20, 9, 12, 1989)
+```
