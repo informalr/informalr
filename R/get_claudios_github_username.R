@@ -10,4 +10,3 @@
 get_claudios_github_username <- function() {
   "janclod"
 }
-
