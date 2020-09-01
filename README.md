@@ -14,6 +14,8 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `willy`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=willy)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=willy)](https://codecov.io/github/informalr/informalr/branch/willy)
 `claudio`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=claudio)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=claudio)](https://codecov.io/github/informalr/informalr/branch/claudio)
+`frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
+
 
  * Branches are ordered `master`, `develop`, then topic branches alphabetically
 
