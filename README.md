@@ -146,15 +146,16 @@ There is none.
 
 ### I am new, what should I do?
 
-  1. Create a GitHub account, share it with a team member so he/she can add you to the `informalr` team
-  2. Suggest a project: [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8)
+  1. Create a Discord account, send Richel a Discord Friend Request: `richelbilderbeek#9002`, so he can add you to the tresinformal Discord group
+  2. Create a GitHub account, share it with a team member so he/she can add you to the `informalr` team
+  3. Suggest a project: [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8)
 
 Note: if the Issue is closed, re-open it, assign yourself, 
 move the Issue to 'In Progress'. Close the Issue after fixing it. Welcome
 to our workflow :+1:
 
-  3. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
-  4. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
-  5. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
+  4. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
+  5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
+  6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
 
 
