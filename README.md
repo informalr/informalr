@@ -1,11 +1,5 @@
 # informalr
 
-```
-*******************************************************
-* First meeting of new season: Tuesday August 25 2020 *
-*******************************************************
-```
-
 Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)                                                      |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
@@ -68,16 +62,14 @@ He'll add you to the `informalr` server.
 
 ## Project
 
-Unknown.
-
-Proposal: create a [text adventure game](https://github.com/informalr/textadventure#textadventure).
+Unknown, see [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8).
 
 ## Long-term schedule
 
 Week|Activity
 ----|----------
  35 |Teach newbies, start suggesting projects, start vignettes, vote for deadline
- 36 |.
+ 36 |Remind projects
  37 |Vote for project(s)
  38 |.
  39 |.
