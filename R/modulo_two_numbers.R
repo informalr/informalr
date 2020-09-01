@@ -9,6 +9,15 @@
 #' @author Willy Tadema
 #' @export
 modulo_two_numbers <- function(a, b) {
-  stopifnot(is.numeric(a) & is.numeric(b))
-  a %% b
+  if (length(a) != 1) {
+    stop("The first argument must be a number")
+  } else if (!is.numeric(a) | is.na(a)) {
+    stop("The first argument must be a number")
+  } else if (length(b) != 1) {
+    stop("The second argument must be a number")
+  } else if (!is.numeric(b) | is.na(b)) {
+    stop("The second argument must be a number")
+  } else {
+    a %% b
+  }
 }

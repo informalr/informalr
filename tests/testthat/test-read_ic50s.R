@@ -1,5 +1,4 @@
 test_that("use", {
-  skip("Issue 17. Issue #17")
   table <- read_ic50s()
   expect_true("tool" %in% names(table))
   expect_true("haplotype" %in% names(table))
