@@ -10,7 +10,6 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
 `harry`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=harry)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=harry)](https://codecov.io/github/informalr/informalr/branch/harry)
 `lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
-`maxim`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=maxim)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=maxim)](https://codecov.io/github/informalr/informalr/branch/maxim)
 `richel` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=richel)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=richel)](https://codecov.io/github/informalr/informalr/branch/richel)
 `stefano`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=stefano)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=stefano)](https://codecov.io/github/informalr/informalr/branch/stefano)
 `willy`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=willy)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=willy)](https://codecov.io/github/informalr/informalr/branch/willy)
@@ -29,7 +28,6 @@ The `informalr` R team!
  * [Geert](https://github.com/bogeert)
  * Harry
  * [Lizzie](https://github.com/Lizzie-Roeble)
- * [Maxim](https://github.com/MaximBaranov87)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
 
