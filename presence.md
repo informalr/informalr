@@ -10,9 +10,9 @@ his preparation.
 
 ## Long-term schedule
 
-Week|Activity
-----|----------
- 37 |Lizzie absent, Willy second half
+Week|Absense
+----|--------------------------------------------------------------------------------
+ 37 |Harry absent, Lizzie absent, Willy second half
  38 |Lizzie absent
  39 |Lizzie back
  40 |.
