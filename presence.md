@@ -12,8 +12,8 @@ his preparation.
 
 Week|Absense
 ----|--------------------------------------------------------------------------------
- 37 |Harry absent, Lizzie absent, Willy second half
- 38 |Lizzie absent
+ 37 |Frans absent, Harry absent, Lizzie absent, Willy second half
+ 38 |Frans back, Lizzie absent
  39 |Lizzie back
  40 |.
  41 |Autumn holiday
