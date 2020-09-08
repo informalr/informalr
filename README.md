@@ -20,6 +20,13 @@ The `informalr` R team!
 
 ![informalr logo](pics/informalr_logo.png)
 
+## Project
+
+Hiking guide to help hikers spot busy routes/stops before they embark on a hike. 
+This show a somehow similar idea:
+
+![](project.png)
+
 ## Team
 
  * [Anne](https://github.com/fastnotfurious)
