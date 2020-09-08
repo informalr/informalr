@@ -11,7 +11,6 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `harry`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=harry)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=harry)](https://codecov.io/github/informalr/informalr/branch/harry)
 `lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `maxim`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=maxim)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=maxim)](https://codecov.io/github/informalr/informalr/branch/maxim)
-`pedro`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=pedro)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=pedro)](https://codecov.io/github/informalr/informalr/branch/pedro)
 `richel` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=richel)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=richel)](https://codecov.io/github/informalr/informalr/branch/richel)
 `stefano`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=stefano)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=stefano)](https://codecov.io/github/informalr/informalr/branch/stefano)
 `willy`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=willy)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=willy)](https://codecov.io/github/informalr/informalr/branch/willy)
@@ -25,12 +24,13 @@ The `informalr` R team!
 ## Team
 
  * [Anne](https://github.com/fastnotfurious)
+ * [Claudio](https://github.com/janclod)
+ * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
  * Harry
- * [Maxim](https://github.com/MaximBaranov87)
- * [Pedro](https://github.com/Neves-P)
- * [Stefano](https://github.com/swom)
  * [Lizzie](https://github.com/Lizzie-Roeble)
+ * [Maxim](https://github.com/MaximBaranov87)
+ * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
 
 ## Meetings
