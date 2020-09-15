@@ -157,4 +157,3 @@ to our workflow :+1:
   5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
   6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
 
-Richel was here
