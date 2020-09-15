@@ -161,4 +161,4 @@ to our workflow :+1:
   6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
 
 
-Frans rules because he is a complete idiot
+Frans rules because he is a complete idiot l
