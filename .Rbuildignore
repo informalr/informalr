@@ -5,3 +5,8 @@ LICENSE
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^\.DS_Store\.orig$
+^linneausborg_annotated\.png$
+^linneausborg\.png$
+^presence\.md$
+^project\.png$
+
