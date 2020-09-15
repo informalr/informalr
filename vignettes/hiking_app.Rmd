@@ -1,0 +1,26 @@
+---
+title: "hiking_app"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{hiking_app}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(informalr)
+```
+
+
+```{r}
+png_filename <- tempfile(fileext = ".png")
+create_map(png_filename = png_filename)
+knitr::include_graphics(png_filename)
+```

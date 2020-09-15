@@ -13,4 +13,12 @@ after_success:
   - Rscript -e 'goodpractice::gp()'
   - # No local files created
   - if [[ $(egrep -R "\"~" --include={*.R,*.Rmd}) ]]; then echo "Local file created"; exit 1; fi;
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+  # Download thesis
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+
+after_failure:
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+  # Download thesis
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
 
