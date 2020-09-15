@@ -70,11 +70,8 @@ Unknown, see [https://github.com/informalr/informalr/issues/8](https://github.co
 
 Week|Activity
 ----|----------
- 35 |Teach newbies, start suggesting projects, start vignettes, vote for deadline
- 36 |Remind projects
- 37 |Vote for project(s)
- 38 |.
- 39 |.
+ 38 |Start working from big to small, form front-end group
+ 39 |Start using TDD from front-end
  40 |.
  41 |Autumn holiday
  42 |.
