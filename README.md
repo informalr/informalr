@@ -4,7 +4,6 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
 `develop`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=develop)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=develop)](https://codecov.io/github/informalr/informalr/branch/develop)
-`anne`   |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=anne)](https://travis-ci.org/informalr/informalr)   |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=anne)](https://codecov.io/github/informalr/informalr/branch/anne)
 `claudio`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=claudio)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=claudio)](https://codecov.io/github/informalr/informalr/branch/claudio)
 `frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
@@ -28,7 +27,6 @@ This show a somehow similar idea:
 
 ## Team
 
- * [Anne](https://github.com/fastnotfurious)
  * [Claudio](https://github.com/janclod)
  * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
