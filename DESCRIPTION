@@ -17,7 +17,9 @@ BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
     knitr,
     lintr,
-    utils
+    utils,
+    XML,
+    R.utils
 Language: en-US
 Encoding: UTF-8
 Suggests: 
