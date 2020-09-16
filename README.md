@@ -159,9 +159,3 @@ to our workflow :+1:
   5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
   6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
 
-<<<<<<< HEAD
-
-Frans rules because he is a complete idiot l
-=======
-Frans sucks because he is a complete idiot
->>>>>>> 038f7b2b7ead9d9df7589b233d2c854a106d05c0
