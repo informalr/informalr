@@ -18,7 +18,7 @@ Imports:
     knitr,
     lintr,
     utils,
-    XML,
+    xml2,
     R.utils
 Language: en-US
 Encoding: UTF-8
