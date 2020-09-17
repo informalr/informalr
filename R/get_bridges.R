@@ -1,4 +1,4 @@
-get_bridges <- function(){
+get_bridges <- function() {
   url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
   destfile <- "./inst/extdata/measurement_current.xml.gz"
   download.file(url, destfile)
