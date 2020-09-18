@@ -1,4 +1,10 @@
-get_bridges <- function() {
+#' Get real time bridge openings
+#'
+#' @return
+#' @export
+#'
+#' @examples
+get_bridge_openings <- function() {
   url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
   destfile <- "./inst/extdata/measurement_current.xml.gz"
   download.file(url, destfile)
