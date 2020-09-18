@@ -19,7 +19,10 @@ Imports:
     lintr,
     utils,
     xml2,
-    R.utils
+    R.utils,
+    osmdata,
+    ggmap,
+    ggthemes
 Language: en-US
 Encoding: UTF-8
 Suggests: 
