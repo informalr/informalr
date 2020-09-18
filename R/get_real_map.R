@@ -9,7 +9,8 @@
 #' @examples
 #' get_real_map()
 get_real_map <- function() {
-  groningen <- get_map(getbb("Groningen"), maptype = "toner-background")
+  bbox <- osmdata::getbb("Groningen")
+  groningen <- ggmap::get_map(bbox, maptype = "toner-background")
   p <- ggmap::ggmap(groningen) + ggthemes::theme_map()
-  ggplot2::ggsave(filename="./inst/extdata/groningen.png", plot = p)
+  ggplot2::ggsave(filename = "./inst/extdata/groningen.png", plot = p)
 }
