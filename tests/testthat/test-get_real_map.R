@@ -1,3 +1,4 @@
-test_that("multiplication works", {
-  expect_equal(2 * 2, 4)
+test_that("use", {
+  get_real_map()
+  expect_true(file.exists("./inst/extdata/groningen.png"))
 })
