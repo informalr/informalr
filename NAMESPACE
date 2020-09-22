@@ -3,6 +3,7 @@
 export(add_four_numbers)
 export(add_three_numbers)
 export(add_two_numbers)
+export(create_map)
 export(divide_three_numbers)
 export(divide_two_numbers)
 export(get_annes_github_username)

@@ -12,10 +12,9 @@ his preparation.
 
 Week|Absense
 ----|--------------------------------------------------------------------------------
- 37 |Frans absent, Harry absent, Lizzie absent, Willy second half
- 38 |Frans back, Lizzie absent
- 39 |Lizzie back
- 40 |.
+ 38 |Alexine joins, Frans back, Lizzie absent, Stefano absent
+ 39 |Jan new, Lizzie back, Stefano back
+ 40 |Pamela new
  41 |Autumn holiday
  42 |.
  43 |.
