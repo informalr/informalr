@@ -17,7 +17,13 @@ BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
     knitr,
     lintr,
-    utils
+    utils,
+    xml2,
+    R.utils,
+    osmdata,
+    ggmap,
+    ggthemes,
+    ggplot2
 Language: en-US
 Encoding: UTF-8
 Suggests: 
