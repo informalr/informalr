@@ -31,6 +31,7 @@ This show a somehow similar idea:
  * [Claudio](https://github.com/janclod)
  * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
+ * [Jan](https://github.com/janderkkotlarski)
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
