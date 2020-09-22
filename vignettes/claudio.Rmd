@@ -1,8 +1,8 @@
 ---
-title: "demo"
+title: "claudio"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{demo}
+  %\VignetteIndexEntry{claudio}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -16,27 +16,17 @@ library(informalr)
 
 ## Usernames
 
-Richel's GitHub username is:
+Claudio's GitHub username is:
 
 ```{r}
-get_richels_github_username()
+get_claudios_github_username()
 ```
 
 ## Trivial mathematics
 
 There are too many, that wonder the sum of
-123456789 and 987654321:
+20, 9, 12, and 1989:
 
 ```{r}
-add_two_numbers(123456789, 987654321)
+add_four_numbers(20, 9, 12, 1989)
 ```
-
-
-## Plot
-
-```{r}
-x <- seq(0, 10)
-y <- x * x
-plot(x, y)
-```
-

@@ -4,15 +4,12 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
 `develop`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=develop)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=develop)](https://codecov.io/github/informalr/informalr/branch/develop)
-`anne`   |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=anne)](https://travis-ci.org/informalr/informalr)   |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=anne)](https://codecov.io/github/informalr/informalr/branch/anne)
-`apu`    |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=apu)](https://travis-ci.org/informalr/informalr)    |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=apu)](https://codecov.io/github/informalr/informalr/branch/apu)
+`claudio`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=claudio)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=claudio)](https://codecov.io/github/informalr/informalr/branch/claudio)
+`frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
-`harry`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=harry)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=harry)](https://codecov.io/github/informalr/informalr/branch/harry)
-`maxim`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=maxim)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=maxim)](https://codecov.io/github/informalr/informalr/branch/maxim)
-`pedro`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=pedro)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=pedro)](https://codecov.io/github/informalr/informalr/branch/pedro)
+`lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `richel` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=richel)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=richel)](https://codecov.io/github/informalr/informalr/branch/richel)
 `stefano`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=stefano)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=stefano)](https://codecov.io/github/informalr/informalr/branch/stefano)
-`lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `willy`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=willy)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=willy)](https://codecov.io/github/informalr/informalr/branch/willy)
 
  * Branches are ordered `master`, `develop`, then topic branches alphabetically
@@ -21,56 +18,72 @@ The `informalr` R team!
 
 ![informalr logo](pics/informalr_logo.png)
 
-## Coding via Discord
+## Project
 
-We develop our packages, while chatting on Discord.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
-He'll add you to the `informalr` server.
+Hiking guide to help hikers spot busy routes/stops before they embark on a hike. 
+This show a somehow similar idea:
 
-See this video for an introduction about a similar Discord server: [YouTube](https://youtu.be/zyn5VyNjz5I) [download (.OGG)](http://richelbilderbeek.nl/dutch_by_kids_students.ogv)
+![](project.png)
 
 ## Team
 
- * [Anne](https://github.com/fastnotfurious)
- * [Apu](https://github.com/AparajithaRamesh)
+ * [Claudio](https://github.com/janclod)
+ * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
- * Harry
- * [Maxim](https://github.com/MaximBaranov87)
- * [Pedro](https://github.com/Neves-P)
- * [Stefano](https://github.com/swom)
  * [Lizzie](https://github.com/Lizzie-Roeble)
+ * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
-
-## Project
-
-Unknown.
 
 ## Meetings
 
- * Date: Tuesdays
+ * Date: Tuesday August 25 2020, then every Tuesday
  * Time: 18:00-20:00
- * On Discord
+ * Where IRL: meeting room 5171.708, Linnaeusborg, Zernike
+ * Where online: Discord.
+
+![](linneausborg_annotated.png)
+
+> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.708
 
 We follow this timetable:
 
-What             | Time
------------------|------
-Doors open       |18:00
-Work starts      |18:15
-Break time!      |19:00
-Work continues   |19:15
-End of lesson    |20:00
+What                     | Time
+-------------------------|------
+Richel @ LB main entrance|18:00
+Doors open               |18:05
+Work starts              |18:15
+Break time!              |19:00
+Work continues           |19:15
+End of lesson            |20:00
+
+## Coding via Discord
+
+For those that prefer online, we use Discord to chat.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
+He'll add you to the `informalr` server.
+
+## Project
+
+Unknown, see [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8).
 
 ## Long-term schedule
 
-Date            |Activity
-----------------|--------------------------------------------------------------------------
-Done            |Find team members
-.               |`git` and `swirl`, work on shared prepped trivial package
-After 4 meetings|Go/No Go, vote on next project
-.               |Create own trivial package, use prepped superpackage
-After 8 meetings|Go/No Go, vote on next project
-.               |Decide on project
+Week|Activity
+----|----------
+ 39 |Focus on TDD
+ 40 |.
+ 41 |Autumn holiday
+ 42 |.
+ 43 |.
+ 44 |.
+ 45 |.
+ 46 |.
+ 47 |.
+ 48 |.
+ 49 |.
+ 50 |.
+ 51 |.
+ 52 |Christmas holiday
 
 ## FAQ
 
@@ -117,7 +130,31 @@ By working on projects as a team. In practice, we will be writing packages.
 First, we'll write some trivial packages to get used to the workflow.
 After this, the team decides on a project by majority vote.
 
+To be precise, you will learn, in this order:
+
+ * `git` minimal workflow: add, clone, commit, pull, push
+ * R package minimum: tests, writing trivial functions by copying existing code
+ * `git` branching: checkout, merge
+ * R package basic: write simple functions, write vignettes
+ * Projects
+
+
+
 ### What should my minimal level be?
 
 There is none.
+
+### I am new, what should I do?
+
+  1. Create a Discord account, send Richel a Discord Friend Request: `richelbilderbeek#9002`, so he can add you to the tresinformal Discord group
+  2. Create a GitHub account, share it with a team member so he/she can add you to the `informalr` team
+  3. Suggest a project: [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8)
+
+Note: if the Issue is closed, re-open it, assign yourself, 
+move the Issue to 'In Progress'. Close the Issue after fixing it. Welcome
+to our workflow :+1:
+
+  4. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
+  5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
+  6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
 
