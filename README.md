@@ -70,8 +70,7 @@ Unknown, see [https://github.com/informalr/informalr/issues/8](https://github.co
 
 Week|Activity
 ----|----------
- 38 |Start working from big to small, form front-end group
- 39 |Start using TDD from front-end
+ 39 |Focus on TDD
  40 |.
  41 |Autumn holiday
  42 |.
