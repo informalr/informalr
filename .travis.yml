@@ -7,11 +7,13 @@ r_github_packages:
   - jimhester/lintr
   - MangoTheCat/goodpractice
 
-after_success:
+after_script:
   # Break when style is incorrect
   - Rscript -e 'lintr::expect_lint_free()'
+
+after_success:
   # lintr-bot is mild
-  - Rscript -e 'lintr::lint_package()'
+  #- Rscript -e 'lintr::lint_package()'
   - Rscript -e 'covr::codecov()'
   - Rscript -e 'goodpractice::gp()'
   - # No local files created
