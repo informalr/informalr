@@ -8,7 +8,5 @@
 #' @author Richel
 #' @export
 get_richels_github_username <- function() {
-  # Break style! Should be <-
-  username = "richelbilderbeek"
-  username
+  "richelbilderbeek"
 }
