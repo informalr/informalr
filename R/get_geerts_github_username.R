@@ -1,7 +1,6 @@
 #' Get Geert's GitHub username
 #' @return Geert's GitHub username
 #' @examples
-#' library(testthat)
 #'
 #' username <- get_geerts_github_username()
 #' expect_equal("bogeert", username)

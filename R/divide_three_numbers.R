@@ -5,7 +5,6 @@
 #' @param c A number
 #' @return The division of 3 numbers
 #' @examples
-#' library(testthat)
 #' expect_equal(divide_three_numbers(10, 5, 2), 1)
 #' @author lizzie
 #' @export
