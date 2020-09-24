@@ -7,7 +7,9 @@ r_github_packages:
   - jimhester/lintr
   - MangoTheCat/goodpractice
 
-after_script:
+script:
+  - travis_wait 60 R CMD build .
+  - travis_wait 60 R CMD check *tar.gz
   # Break when style is incorrect
   - Rscript -e 'lintr::expect_lint_free()'
 
