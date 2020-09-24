@@ -11,7 +11,7 @@ after_success:
   # Break when style is incorrect
   - Rscript -e 'lintr::expect_lint_free()'
   # lintr-bot is mild
-  #- Rscript -e 'lintr::lint_package()'
+  - Rscript -e 'lintr::lint_package()'
   - Rscript -e 'covr::codecov()'
   - Rscript -e 'goodpractice::gp()'
   - # No local files created
