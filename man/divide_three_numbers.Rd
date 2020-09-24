@@ -20,8 +20,7 @@ The division of 3 numbers
 Divide 3 numbers
 }
 \examples{
-library(testthat)
-expect_equal(divide_three_numbers(10, 5, 2), 1)
+divide_three_numbers(10, 5, 2)
 }
 \author{
 lizzie
