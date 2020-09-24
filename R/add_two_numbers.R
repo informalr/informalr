@@ -4,7 +4,7 @@
 #' @param b A number
 #' @return The sum of the two numbers
 #' @examples
-#' expect_equal(5, add_two_numbers(2, 3))
+#' add_two_numbers(2, 3)
 #' @author Richel Bilderbeek
 #' @export
 add_two_numbers <- function(a, b) {

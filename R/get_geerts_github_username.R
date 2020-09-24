@@ -1,9 +1,7 @@
 #' Get Geert's GitHub username
 #' @return Geert's GitHub username
 #' @examples
-#'
-#' username <- get_geerts_github_username()
-#' expect_equal("bogeert", username)
+#' get_geerts_github_username()
 #' @author Geert van den Bogaart
 #' @export
 get_geerts_github_username <- function() {
