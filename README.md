@@ -43,7 +43,7 @@ This show a somehow similar idea:
 
 ![](linneausborg_annotated.png)
 
-> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.708
+> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.0708
 
 We follow this timetable:
 
