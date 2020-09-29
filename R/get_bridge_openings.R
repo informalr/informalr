@@ -4,6 +4,7 @@
 #' @export
 #'
 #' @examples
+#' # Put example code here
 get_bridge_openings <- function() {
   url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
   destfile <- "./inst/extdata/measurement_current.xml.gz"
