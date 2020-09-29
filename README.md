@@ -59,7 +59,7 @@ End of lesson            |20:00
 ## Coding via Discord
 
 For those that prefer online, we use Discord to chat.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
 He'll add you to the `informalr` server.
 
 ## Project
