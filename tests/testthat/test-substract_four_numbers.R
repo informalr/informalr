@@ -1,11 +1,11 @@
 test_that("subtraction by 4 works", {
 
-  expect_equal(subtract_three_numbers(5), 2)
+  expect_equal(subtract_four_numbers(5), 2)
 })
 
 test_that("use", {
   expect_error(
-    subtract_three_numbers("nonsense"),
+    subtract_four_numbers("nonsense"),
     "Argument must be a number"
   )
 })

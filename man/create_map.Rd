@@ -2,7 +2,7 @@
 % Please edit documentation in R/create_map.R
 \name{create_map}
 \alias{create_map}
-\title{Create a map}
+\title{Create map}
 \usage{
 create_map(png_filename)
 }
@@ -10,6 +10,6 @@ create_map(png_filename)
 \item{png_filename}{name of the PNG that the map will be saved to}
 }
 \description{
-Creates a map with the desired hiking info.
-The map is saved as a PNG file.
+Fetch a map of Groningen from OpenStreetMap
+and save it as a PNG-file.
 }

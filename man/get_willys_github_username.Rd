@@ -13,10 +13,7 @@ Willy's GitHub username
 Get Willy's GitHub username
 }
 \examples{
-library(testthat)
-
-username <- get_willys_github_username()
-expect_equal("FrieseWoudloper", username)
+get_willys_github_username()
 }
 \author{
 Willy Tadema
