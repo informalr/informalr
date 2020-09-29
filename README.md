@@ -27,13 +27,13 @@ This show a somehow similar idea:
 
 ## Team
 
+ * [BaraW](https://github.com/barawaclawik) 
  * [Claudio](https://github.com/janclod)
  * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
- * [BaraW](https://github.com/barawaclawik)
 
 ## Meetings
 
