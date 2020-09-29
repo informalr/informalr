@@ -33,6 +33,7 @@ This show a somehow similar idea:
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
+ * [BaraW](https://github.com/barawaclawik)
 
 ## Meetings
 
