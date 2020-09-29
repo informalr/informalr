@@ -7,7 +7,8 @@
 #' # Put example code here
 get_bridge_openings <- function() {
   url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
-  destdir <- file.path(rappdirs::user_cache_dir(appname = "informalr"), "extdata")
+  cachedir <- rappdirs::user_cache_dir(appname = "informalr")
+  destdir <- file.path(cachedir, "extdata")
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
   destfile <- file.path(destdir, "measurement_current.xml.gz")
   utils::download.file(url, destfile)
