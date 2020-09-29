@@ -35,6 +35,8 @@ This show a somehow similar idea:
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
+ * [Pamela](https://github.com/Pamgd29)
+
 
 ## Meetings
 
@@ -45,7 +47,7 @@ This show a somehow similar idea:
 
 ![](linneausborg_annotated.png)
 
-> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.708
+> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.0708
 
 We follow this timetable:
 
@@ -61,7 +63,7 @@ End of lesson            |20:00
 ## Coding via Discord
 
 For those that prefer online, we use Discord to chat.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
 He'll add you to the `informalr` server.
 
 ## Project
