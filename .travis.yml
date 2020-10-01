@@ -14,7 +14,7 @@ script:
   # Break when style is incorrect
   - Rscript -e "getwd()"
   - ls
-  - R CMD INSTALL $PKG_TARBALL
+  - R CMD INSTALL *tar.gz
   - Rscript -e "lintr::lint_package()"
   - Rscript -e "lintr::expect_lint_free()"
 
