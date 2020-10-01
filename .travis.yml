@@ -8,14 +8,15 @@ r_github_packages:
   - MangoTheCat/goodpractice
 
 script:
-  # Break when style is incorrect
-  - Rscript -e "getwd()"
-  - ls
-  - Rscript -e "lintr::lint_package()"
-  - Rscript -e "lintr::expect_lint_free()"
   # Do the actual build
   - travis_wait 60 R CMD build .
   - travis_wait 60 R CMD check *tar.gz
+  # Break when style is incorrect
+  - Rscript -e "getwd()"
+  - ls
+  - R CMD INSTALL $PKG_TARBALL
+  - Rscript -e "lintr::lint_package()"
+  - Rscript -e "lintr::expect_lint_free()"
 
 after_success:
   # lintr-bot is mild
