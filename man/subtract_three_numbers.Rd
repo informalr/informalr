@@ -16,7 +16,7 @@ subtract_three_numbers(a)
 Subtract three numbers
 }
 \examples{
-subtract_three_numbers(5)
+subtract_four_numbers(5)
 }
 \author{
 Geert van den Bogaart
