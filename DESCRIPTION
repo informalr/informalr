@@ -15,8 +15,6 @@ VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/informalr
 BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
-    knitr,
-    lintr,
     utils,
     xml2,
     R.utils,
@@ -27,6 +25,7 @@ Imports:
 Language: en-US
 Encoding: UTF-8
 Suggests: 
+    knitr,
     testthat (>= 2.1.0),
     tibble,
     rmarkdown
