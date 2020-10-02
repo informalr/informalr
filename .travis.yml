@@ -17,6 +17,7 @@ script:
   - R CMD INSTALL *tar.gz
   - Rscript -e "lintr::lint_package()"
   - Rscript -e "lintr::expect_lint_free()"
+  - Rscript -e 'devtools::check(env_vars = list(NOT_CRAN = "true"))'
 
 after_success:
   # lintr-bot is mild
