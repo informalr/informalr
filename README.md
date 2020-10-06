@@ -28,6 +28,7 @@ This show a somehow similar idea:
 
 ## Team
 
+ * [BaraW](https://github.com/barawaclawik) 
  * [Claudio](https://github.com/janclod)
  * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
@@ -42,7 +43,7 @@ This show a somehow similar idea:
 
  * Date: Tuesday August 25 2020, then every Tuesday
  * Time: 18:00-20:00
- * Where IRL: meeting room 5171.708, Linnaeusborg, Zernike
+ * Where IRL: meeting room 5171.0708, Linnaeusborg, Zernike
  * Where online: Discord.
 
 ![](linneausborg_annotated.png)
