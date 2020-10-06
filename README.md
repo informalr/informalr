@@ -4,9 +4,12 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
 `develop`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=develop)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=develop)](https://codecov.io/github/informalr/informalr/branch/develop)
+`alexine`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=alexine)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=alexine)](https://codecov.io/github/informalr/informalr/branch/alexine)
+`bara`   |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=bara)](https://travis-ci.org/informalr/informalr)   |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=bara)](https://codecov.io/github/informalr/informalr/branch/bara)
 `claudio`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=claudio)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=claudio)](https://codecov.io/github/informalr/informalr/branch/claudio)
 `frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
+`jan`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=jan)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=jan)](https://codecov.io/github/informalr/informalr/branch/jan)
 `lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `richel` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=richel)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=richel)](https://codecov.io/github/informalr/informalr/branch/richel)
 `stefano`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=stefano)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=stefano)](https://codecov.io/github/informalr/informalr/branch/stefano)
@@ -27,19 +30,23 @@ This show a somehow similar idea:
 
 ## Team
 
+ * [Alexine](https://github.com/alexinedewit)
+ * [BaraW](https://github.com/barawaclawik) 
  * [Claudio](https://github.com/janclod)
  * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
+ * [Jan](https://github.com/janderkkotlarski)
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
- * [BaraW](https://github.com/barawaclawik)
+ * [Pamela](https://github.com/Pamgd29)
+
 
 ## Meetings
 
  * Date: Tuesday August 25 2020, then every Tuesday
  * Time: 18:00-20:00
- * Where IRL: meeting room 5171.708, Linnaeusborg, Zernike
+ * Where IRL: meeting room 5171.0708, Linnaeusborg, Zernike
  * Where online: Discord.
 
 ![](linneausborg_annotated.png)
@@ -158,4 +165,3 @@ to our workflow :+1:
   4. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
   5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
   6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
-
