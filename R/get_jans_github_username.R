@@ -7,4 +7,3 @@
 get_jans_github_username <- function() {
   "janderkkotlarski"
 }
-
