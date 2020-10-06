@@ -43,3 +43,6 @@ inst/doc
 # Miscellaneous
 .DS_Store
 .DS_Store.orig
+groningen.png
+inst/tempdata
+inst/extdata/measurement_current.xml.gz

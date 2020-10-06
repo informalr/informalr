@@ -22,8 +22,7 @@ The sum of the three numbers
 Add up four numbers
 }
 \examples{
-library(testthat)
-expect_equal(10, add_four_numbers(1, 2, 3, 4))
+add_four_numbers(1, 2, 3, 4)
 }
 \author{
 Claudio Tiecher

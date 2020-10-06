@@ -7,18 +7,18 @@ r_github_packages:
   - jimhester/lintr
   - MangoTheCat/goodpractice
 
+script:
+  - travis_wait 60 R CMD build .
+  - travis_wait 60 R CMD check *tar.gz
+  # Break when style is incorrect
+  - Rscript -e 'lintr::expect_lint_free()'
+
 after_success:
-  - Rscript -e 'lintr::lint_package()'
+  # lintr-bot is mild
+  #- Rscript -e 'lintr::lint_package()'
   - Rscript -e 'covr::codecov()'
   - Rscript -e 'goodpractice::gp()'
   - # No local files created
   - if [[ $(egrep -R "\"~" --include={*.R,*.Rmd}) ]]; then echo "Local file created"; exit 1; fi;
-  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
-  # Download thesis
-  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
 
 after_failure:
-  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
-  # Download thesis
-  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
-
