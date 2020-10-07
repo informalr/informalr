@@ -4,6 +4,8 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
 `develop`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=develop)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=develop)](https://codecov.io/github/informalr/informalr/branch/develop)
+`alexine`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=alexine)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=alexine)](https://codecov.io/github/informalr/informalr/branch/alexine)
+`bara`   |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=bara)](https://travis-ci.org/informalr/informalr)   |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=bara)](https://codecov.io/github/informalr/informalr/branch/bara)
 `claudio`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=claudio)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=claudio)](https://codecov.io/github/informalr/informalr/branch/claudio)
 `frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
@@ -28,6 +30,8 @@ This show a somehow similar idea:
 
 ## Team
 
+ * [Alexine](https://github.com/alexinedewit)
+ * [BaraW](https://github.com/barawaclawik) 
  * [Claudio](https://github.com/janclod)
  * [Frans](https://github.com/fransbianchi)
  * [Geert](https://github.com/bogeert)
@@ -35,17 +39,19 @@ This show a somehow similar idea:
  * [Lizzie](https://github.com/Lizzie-Roeble)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
+ * [Pamela](https://github.com/Pamgd29)
+
 
 ## Meetings
 
  * Date: Tuesday August 25 2020, then every Tuesday
  * Time: 18:00-20:00
- * Where IRL: meeting room 5171.708, Linnaeusborg, Zernike
+ * Where IRL: meeting room 5171.0708, Linnaeusborg, Zernike
  * Where online: Discord.
 
 ![](linneausborg_annotated.png)
 
-> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.708
+> Map of the Linneausborg. [1] main entrance [2] meeting room 5171.0708
 
 We follow this timetable:
 
@@ -61,7 +67,7 @@ End of lesson            |20:00
 ## Coding via Discord
 
 For those that prefer online, we use Discord to chat.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
 He'll add you to the `informalr` server.
 
 ## Project
@@ -159,4 +165,3 @@ to our workflow :+1:
   4. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
   5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
   6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
-
