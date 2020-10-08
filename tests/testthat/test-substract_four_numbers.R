@@ -1,5 +1,5 @@
 test_that("subtraction by 4 works", {
-skip("needs to be fixed")
+  skip("Test fails: 5 minus 4 indeed is not 2")
   expect_equal(subtract_four_numbers(5), 2)
 })
 
