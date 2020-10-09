@@ -28,6 +28,10 @@ This show a somehow similar idea:
 
 ![](project.png)
 
+This is a stub of something more tailored to ours:
+
+![](bike_app_stub.png)
+
 ## Team
 
  * [Alexine](https://github.com/alexinedewit)
