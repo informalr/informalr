@@ -9,7 +9,7 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `claudio`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=claudio)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=claudio)](https://codecov.io/github/informalr/informalr/branch/claudio)
 `frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
-`jan`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=jan)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=jan)](https://codecov.io/github/informalr/informalr/branch/jan)
+`jan`    |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=jan)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=jan)](https://codecov.io/github/informalr/informalr/branch/jan)
 `lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `richel` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=richel)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=richel)](https://codecov.io/github/informalr/informalr/branch/richel)
 `stefano`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=stefano)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=stefano)](https://codecov.io/github/informalr/informalr/branch/stefano)
@@ -30,6 +30,8 @@ This show a somehow similar idea:
 
 ## Team
 
+Ordered alphabetically on first name:
+
  * [Alexine](https://github.com/alexinedewit)
  * [BaraW](https://github.com/barawaclawik) 
  * [Claudio](https://github.com/janclod)
@@ -37,10 +39,10 @@ This show a somehow similar idea:
  * [Geert](https://github.com/bogeert)
  * [Jan](https://github.com/janderkkotlarski)
  * [Lizzie](https://github.com/Lizzie-Roeble)
+ * [Pamela](https://github.com/Pamgd29)
+ * [Richel](https://github.com/richelbilderbeek)
  * [Stefano](https://github.com/swom)
  * [Willy](https://github.com/FrieseWoudloper)
- * [Pamela](https://github.com/Pamgd29)
-
 
 ## Meetings
 
@@ -59,10 +61,12 @@ What                     | Time
 -------------------------|------
 Richel @ LB main entrance|18:00
 Doors open               |18:05
-Work starts              |18:15
+Work starts [1]          |18:15
 Break time!              |19:00
 Work continues           |19:15
 End of lesson            |20:00
+
+ * [1] First thing to do: merge `develop` to your branch, then push your branch
 
 ## Coding via Discord
 
