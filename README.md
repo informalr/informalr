@@ -79,7 +79,7 @@ He'll add you to the `informalr` server.
 Week|Activity
 ----|----------
  41 |Autumn holiday
- 42 |(1) health of a project and the importance of merging, (2) style policy, #74 (3) Video: TDD and adding features
+ 42 |(1) health of a project and the importance of merging (2) Video: TDD and adding features
  43 |.
  44 |.
  45 |.
