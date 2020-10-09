@@ -14,17 +14,11 @@ script:
   - travis_wait 60 R CMD build .
   - travis_wait 60 R CMD check *tar.gz
   # Break when style is incorrect
-  - Rscript -e "getwd()"
-  - ls
   - R CMD INSTALL *tar.gz
-  - Rscript -e "lintr::lint_package()"
   - Rscript -e "lintr::expect_lint_free()"
-  - Rscript -e 'devtools::check(env_vars = list(NOT_CRAN = "true"))'
 
 after_success:
   # lintr-bot is mild
-  - Rscript -e "lintr::expect_lint_free()"
-  - Rscript -e 'lintr::lint_package()'
   - Rscript -e 'covr::codecov()'
   - Rscript -e 'goodpractice::gp()'
   - # No local files created
