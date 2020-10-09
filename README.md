@@ -70,18 +70,12 @@ For those that prefer online, we use Discord to chat.
 To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
 He'll add you to the `informalr` server.
 
-## Project
-
-Unknown, see [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8).
-
 ## Long-term schedule
 
 Week|Activity
 ----|----------
- 39 |Focus on TDD
- 40 |.
  41 |Autumn holiday
- 42 |.
+ 42 |(1) health of a project and the importance of merging, (2) style policy, #74 (3) Video: TDD and adding features
  43 |.
  44 |.
  45 |.
