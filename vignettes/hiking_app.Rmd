@@ -20,7 +20,10 @@ library(informalr)
 
 
 ```{r}
-png_filename <- tempfile(fileext = ".png")
-create_map(png_filename = png_filename)
-knitr::include_graphics(png_filename)
+if (1 == 2) {
+  # Fails on Travis, see https://github.com/informalr/informalr/issues/77
+  png_filename <- tempfile(fileext = ".png")
+  create_map(png_filename = png_filename)
+  knitr::include_graphics(png_filename)
+}
 ```
