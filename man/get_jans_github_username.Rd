@@ -2,19 +2,19 @@
 % Please edit documentation in R/get_jans_github_username.R
 \name{get_jans_github_username}
 \alias{get_jans_github_username}
-\title{Get Claudio's GitHub username}
+\title{Get Jan's GitHub username}
 \usage{
 get_jans_github_username()
 }
 \value{
-Claudio's GitHub username
+Jan's GitHub username
 }
 \description{
-Get Claudio's GitHub username
+Get Jan's GitHub username
 }
 \examples{
-get_claudios_github_username()
+get_jans_github_username()
 }
 \author{
-Claudio Tiecher
+Jan Derk Kotlarski
 }

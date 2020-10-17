@@ -1,8 +1,8 @@
-#' Get Claudio's GitHub username
-#' @return Claudio's GitHub username
+#' Get Jan's GitHub username
+#' @return Jan's GitHub username
 #' @examples
-#' get_claudios_github_username()
-#' @author Claudio Tiecher
+#' get_jans_github_username()
+#' @author Jan Derk Kotlarski
 #' @export
 get_jans_github_username <- function() {
   "janderkkotlarski"

@@ -1,6 +1,5 @@
 #' Get real time bridge openings
 #'
-#' @return
 #' @export
 #'
 #' @examples
