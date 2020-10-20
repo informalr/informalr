@@ -12,4 +12,3 @@ subtract_four_numbers <- function(a) {
   }
   a - 4
 }
-
