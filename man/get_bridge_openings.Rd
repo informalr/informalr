@@ -6,9 +6,6 @@
 \usage{
 get_bridge_openings()
 }
-\value{
-
-}
 \description{
 Get real time bridge openings
 }
