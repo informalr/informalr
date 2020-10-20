@@ -12,30 +12,15 @@ divide_two_numbers(a, b)
 \item{b}{A number}
 }
 \value{
-<<<<<<< HEAD
 The result of the division of \code{a} and \code{b}
-=======
-The division of number `a` by number `b`.
->>>>>>> develop
 }
 \description{
 Divide two numbers
 }
 \examples{
-<<<<<<< HEAD
 divide_two_numbers(4, 2)
 divide_two_numbers(10, 5)
 }
 \author{
 Stefano Tiso
-=======
-testthat::expect_equal(
-  divide_two_numbers(a = 2, b = 5),
-  0.4
-)
-
-}
-\author{
-Pedro
->>>>>>> develop
 }
