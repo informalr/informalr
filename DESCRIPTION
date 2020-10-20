@@ -21,7 +21,8 @@ Imports:
     osmdata,
     R.utils,
     utils,
-    xml2
+    xml2,
+    rappdirs
 Language: en-US
 Encoding: UTF-8
 Suggests: 
