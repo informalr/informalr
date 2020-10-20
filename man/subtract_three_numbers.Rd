@@ -16,8 +16,7 @@ subtract_three_numbers(a)
 Subtract three numbers
 }
 \examples{
-library(testthat)
-expect_equal(2, subtract_three_numbers(5))
+subtract_four_numbers(5)
 }
 \author{
 Geert van den Bogaart
