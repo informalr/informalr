@@ -6,6 +6,7 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
+#' @importFrom informalr %get_bridge_openings%
 #' @export
 plot_bridge_openings <- function(png_filename) {
   library(maps)
