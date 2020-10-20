@@ -12,7 +12,7 @@ License: GPL-3
 LazyData: true
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
-URL: https://github.com/richelbilderbeek/informalr
+URL: https://github.com/richelbilderbeek/informalr/
 BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
     ggmap,
