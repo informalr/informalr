@@ -12,7 +12,7 @@ plot_bridge_openings <- function(png_filename) {
   library(maps)
   library(ggmap)
   data <- NULL; rm(data) # nolint, fixes warning: no visible  binding
-  data <- get_bridge_openings()
+  data <- informalr::get_bridge_openings()
   data$lat <- as.numeric(data$lat)
   data$lon <- as.numeric(data$lon)
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
