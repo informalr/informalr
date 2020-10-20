@@ -4,7 +4,7 @@
 #' @return 4 from a subtracted
 #' @examples
 #' subtract_four_numbers(5)
-#' @author Geert van den Bogaart
+#' @author Frans Bianchi
 #' @export
 subtract_four_numbers <- function(a) {
   if (is.numeric(a) == FALSE) {
@@ -12,3 +12,4 @@ subtract_four_numbers <- function(a) {
   }
   a - 4
 }
+
