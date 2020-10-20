@@ -19,5 +19,5 @@ Subtract four numbers
 subtract_four_numbers(5)
 }
 \author{
-Geert van den Bogaart
+Frans Bianchi
 }
