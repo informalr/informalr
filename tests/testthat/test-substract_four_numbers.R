@@ -1,8 +1,4 @@
 test_that("subtraction by 4 works", {
-<<<<<<< HEAD
-
-=======
->>>>>>> develop
   expect_equal(subtract_four_numbers(5), 1)
 })
 
