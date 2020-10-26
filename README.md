@@ -78,6 +78,13 @@ For those that prefer online, we use Discord to chat.
 To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
 He'll add you to the `informalr` server.
 
+## Code of Conduct
+
+See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+In case it is undesirable to email Richel,
+contact [?].
+
 ## Long-term schedule
 
 Week|Activity
@@ -158,12 +165,17 @@ There is none.
 
   1. Create a Discord account, send Richel a Discord Friend Request: `richelbilderbeek#9002`, so he can add you to the tresinformal Discord group
   2. Create a GitHub account, share it with a team member so he/she can add you to the `informalr` team
-  3. Suggest a project: [https://github.com/informalr/informalr/issues/8](https://github.com/informalr/informalr/issues/8)
 
 Note: if the Issue is closed, re-open it, assign yourself, 
 move the Issue to 'In Progress'. Close the Issue after fixing it. Welcome
 to our workflow :+1:
 
-  4. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
-  5. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
-  6. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
+  3. Do a trivial `git push` to `master`, [https://github.com/informalr/informalr/issues/11](https://github.com/informalr/informalr/issues/11)
+  4. Create your own branch using the GitHub web interface, [https://github.com/informalr/informalr/issues/13](https://github.com/informalr/informalr/issues/13)
+  5. Do a trivial `git push` to your branch, [https://github.com/informalr/informalr/issues/15](https://github.com/informalr/informalr/issues/15)
+  6. Write your first trivial code, [https://github.com/informalr/informalr/issues/12](https://github.com/informalr/informalr/issues/12)
+  7. Write happy-road test for function, [https://github.com/informalr/informalr/issues/31](https://github.com/informalr/informalr/issues/31)
+  8. Write the actual function, which assumes correct input, [https://github.com/informalr/informalr/issues/32](https://github.com/informalr/informalr/issues/32)
+  9. Write tests for function misuse, [https://github.com/informalr/informalr/issues/34](https://github.com/informalr/informalr/issues/34)
+  10. Write the actual function code, for incorrect input, [https://github.com/informalr/informalr/issues/35](https://github.com/informalr/informalr/issues/35)
+  11. Add a textual datafile to `inst/extdata`, [https://github.com/informalr/informalr/issues/36](https://github.com/informalr/informalr/issues/36)
