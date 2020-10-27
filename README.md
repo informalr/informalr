@@ -83,18 +83,15 @@ He'll add you to the `informalr` server.
 See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 In case it is undesirable to email Richel,
-contact [?].
+contact [Willy](https://github.com/friesewoudloper).
 
 ## Long-term schedule
 
 Week|Activity
 ----|----------
- 41 |Autumn holiday
- 42 |(1) health of a project and the importance of merging (2) Video: TDD and adding features
- 43 |.
- 44 |.
- 45 |.
- 46 |.
+ 44 |Code coverage
+ 45 |?Review pull requests
+ 46 |?Pair programming
  47 |.
  48 |.
  49 |.
