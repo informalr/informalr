@@ -19,7 +19,7 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 
 The `informalr` R team!
 
-![informalr logo](pics/informalr_logo.png)
+![informalr logo](man/figures/informalr_logo.png)
 
 ## Project
 
