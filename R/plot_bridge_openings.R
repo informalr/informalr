@@ -14,7 +14,7 @@ plot_bridge_openings <- function(png_filename) {
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- ggmap::get_map(bbox, maptype = "toner_stamen")
   p <- ggmap::ggmap(groningen) +
-    ggplot2::geom_point(data = data, aes(x = lon, y = lat),
+    ggplot2::geom_point(data = data, ggplot2::aes(x = data$lon, y = data$lat),
                         colour = I("red"), size = I(3))
   ggplot2::ggsave(filename = png_filename, plot = p)
 }
