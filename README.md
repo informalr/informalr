@@ -176,3 +176,34 @@ to our workflow :+1:
   9. Write tests for function misuse, [https://github.com/informalr/informalr/issues/34](https://github.com/informalr/informalr/issues/34)
   10. Write the actual function code, for incorrect input, [https://github.com/informalr/informalr/issues/35](https://github.com/informalr/informalr/issues/35)
   11. Add a textual datafile to `inst/extdata`, [https://github.com/informalr/informalr/issues/36](https://github.com/informalr/informalr/issues/36)
+
+### I work on the hiking app, what should I do?
+
+Golden rules:
+
+ * Whatever you work on, always be assigned to an Issue
+ * Whatever code you develop, always be working to fix a test
+ * If all tests pass, we are -by definition- happy.
+
+You start out as a junior and gradually move up to medior.
+
+#### Junior
+
+Do some simple Issues to get to know the project.
+These are labeled 'Good First Issue'.
+These Issues have a test that needs to be fixed.
+
+If there are no such Issues, create an Issue for `richelbilderbeek` to add these :+1:
+
+#### Medior
+
+  * Do some harder Issues. These Issues may or may not have a test yet. 
+    If there is no test, write that test first and have it reviewed.
+  * Create an Issue with a new feature. 
+    Write down the test in the Issue.
+    After this, you can assign yourself to this new Issue.
+
+
+
+  
+
