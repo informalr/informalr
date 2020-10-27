@@ -8,7 +8,7 @@
 #' @author Jan Derk Kotlarski
 #' @export
 power_two_numbers <- function(a, b) {
-  if (is.numeric(a) == FALSE) {
+  if (!is.numeric(a)) {
     stop("First argument must be a number")
   }
   if (!is.numeric(b)) {
