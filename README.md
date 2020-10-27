@@ -203,6 +203,10 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
     Write down the test in the Issue.
     After this, you can assign yourself to this new Issue.
 
+#### Open data sources
+* [Public transport data NDOV loket](https://data.ndovloket.nl/)
+* [OpenStreetMap Overpass API](https://overpass-turbo.eu/)
+* [Nationaal Dataportaal Wegverkeer](http://opendata.ndw.nu/)
 
 
   
