@@ -7,8 +7,6 @@
 #' @param png_filename name of the PNG that the map will be saved to
 #' @export
 plot_bridge_openings <- function(png_filename) {
-  library(maps)
-  library(ggmap)
   data <- NULL; rm(data) # nolint, fixes warning: no visible  binding
   data <- informalr::get_bridge_openings()
   data$lat <- as.numeric(data$lat)
