@@ -90,7 +90,7 @@ contact [Willy](https://github.com/friesewoudloper).
 Week|Activity
 ----|----------
  44 |Code coverage
- 45 |?Review pull requests
+ 45 |?Code of conduct + code reviews
  46 |?Pair programming
  47 |.
  48 |.
