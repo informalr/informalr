@@ -22,7 +22,8 @@ Imports:
     R.utils,
     utils,
     xml2,
-    rappdirs
+    rappdirs,
+    shiny
 Language: en-US
 Encoding: UTF-8
 Suggests: 
