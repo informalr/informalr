@@ -9,9 +9,6 @@ run_app()
 \description{
 Shiny App
 }
-\examples{
-run_app()
-}
 \author{
 Claudio Tiecher
 }
