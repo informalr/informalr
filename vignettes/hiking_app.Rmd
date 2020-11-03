@@ -20,7 +20,7 @@ library(informalr)
 
 
 ```{r}
-if (1 == 2) {
+if (1 == 1) {
   # Fails on Travis, see https://github.com/informalr/informalr/issues/77
   png_filename <- tempfile(fileext = ".png")
   create_map(png_filename = png_filename)
