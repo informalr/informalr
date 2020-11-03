@@ -19,7 +19,7 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 
 The `informalr` R team!
 
-![informalr logo](pics/informalr_logo.png)
+![informalr logo](man/figures/informalr_logo.png)
 
 ## Project
 
@@ -36,17 +36,19 @@ This is a stub of something more tailored to ours:
 
 Ordered alphabetically on first name:
 
- * [Alexine](https://github.com/alexinedewit)
- * [BaraW](https://github.com/barawaclawik) 
- * [Claudio](https://github.com/janclod)
- * [Frans](https://github.com/fransbianchi)
- * [Geert](https://github.com/bogeert)
- * [Jan](https://github.com/janderkkotlarski)
- * [Lizzie](https://github.com/Lizzie-Roeble)
- * [Pamela](https://github.com/Pamgd29)
- * [Richel](https://github.com/richelbilderbeek)
- * [Stefano](https://github.com/swom)
- * [Willy](https://github.com/FrieseWoudloper)
+Name                                         |Role
+---------------------------------------------|-----------------
+[Alexine](https://github.com/alexinedewit)   |Newbie
+[Bara](https://github.com/barawaclawik)      |Newbie
+[Claudio](https://github.com/janclod)        |Junior, front-end
+[Frans](https://github.com/fransbianchi)     |Junior
+[Geert](https://github.com/bogeert)          |Junior, back-end
+[Jan](https://github.com/janderkkotlarski)   |Newbie
+[Lizzie](https://github.com/Lizzie-Roeble)   |Newbie
+[Pamela](https://github.com/Pamgd29)         |Newbie
+[Richel](https://github.com/richelbilderbeek)|Team leader
+[Stefano](https://github.com/swom)           |Newbie 
+[Willy](https://github.com/FrieseWoudloper)  |Junior, back-end
 
 ## Meetings
 
@@ -89,10 +91,9 @@ contact [Willy](https://github.com/friesewoudloper).
 
 Week|Activity
 ----|----------
- 44 |Code coverage
- 45 |?Code of conduct + code reviews
- 46 |?Pair programming
- 47 |.
+ 45 |software architecture, #88 to juniors
+ 46 |?Code of conduct + code reviews, 
+ 47 |?Pair programming
  48 |.
  49 |.
  50 |.
@@ -203,7 +204,14 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
     Write down the test in the Issue.
     After this, you can assign yourself to this new Issue.
 
+#### Open data sources
+* [Public transport data NDOV loket](https://data.ndovloket.nl/)
+* [OpenStreetMap Overpass API](https://overpass-turbo.eu/)
+* [Nationaal Dataportaal Wegverkeer](http://opendata.ndw.nu/)
 
+## Videos
+
+ * 2020-10-27: [YouTube](https://youtu.be/Pc1e-9WiDuM) [Download](http://richelbilderbeek.nl/informalr_20201027.ogv)
 
   
 
