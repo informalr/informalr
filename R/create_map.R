@@ -14,10 +14,10 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
     data <- informalr::get_bridge_openings()
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
-    data <- data[data$lat >= bbox['y', 'min'] &
-                 data$lat <= bbox['y', 'max'] &
-                 data$lon >= bbox['x', 'min'] &
-                 data$lon <= bbox['x', 'max'], ]
+    data <- data[data$lat >= bbox["y", "min"] &
+                 data$lat <= bbox["y", "max"] &
+                 data$lon >= bbox["x", "min"] &
+                 data$lon <= bbox["x", "max"], ]
     p <- p  +
       ggplot2::geom_point(data = data,
                           ggplot2::aes(x = lon, y = lat),
