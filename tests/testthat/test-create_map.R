@@ -2,7 +2,7 @@ test_that("use", {
   png_filename <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
-      show_brige_openings = TRUE,
+      show_bridge_openings = TRUE,
       png_filename = png_filename
     )
   )
@@ -10,7 +10,7 @@ test_that("use", {
   expect_true(file.exists(png_filename))
   expect_silent(
     create_map(
-      show_brige_openings = FALSE,
+      show_bridge_openings = FALSE,
       png_filename = png_filename
     )
   )
