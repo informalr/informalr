@@ -17,6 +17,7 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
     p <- p  +
       ggplot2::geom_point(data = data,
                           ggplot2::aes(x = data$lon, y = data$lat),
-                          colour = I("red"), size = I(3))}
+                          colour = I("red"), size = I(3))
+    }
   ggplot2::ggsave(filename = png_filename, plot = p)
 }
