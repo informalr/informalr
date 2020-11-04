@@ -7,7 +7,7 @@
 #' @export
 create_map <- function(png_filename, show_bridge_openings = TRUE) {
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
-  groningen <- ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE)
+  groningen <- suppressMessages(ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings) {
     data <- NULL; rm(data) # nolint, fixes warning: no visible  binding
