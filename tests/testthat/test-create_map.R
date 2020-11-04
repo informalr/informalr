@@ -6,8 +6,8 @@ test_that("use", {
       png_filename = png_filename
     )
   )
-
   expect_true(file.exists(png_filename))
+
   expect_silent(
     create_map(
       show_bridge_openings = FALSE,
