@@ -10,16 +10,6 @@
 #' @author Alexine
 #' @export
 multiply_four_numbers <- function(a, b, c, d) {
-  if(is.numeric(a) == FALSE || is.finite(a) == FALSE){
-    stop("First argument must be a number")
-  }
-  if(is.numeric(b) == FALSE){
-    stop("Second argument must be a number")
-  }
-  if(is.numeric(c) == FALSE){
-    stop("Third argument must be a number")
-  }
-=======
   if (is.numeric(a) == FALSE || is.finite(a) == FALSE) {
     stop("First argument must be a number")
     }
