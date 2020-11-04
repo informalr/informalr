@@ -9,7 +9,7 @@ get_bridge_openings <- function() {
   cachedir <- rappdirs::user_cache_dir(appname = "informalr")
   destdir <- file.path(cachedir, "extdata")
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
-  destfile <- file.path(destdir, "measurement_current.xml.gz")
+  destfile <- file.path(destdir, "brugopeningen.xml.gz")
   utils::download.file(url, destfile, quiet = TRUE)
   tempfile <- tempfile()
   R.utils::gunzip(destfile, tempfile)
