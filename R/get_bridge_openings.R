@@ -10,7 +10,7 @@ get_bridge_openings <- function() {
   destdir <- file.path(cachedir, "extdata")
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
   destfile <- file.path(destdir, "measurement_current.xml.gz")
-  utils::download.file(url, destfile)
+  utils::download.file(url, destfile, quiet = TRUE)
   tempfile <- tempfile()
   R.utils::gunzip(destfile, tempfile)
   doc <- xml2::read_xml(tempfile)
