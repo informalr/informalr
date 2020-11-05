@@ -11,7 +11,6 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings) {
-    data <- NULL; rm(data) # nolint, fixes warning: no visible  binding
     data <- informalr::get_bridge_openings()
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
