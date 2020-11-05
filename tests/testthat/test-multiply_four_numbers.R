@@ -1,19 +1,19 @@
 test_that("multiplication works", {
-  expect_equal(2 * 2 * 2 * 2, 16)
+  expect_equal(multiply_four_numbers(2, 2, 2, 2), 16)
 })
 
 test_that("multiplication works", {
-  skip("Needs an issue!")
+  skip("Issue #34")
   expect_error(
     multiply_four_numbers(Inf, 3, 3, 2),
     "First argument must be a number"
   )
-  skip("Needs an issue!")
+  skip("Issue #34")
   expect_error(
     multiply_four_numbers(1, "n", 3, 2),
     "Second argument must be a number"
   )
-  skip("Needs an issue!")
+  skip("Issue #34")
   expect_error(
     multiply_four_numbers(1, 2, "n", 1),
     "Third argument must be a number"
