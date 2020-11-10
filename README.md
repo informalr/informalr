@@ -213,6 +213,7 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
 
 #### Related projects
 
+ * Object Detection with YOLO and MobileNet SSD: https://github.com/dannylee1020/object-detection-app
  * Realtime bus dashboard: https://shiny.rstudio.com/gallery/bus-dashboard.html
  * Source code: https://github.com/rstudio/shiny-examples/tree/master/086-bus-dashboard
 
