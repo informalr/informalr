@@ -12,24 +12,16 @@
 
 # Run the application
 run_app <- function() {
-    # Define UI for application that draws a histogram
-    ui <- shiny::fluidPage(
+  # Define UI for application that draws a histogram
+  ui <- fluidPage(plotOutput("map"))
 
-        # Application title
-        shiny::titlePanel("Hiking guide"),
-        shiny::mainPanel(
-          shiny::imageOutput("map", width = "400px", height = "400px")
-        )
-      )
+  server <- function(input, output) {
+    output$map <- shiny::renderImage({
+      filename <- "bike_app_stub.png"
+      # Return a list containing the filename
+      list(src = filename)
+    }, deleteFile = FALSE)
 
-    # Define server logic required to draw the PNG
-    # Does not work :-(
-    server <- function(input, output) {
-      output$map <- shiny::renderPlot({
-        png_filename <- tempfile(fileext = ".png")
-        informalr::create_map(png_filename)
-        grDevices::png(png_filename, width = 400, height = 400, type = "cairo")
-      })
-    }
-    shiny::shinyApp(ui = ui, server = server)
+  }
+  shiny::shinyApp(ui = ui, server = server)
 }
