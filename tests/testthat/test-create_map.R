@@ -30,5 +30,3 @@ test_that("show a certain rectangle of the map", {
     )
   )
 })
-
-
