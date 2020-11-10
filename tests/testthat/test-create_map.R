@@ -127,4 +127,3 @@ test_that("check show_bridge_openings argument", {
     "'show_bridge_openings' must be TRUE or FALSE"
   )
 })
-
