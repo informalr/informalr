@@ -17,8 +17,10 @@ run_app <- function() {
 
         # Application title
         shiny::titlePanel("Hiking guide"),
-        shiny::imageOutput("map", width = "400px", height = "400px")
-    )
+        shiny::mainPanel(
+          shiny::imageOutput("map", width = "400px", height = "400px")
+        )
+      )
 
     # Define server logic required to draw the PNG
     # Does not work :-(
