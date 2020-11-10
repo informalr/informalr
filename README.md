@@ -207,7 +207,9 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
 #### Open data sources
 * [Public transport data NDOV loket](https://data.ndovloket.nl/)
 * [OpenStreetMap Overpass API](https://overpass-turbo.eu/)
-* [Nationaal Dataportaal Wegverkeer](http://opendata.ndw.nu/)
+* [Nationaal Dataportaal Wegverkeer](http://opendata.ndw.nu/),
+  or [https://www.ndw.nu/pagina/en/78/database](https://www.ndw.nu/pagina/en/78/database)
+  or [https://www.ndw.nu/pagina/en/78/database/79/real-time_traffic_data/](https://www.ndw.nu/pagina/en/78/database/79/real-time_traffic_data/)
 
 ## Videos
 
