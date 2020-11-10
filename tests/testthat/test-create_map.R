@@ -96,7 +96,6 @@ test_that("check png_filename argument", {
 })
 
 test_that("check show_bridge_openings argument", {
-  skip("Issue 100 Issue #100")
   expect_error(
     create_map(
       show_bridge_openings = 42
@@ -128,3 +127,4 @@ test_that("check show_bridge_openings argument", {
     "'show_bridge_openings' must be TRUE or FALSE"
   )
 })
+
