@@ -3,6 +3,7 @@
 export(add_four_numbers)
 export(add_two_numbers)
 export(create_map)
+export(create_map_viewer)
 export(divide_three_numbers)
 export(get_alexines_github_username)
 export(get_bridge_openings)

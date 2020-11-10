@@ -1,3 +1,9 @@
+#' Create map viewer
+#'
+#' Create an interactive map viewer.
+#'
+#' @param show_bridge_openings Add layer with bridge openings on top of the base map
+#' @export
 create_map_viewer <- function(show_bridge_openings = TRUE) {
   map <- leaflet::leaflet()
   map <- leaflet::addTiles(map)
