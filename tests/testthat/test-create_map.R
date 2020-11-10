@@ -30,3 +30,13 @@ test_that("show a certain rectangle of the map", {
     )
   )
 })
+
+test_that("show show bike traffic density", {
+  skip("Issue 97. Issue #97")
+  expect_silent(
+    create_map(
+      png_filename = png_filename,
+      show_bike_traffic_density = TRUE
+    )
+  )
+})
