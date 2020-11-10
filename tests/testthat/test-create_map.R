@@ -16,3 +16,19 @@ test_that("use", {
   )
   expect_true(file.exists(png_filename))
 })
+
+
+test_that("show a certain rectangle of the map", {
+  skip("Issue 94. Issue #94")
+  expect_silent(
+    create_map(
+      png_filename = png_filename,
+      left_lon = 6.50, # The left longiture
+      right_lon = 7.0, # The right-hand-side longiture
+      top_lat = 53.3, # The upper latitude
+      bottom_lat = 53.0, # The lower latitude
+    )
+  )
+})
+
+

@@ -10,12 +10,13 @@ test_that("use", {
   # This is the number of all bridge openings
   n_all_bridge_openings <- nrow(all_bridge_openings)
 
+  # Only care about a part of Gronongen
   bridge_openings <- filter_bridge_openings(
     all_bridge_openings,
-    left_lon = 6.50 ,
-    right_lon = 7.0,
-    top_lat = 53.3,
-    bottom_lat = 53.0,
+    left_lon = 6.50, # The left longiture
+    right_lon = 7.0, # The right-hand-side longiture
+    top_lat = 53.3, # The upper latitude
+    bottom_lat = 53.0, # The lower latitude
   )
 
   # Also a data frame (i.e. a table)
