@@ -6,7 +6,7 @@
 #' @param png_filename name of the PNG that the map will be saved to
 #' @export
 create_map <- function(png_filename, show_bridge_openings = TRUE) {
-  if (length(show_bridge_openings) !=1 || is.na(show_bridge_openings) ||
+  if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
       is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
     stop("'show_bridge_openings' must be TRUE or FALSE")
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
