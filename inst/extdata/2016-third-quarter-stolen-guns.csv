@@ -1,0 +1,13 @@
+Property Number,Date,Brand,Model,Color ,Stolen Locally,Stolen From,Status,Incident number,Agency, Custom
+P18656,07/01/2016,BERETTA,,BLK,Stolen Locally,Residence, Not Recovered,B16-25136,BPD, 2
+P18684,07/02/2016,SMITH & WESSON,MP SHIELD,BLK,Stolen Locally,Vehicle, Not Recovered,B16-25258,BPD, 3
+P18689,06/26/2016,MARLIN,RIFLE,GRY,Stolen Locally,Residence, Recovered Locally,B16-24702,BPD, 4
+P19120,07/18/2016,GLOCK,G30,BLK,Stolen Locally,Residence, Not Recovered,B16-27568,BPD, 56
+P19121,07/18/2016,TAURUS,PT92SS,BLK,Stolen Locally,Residence, Not Recovered,B16-27568,BPD, 467
+P19290,07/24/2016,BARETTA,PX4,BLK,Stolen Locally,Residence, Not Recovered,B16-28419,BPD, 78
+P19927,08/11/2016,KIMBER,CUSTOM II,RED,Stolen Locally,Vehicle, Not Recovered,B16-31054,BPD, 89
+P19979,08/12/2016,SMITH & WESSON,,SIL,Stolen Locally,Residence, Not Recovered,B16-31331,BPD, 234
+P20640,09/01/2016,MOSSBURG,500,BLK,Stolen Locally,Residence, Not Recovered,B16-34817,BPD, 132
+P20641,09/01/2016,.22 MARLIN,25,,Stolen Locally,Residence, Recovered Locally,B16-34817,BPD, 234
+P20993,09/16/2016,GLOCK,27 GEN 3  40 CA,,Stolen Locally,Vehicle, Not Recovered,B16-37042,BPD, 5345
+P21028,09/17/2016,SMITH & WESSON,M&P 9MM,BLK,Stolen Locally,Vehicle, Not Recovered,B16-37310,BPD, 5345
