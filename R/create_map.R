@@ -18,6 +18,8 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
                  data$lat <= bbox["y", "max"] &
                  data$lon >= bbox["x", "min"] &
                  data$lon <= bbox["x", "max"], ]
+    lon <- NULL; rm(lon) # nolint, fixes warning: no visible binding for global variable
+    lat <- NULL; rm(lat) # nolint, fixes warning: no visible binding for global variable
     p <- p  +
       ggplot2::geom_point(data = data,
                           ggplot2::aes(x = lon, y = lat),
