@@ -15,10 +15,7 @@ VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/informalr/
 BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
-    ggmap,
-    ggplot2,
-    ggthemes,
-    osmdata,
+    leaflet,
     R.utils,
     utils,
     xml2,
