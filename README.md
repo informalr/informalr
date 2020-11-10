@@ -217,6 +217,10 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
  * Realtime bus dashboard: https://shiny.rstudio.com/gallery/bus-dashboard.html
  * Source code: https://github.com/rstudio/shiny-examples/tree/master/086-bus-dashboard
 
+### Misc
+
+ * Shiny tutorial: https://github.com/FrieseWoudloper/shiny-workshop
+
 ## Videos
 
  * 2020-10-27: [YouTube](https://youtu.be/Pc1e-9WiDuM) [Download](http://richelbilderbeek.nl/informalr_20201027.ogv)
