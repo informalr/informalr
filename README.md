@@ -211,6 +211,11 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
   or [https://www.ndw.nu/pagina/en/78/database](https://www.ndw.nu/pagina/en/78/database)
   or [https://www.ndw.nu/pagina/en/78/database/79/real-time_traffic_data/](https://www.ndw.nu/pagina/en/78/database/79/real-time_traffic_data/)
 
+#### Related projects
+
+ * Realtime bus dashboard: https://shiny.rstudio.com/gallery/bus-dashboard.html
+ * Source code: https://github.com/rstudio/shiny-examples/tree/master/086-bus-dashboard
+
 ## Videos
 
  * 2020-10-27: [YouTube](https://youtu.be/Pc1e-9WiDuM) [Download](http://richelbilderbeek.nl/informalr_20201027.ogv)
