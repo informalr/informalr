@@ -2,13 +2,10 @@
 % Please edit documentation in R/get_bridge_openings.R
 \name{get_bridge_openings}
 \alias{get_bridge_openings}
-\title{Get real time bridge openings}
+\title{Get all the real time bridge openings in the Netherlands}
 \usage{
 get_bridge_openings()
 }
 \description{
-Get real time bridge openings
-}
-\examples{
-# Put example code here
+Get all the real time bridge openings in the Netherlands
 }
