@@ -18,11 +18,21 @@ knitr::opts_chunk$set(
 library(informalr)
 ```
 
+```{r}
+png_filename <- tempfile(fileext = ".png")
+create_map(
+  png_filename = png_filename,
+  show_bridge_openings = FALSE
+)
+knitr::include_graphics(png_filename)
+```
+
 
 ```{r}
-if (1 == 1) {
-  png_filename <- tempfile(fileext = ".png")
-  create_map(png_filename = png_filename)
-  knitr::include_graphics(png_filename)
-}
+png_filename <- tempfile(fileext = ".png")
+create_map(
+  png_filename = png_filename,
+  show_bridge_openings = TRUE
+)
+knitr::include_graphics(png_filename)
 ```
