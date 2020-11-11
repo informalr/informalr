@@ -13,7 +13,7 @@
 # Run the application
 run_app <- function() {
   # Define UI for application that draws a histogram
-  ui <- fluidPage(plotOutput("map"))
+  ui <- shiny::fluidPage(shiny::plotOutput("map"))
 
   server <- function(input, output) {
     output$map <- shiny::renderImage({

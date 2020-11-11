@@ -7,7 +7,8 @@
 create_map_viewer(show_bridge_openings = TRUE)
 }
 \arguments{
-\item{show_bridge_openings}{Add layer with bridge openings on top of the base map}
+\item{show_bridge_openings}{Add layer with bridge openings
+on top of the base map}
 }
 \description{
 Create an interactive map viewer.
