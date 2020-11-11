@@ -4,6 +4,8 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
+#' @param show_bridge_openings Add layer with bridge openings
+#' on top of the base map
 #' @export
 create_map <- function(png_filename, show_bridge_openings = TRUE) {
   if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
