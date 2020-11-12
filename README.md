@@ -91,10 +91,8 @@ contact [Willy](https://github.com/friesewoudloper).
 
 Week|Activity
 ----|----------
- 45 |software architecture, #88 to juniors
- 46 |?Code of conduct + code reviews, 
- 47 |?Pair programming
- 48 |.
+ 47 |Code of conduct + code reviews, discover members fit for pair programming
+ 48 |Pair programming
  49 |.
  50 |.
  51 |.
