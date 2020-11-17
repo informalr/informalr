@@ -7,10 +7,10 @@
 create_map(
   png_filename,
   show_bridge_openings = TRUE,
-  right_lon,
-  left_lon,
-  top_lat,
-  bottom_lat
+  right_lon = 1,
+  left_lon = 2,
+  top_lat = 3,
+  bottom_lat = 4
 )
 }
 \arguments{
