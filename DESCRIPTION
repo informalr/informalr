@@ -20,7 +20,8 @@ Imports:
     utils,
     xml2,
     rappdirs,
-    shiny
+    shiny,
+    leaflet
 Language: en-US
 Encoding: UTF-8
 Suggests: 

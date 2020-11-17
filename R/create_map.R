@@ -4,8 +4,13 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
+#' @param show_bridge_openings Add layer with bridge openings
+#' on top of the base map
 #' @export
 create_map <- function(png_filename, show_bridge_openings = TRUE) {
+  if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
+      is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
+    stop("'show_bridge_openings' must be TRUE or FALSE")
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
@@ -18,6 +23,8 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
                  data$lat <= bbox["y", "max"] &
                  data$lon >= bbox["x", "min"] &
                  data$lon <= bbox["x", "max"], ]
+    lon <- NULL; rm(lon) # nolint, fixes warning: no visible binding for global variable
+    lat <- NULL; rm(lat) # nolint, fixes warning: no visible binding for global variable
     p <- p  +
       ggplot2::geom_point(data = data,
                           ggplot2::aes(x = lon, y = lat),

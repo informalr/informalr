@@ -1,9 +1,5 @@
-#' Get real time bridge openings
-#'
+#' Get all the real time bridge openings in the Netherlands
 #' @export
-#'
-#' @examples
-#' # Put example code here
 get_bridge_openings <- function() {
   url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
   cachedir <- rappdirs::user_cache_dir(appname = "informalr")
