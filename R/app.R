@@ -17,18 +17,17 @@
 # https://rstudio.github.io/shinytest/articles/package.html
 # Different options are available.
 
+library(shiny)
+
 # Run the application
-run_app <- function() {
-  # Define UI for application that draws a histogram
-  ui <- shiny::fluidPage(shiny::plotOutput("map"))
-
-  server <- function(input, output) {
-    output$map <- shiny::renderImage({
-      filename <- "bike_app_stub.png"
-      # Return a list containing the filename
-      list(src = filename)
-    }, deleteFile = FALSE)
-
-  }
-  shiny::shinyApp(ui = ui, server = server)
+app <- function() {
+  # Create shinyApp object with ui and server
+  shinyApp(ui <- fluidPage(plotOutput("map")),
+                     server <- function(input, output) {
+                       output$map <- renderImage({
+                         filename <- "bike_app_stub.png"
+                         # Return a list containing the filename
+                         list(src = filename)
+                       }, deleteFile = FALSE)
+                     })
 }
