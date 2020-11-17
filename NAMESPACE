@@ -3,8 +3,13 @@
 export(add_four_numbers)
 export(add_two_numbers)
 export(create_map)
+export(create_map_viewer)
 export(divide_three_numbers)
+<<<<<<< HEAD
 export(divide_two_numbers)
+=======
+export(get_alexines_github_username)
+>>>>>>> develop
 export(get_bridge_openings)
 export(get_claudios_github_username)
 export(get_geerts_github_username)
@@ -14,6 +19,9 @@ export(get_richels_github_username)
 export(get_stefanos_github_username)
 export(get_willys_github_username)
 export(modulo_two_numbers)
+export(multiply_four_numbers)
+export(power_two_numbers)
 export(read_ic50s)
+export(run_app)
 export(subtract_four_numbers)
 export(subtract_three_numbers)

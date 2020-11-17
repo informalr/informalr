@@ -7,10 +7,12 @@
 read_ic50s()
 }
 \value{
-A dataframe with the contents of the \code{ic50s.csv} file.
+A dataframe with the contents of the
+\code{2016-third-quarter-stolen-guns.csv} file.
 }
 \description{
-Read the \code{ic50s.csv} file in \code{inst/extdata}.
+Read the \code{2016-third-quarter-stolen-guns.csv} file
+in \code{inst/extdata}.
 }
 \examples{
 data <- read_ic50s()
