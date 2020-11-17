@@ -19,7 +19,6 @@ test_that("use", {
 
 
 test_that("show a certain rectangle of the map", {
-  skip("Issue 94. Issue #94")
   png_filename <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
