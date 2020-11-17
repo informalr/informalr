@@ -1,20 +1,23 @@
 test_that("use", {
-  png_filename <- tempfile(fileext = ".png")
+  png_filename_with_bridges <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
       show_bridge_openings = TRUE,
-      png_filename = png_filename
+      png_filename = png_filename_with_bridges
     )
   )
-  expect_true(file.exists(png_filename))
+  expect_true(file.exists(png_filename_with_bridges))
 
+  png_filename_without_bridges <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
       show_bridge_openings = FALSE,
-      png_filename = png_filename
+      png_filename = png_filename_without_bridges
     )
   )
-  expect_true(file.exists(png_filename))
+  expect_true(file.exists(png_filename_without_bridges))
+
+  expect_true(file.size(png_filename_with_bridges) != file.size(png_filename_without_bridges))
 })
 
 
