@@ -3,11 +3,7 @@
 #' Create an interactive map viewer.
 #'
 #' @param show_bridge_openings Add layer with bridge openings
-<<<<<<< HEAD
-#'                             on top of the base map
-=======
 #' on top of the base map
->>>>>>> develop
 #' @export
 create_map_viewer <- function(show_bridge_openings = TRUE) {
   map <- leaflet::leaflet()
