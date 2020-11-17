@@ -11,13 +11,14 @@ create_map_measurements <- function(png_filename, show_measurements=TRUE) {
   p <- ggmap::ggmap(groningen)
   if(show_measurements) {
     data <- NULL; rm(data) # nolint, fixes warning: no visible  binding
-    data <- informalr::get_current_measurements()
+    data <- informalr::get_current_measurements_fast()
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data$value <- as.numeric(data$value)
     p <- p  +
       ggplot2::geom_point(data = data,
                           ggplot2::aes(x = data$lon, y = data$lat),
-                          colour = I("red"), size = I(3), label = data$value)}
+                          colour = I("red"), size = data$value)}
+  #colour = I("red"), size = I(3), label = data$value)}
   ggplot2::ggsave(filename = png_filename, plot = p)
 }
