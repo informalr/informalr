@@ -17,7 +17,8 @@ test_that("use", {
   )
   expect_true(file.exists(png_filename_without_bridges))
 
-  expect_true(file.size(png_filename_with_bridges) != file.size(png_filename_without_bridges))
+  expect_true(file.size(png_filename_with_bridges) !=
+                file.size(png_filename_without_bridges))
 })
 
 
