@@ -18,9 +18,22 @@ knitr::opts_chunk$set(
 library(informalr)
 ```
 
+```{r}
+png_filename <- tempfile(fileext = ".png")
+create_map(
+  png_filename = png_filename,
+  show_bridge_openings = FALSE
+)
+knitr::include_graphics(png_filename)
+```
+
 
 ```{r}
-{
 
-}
+png_filename <- tempfile(fileext = ".png")
+create_map(
+  png_filename = png_filename,
+  show_bridge_openings = TRUE
+)
+knitr::include_graphics(png_filename)
 ```

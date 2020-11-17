@@ -4,12 +4,15 @@
 \alias{create_map}
 \title{Create map}
 \usage{
-create_map(png_filename)
+create_map(png_filename, show_bridge_openings = TRUE)
 }
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
+
+\item{show_bridge_openings}{Add layer with bridge openings
+on top of the base map}
 }
 \description{
-Fetch a map of Groningen from OpenStreetMap
+Fetch a map of The Netherlands from OpenStreetMap
 and save it as a PNG-file.
 }
