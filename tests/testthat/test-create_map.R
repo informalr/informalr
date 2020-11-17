@@ -3,6 +3,7 @@ test_that("use", {
   expect_silent(
     create_map(
       show_bridge_openings = TRUE,
+      fake_data = TRUE,
       png_filename = png_filename_with_bridges
     )
   )
@@ -12,6 +13,7 @@ test_that("use", {
   expect_silent(
     create_map(
       show_bridge_openings = FALSE,
+      fake_data = TRUE,
       png_filename = png_filename_without_bridges
     )
   )
