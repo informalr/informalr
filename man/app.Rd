@@ -24,9 +24,6 @@ https://rstudio.github.io/shinytest/articles/package.html
 Different options are available.
 In this specific case we chose to create our application object by function.
 }
-\examples{
-app()
-}
 \author{
 Claudio Tiecher
 }

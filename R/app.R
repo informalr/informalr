@@ -16,8 +16,6 @@ library(shiny)
 #' Different options are available.
 #' In this specific case we chose to create our application object by function.
 #'
-#' @examples
-#' app()
 #' @author Claudio Tiecher
 #' @export
 
