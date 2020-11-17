@@ -12,8 +12,3 @@ test_that("app() works", {
   # which runs on Linux.
   expect_pass(testApp("apps/app/", compareImages = FALSE))
 })
-
-# test_that("use", {
-#   skip("Travis does not do well on this test, so we skip it.")
-#   expect_silent(run_app())
-# })
