@@ -10,6 +10,13 @@
 #    http://shiny.rstudio.com/
 #
 
+# Shiny app should live in the proper folder and also be tested.
+# For more info, look here:
+# https://rstudio.github.io/shinytest/articles/shinytest.html
+# For a specific example of Shiny app inside package, look here:
+# https://rstudio.github.io/shinytest/articles/package.html
+# Different options are available.
+
 # Run the application
 run_app <- function() {
   # Define UI for application that draws a histogram
