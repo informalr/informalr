@@ -1,6 +1,6 @@
 #' Create map
 #'
-#' Fetch a map of The Netherlands from OpenStreetMap
+#' Fetch a map of Groningen from OpenStreetMap
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
