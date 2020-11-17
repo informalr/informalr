@@ -26,7 +26,7 @@ test_that("show a certain rectangle of the map", {
       left_lon = 6.50, # The left longiture
       right_lon = 7.0, # The right-hand-side longiture
       top_lat = 53.3, # The upper latitude
-      bottom_lat = 53.0, # The lower latitude
+      bottom_lat = 53.0 # The lower latitude
     )
   )
 })

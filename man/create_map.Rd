@@ -4,7 +4,14 @@
 \alias{create_map}
 \title{Create map}
 \usage{
-create_map(png_filename, show_bridge_openings = TRUE)
+create_map(
+  png_filename,
+  show_bridge_openings = TRUE,
+  right_lon,
+  left_lon,
+  top_lat,
+  bottom_lat
+)
 }
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
