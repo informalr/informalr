@@ -11,8 +11,8 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
   if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
       is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
     stop("'show_bridge_openings' must be TRUE or FALSE")
-  if (is.numeric(png_filename) || is.na(png_filename) || is.null(png_filename) ||
-      length(png_filename) != 1)
+  if (is.numeric(png_filename) || is.na(png_filename) ||
+      is.null(png_filename) || length(png_filename) != 1)
     stop("'png_filename' must be one word")
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(
