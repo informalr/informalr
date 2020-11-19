@@ -2,7 +2,8 @@
 #'
 #' Create an interactive map viewer.
 #'
-#' @param show_bridge_openings Add layer with bridge openings
+#' @param show_bridge_openings
+#' Add layer with bridge openings
 #' on top of the base map
 #' @param fake_data Indicates whether to use test data
 #' @export
