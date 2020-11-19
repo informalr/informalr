@@ -29,4 +29,5 @@ Suggests:
     lintr,
     rmarkdown,
     testthat (>= 2.1.0),
-    tibble
+    tibble,
+    shinytest
