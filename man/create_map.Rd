@@ -6,9 +6,13 @@
 \usage{
 create_map(
   png_filename,
+<<<<<<< HEAD
   show_bridge_openings = TRUE,
   fake_data = FALSE,
   show_car_traffic_density = FALSE,
+=======
+  show_bridge_openings = "yes",
+>>>>>>> develop
   right_lon = 1,
   left_lon = 2,
   top_lat = 3,
@@ -18,6 +22,11 @@ create_map(
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
 
+\item{show_bridge_openings}{character string indicating whether or not
+bridge openings are plotted on top of the basemap. The default,
+\code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
+adds one fake bridge opening in the center of Groningen. \code{"no"}
+does not add any bridge openings to the map.}
 \item{show_bridge_openings}{Add layer with bridge openings}
 
 \item{fake_data}{Indicates whether to use test data}
