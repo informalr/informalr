@@ -38,7 +38,7 @@ Ordered alphabetically on first name:
 
 Name                                         |Role
 ---------------------------------------------|-----------------
-[Alexine](https://github.com/alexinedewit)   |Newbie
+[Alexine](https://github.com/alexinedewit)   |Junior
 [Bara](https://github.com/barawaclawik)      |Newbie
 [Claudio](https://github.com/janclod)        |Junior, front-end
 [Frans](https://github.com/fransbianchi)     |Junior
