@@ -16,7 +16,15 @@ create_map(
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
 
-\item{show_bridge_openings}{Add layer with bridge openings
+\item{show_bridge_openings}{Add layer with bridge openings}
+
+\item{right_lon}{right longetitude}
+
+\item{left_lon}{left longetitude}
+
+\item{top_lat}{top lattitude}
+
+\item{bottom_lat}{bottom lattitude
 on top of the base map}
 }
 \description{

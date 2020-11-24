@@ -5,6 +5,10 @@
 #'
 #' @param png_filename name of the PNG that the map will be saved to
 #' @param show_bridge_openings Add layer with bridge openings
+#' @param right_lon right longetitude
+#' @param left_lon left longetitude
+#' @param top_lat top lattitude
+#' @param bottom_lat bottom lattitude
 #' on top of the base map
 #' @export
 create_map <- function(
@@ -23,6 +27,7 @@ create_map <- function(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings) {
+    data <- informalr::get_bridge_openings()
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data <- data[data$lat >= bbox["y", "min"] &
