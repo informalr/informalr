@@ -1,28 +1,37 @@
-test_that("use", {
-  png_filename_with_bridges <- tempfile(fileext = ".png")
-  expect_silent(
-    create_map(
-      show_bridge_openings = TRUE,
-      fake_data = TRUE,
-      png_filename = png_filename_with_bridges
-    )
-  )
-  expect_true(file.exists(png_filename_with_bridges))
-
-  png_filename_without_bridges <- tempfile(fileext = ".png")
+test_that("show basemap", {
+  png_filename_basemap <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
       show_bridge_openings = FALSE,
-      fake_data = TRUE,
-      png_filename = png_filename_without_bridges
+      png_filename = png_filename_basemap
     )
   )
-  expect_true(file.exists(png_filename_without_bridges))
-
-  expect_true(file.size(png_filename_with_bridges) !=
-                file.size(png_filename_without_bridges))
+  expect_true(file.exists(png_filename_basemap))
 })
 
+test_that("show fake bridge openings", {
+  png_filename_fake_bridge_openings <- tempfile(fileext = ".png")
+  expect_silent(
+    create_map(
+      show_bridge_openings = fake,
+      png_filename = png_filename_fake_bridge_openings
+    )
+  )
+  expect_true(file.exists(png_filename_fake_bridge_openings))
+  expect_true(file.size(png_filename_basemap) !=
+                file.size(png_filename_fake_bridge_openings))
+})
+
+test_that("show bridge openings", {
+  png_filename_bridge_openings <- tempfile(fileext = ".png")
+  expect_silent(
+    create_map(
+      show_bridge_openings = fake,
+      png_filename = png_filename_bridge_openings
+    )
+  )
+  expect_true(file.exists(png_filename_bridge_openings))
+})
 
 test_that("show a certain rectangle of the map", {
   skip("Issue 94. Issue #94")
