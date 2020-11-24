@@ -11,10 +11,9 @@ create_map(png_filename, show_bridge_openings = "yes")
 
 \item{show_bridge_openings}{character string indicating whether or not
 bridge openings are plotted on top of the basemap. The default,
-\code{"yes"} adds the real time bridge openings to the map. \code{"fake"} adds one
-fake bridge opening in the center of Groningen. \code{"no"} does not add any
-bridge openings to the map.
-Groningen.}
+\code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
+adds one fake bridge opening in the center of Groningen. \code{"no"}
+does not add any bridge openings to the map.}
 }
 \description{
 Fetch a map of Groningen from OpenStreetMap

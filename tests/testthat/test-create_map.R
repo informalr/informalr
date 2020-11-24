@@ -1,4 +1,4 @@
-test_that("show basemap", {
+test_that("show fake bridge openings", {
   png_filename_basemap <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
@@ -7,19 +7,17 @@ test_that("show basemap", {
     )
   )
   expect_true(file.exists(png_filename_basemap))
-})
 
-test_that("show fake bridge openings", {
-  png_filename_fake_bridge_openings <- tempfile(fileext = ".png")
+  png_filename_fake <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
       show_bridge_openings = "fake",
-      png_filename = png_filename_fake_bridge_openings
+      png_filename = png_filename_fake
     )
   )
-  expect_true(file.exists(png_filename_fake_bridge_openings))
+  expect_true(file.exists(png_filename_fake))
   expect_true(file.size(png_filename_basemap) !=
-                file.size(png_filename_fake_bridge_openings))
+                file.size(png_filename_fake))
 })
 
 test_that("show bridge openings", {
@@ -115,30 +113,30 @@ test_that("check show_bridge_openings argument", {
     create_map(
       show_bridge_openings = 42
     ),
-    "'show_bridge_openings' must be TRUE or FALSE"
+    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
   )
   expect_error(
     create_map(
       show_bridge_openings = c(TRUE, FALSE)
     ),
-    "'show_bridge_openings' must be TRUE or FALSE"
+    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
   )
   expect_error(
     create_map(
       show_bridge_openings = NULL
     ),
-    "'show_bridge_openings' must be TRUE or FALSE"
+    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
   )
   expect_error(
     create_map(
       show_bridge_openings = c()
     ),
-    "'show_bridge_openings' must be TRUE or FALSE"
+    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
   )
   expect_error(
     create_map(
       show_bridge_openings = NA
     ),
-    "'show_bridge_openings' must be TRUE or FALSE"
+    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
   )
 })
