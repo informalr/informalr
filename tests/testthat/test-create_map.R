@@ -2,7 +2,7 @@ test_that("show basemap", {
   png_filename_basemap <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
-      show_bridge_openings = FALSE,
+      show_bridge_openings = "no",
       png_filename = png_filename_basemap
     )
   )
@@ -13,7 +13,7 @@ test_that("show fake bridge openings", {
   png_filename_fake_bridge_openings <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
-      show_bridge_openings = fake,
+      show_bridge_openings = "fake",
       png_filename = png_filename_fake_bridge_openings
     )
   )
@@ -26,7 +26,7 @@ test_that("show bridge openings", {
   png_filename_bridge_openings <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
-      show_bridge_openings = fake,
+      show_bridge_openings = "yes",
       png_filename = png_filename_bridge_openings
     )
   )
