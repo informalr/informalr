@@ -9,10 +9,21 @@
 #' \code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
 #' adds one fake bridge opening in the center of Groningen. \code{"no"}
 #' does not add any bridge openings to the map.
+#' @param right_lon right longetitude
+#' @param left_lon left longetitude
+#' @param top_lat top lattitude
+#' @param bottom_lat bottom lattitude
+#' on top of the base map
 #' @export
-create_map <- function(png_filename, show_bridge_openings = "yes") {
+create_map <- function(
+  png_filename, 
+  show_bridge_openings = "yes",
+  right_lon = 1.0,
+  left_lon = 2.0,
+  top_lat = 3.0,
+  bottom_lat = 4.0
+) {
   check_show_bridge_openings(show_bridge_openings)
-
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
