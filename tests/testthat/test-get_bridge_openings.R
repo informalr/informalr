@@ -20,9 +20,12 @@ if (nrow(bridges) > 0) {
     expect_true(all(is.numeric(bridges$lon)))
   })
 
-  test_that("no duplicate data", {
-    skip("Issue #83")
-    expect_true(length(bridges$lat), n_situation)
-    expect_true(length(bridges$lon), n_situation)
-  })
 }
+
+test_that("no duplicate data", {
+  skip("Issue #83")
+  bridges <- get_bridge_openings(fake_data = FALSE)
+  n <- length(bridges$lat)
+  n_unique <- length(unique(bridges$lat))
+  expect_equal(n, n_unique)
+})
