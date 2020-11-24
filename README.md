@@ -151,11 +151,13 @@ To be precise, you will learn, in this order:
  * R package basic: write simple functions, write vignettes
  * Projects
 
-
-
 ### What should my minimal level be?
 
 There is none.
+
+### Why does it take so long for a build to start
+
+[Because Travis CI is migrating from .org to .com](https://travis-ci.community/t/build-delays-for-open-source-project/10272/23)
 
 ### I am new, what should I do?
 
