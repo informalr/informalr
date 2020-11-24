@@ -19,4 +19,10 @@ if (nrow(bridges) > 0) {
     expect_true(all(is.numeric(bridges$lat)))
     expect_true(all(is.numeric(bridges$lon)))
   })
+
+  test_that("no duplicate data", {
+    skip("Issue #83")
+    expect_true(length(bridges$lat), n_situation)
+    expect_true(length(bridges$lon), n_situation)
+  })
 }
