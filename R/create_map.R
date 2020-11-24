@@ -16,7 +16,7 @@
 #' on top of the base map
 #' @export
 create_map <- function(
-  png_filename, 
+  png_filename,
   show_bridge_openings = "yes",
   right_lon = 1.0,
   left_lon = 2.0,
