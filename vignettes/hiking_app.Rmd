@@ -29,6 +29,7 @@ knitr::include_graphics(png_filename)
 
 
 ```{r}
+
 png_filename <- tempfile(fileext = ".png")
 create_map(
   png_filename = png_filename,

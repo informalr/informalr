@@ -4,11 +4,13 @@
 \alias{create_map_viewer}
 \title{Create map viewer}
 \usage{
-create_map_viewer(show_bridge_openings = TRUE)
+create_map_viewer(show_bridge_openings = TRUE, fake_data = FALSE)
 }
 \arguments{
 \item{show_bridge_openings}{Add layer with bridge openings
 on top of the base map}
+
+\item{fake_data}{Indicates whether to use test data}
 }
 \description{
 Create an interactive map viewer.

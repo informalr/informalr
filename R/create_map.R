@@ -1,13 +1,15 @@
 #' Create map
 #'
-#' Fetch a map of The Netherlands from OpenStreetMap
+#' Fetch a map of Groningen from OpenStreetMap
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
 #' @param show_bridge_openings Add layer with bridge openings
 #' on top of the base map
+#' @param fake_data Indicates whether to use test data
 #' @export
-create_map <- function(png_filename, show_bridge_openings = TRUE) {
+create_map <- function(png_filename, show_bridge_openings = TRUE,
+                       fake_data = FALSE) {
   if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
       is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
     stop("'show_bridge_openings' must be TRUE or FALSE")
@@ -19,7 +21,7 @@ create_map <- function(png_filename, show_bridge_openings = TRUE) {
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings) {
-    data <- informalr::get_bridge_openings()
+    data <- informalr::get_bridge_openings(fake_data = fake_data)
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data <- data[data$lat >= bbox["y", "min"] &
