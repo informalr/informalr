@@ -4,12 +4,31 @@
 \alias{create_map}
 \title{Create map}
 \usage{
+<<<<<<< HEAD
+create_map(
+  png_filename,
+  show_bridge_openings = TRUE,
+  right_lon = 1,
+  left_lon = 2,
+  top_lat = 3,
+  bottom_lat = 4
+)
+=======
 create_map(png_filename, show_bridge_openings = TRUE, fake_data = FALSE)
+>>>>>>> develop
 }
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
 
-\item{show_bridge_openings}{Add layer with bridge openings
+\item{show_bridge_openings}{Add layer with bridge openings}
+
+\item{right_lon}{right longetitude}
+
+\item{left_lon}{left longetitude}
+
+\item{top_lat}{top lattitude}
+
+\item{bottom_lat}{bottom lattitude
 on top of the base map}
 
 \item{fake_data}{Indicates whether to use test data}

@@ -5,11 +5,22 @@
 #'
 #' @param png_filename name of the PNG that the map will be saved to
 #' @param show_bridge_openings Add layer with bridge openings
+#' @param right_lon right longetitude
+#' @param left_lon left longetitude
+#' @param top_lat top lattitude
+#' @param bottom_lat bottom lattitude
 #' on top of the base map
 #' @param fake_data Indicates whether to use test data
 #' @export
-create_map <- function(png_filename, show_bridge_openings = TRUE,
-                       fake_data = FALSE) {
+create_map <- function(
+  png_filename,
+  show_bridge_openings = TRUE,
+  fake_data = FALSE,
+  right_lon = 1.0,
+  left_lon = 2.0,
+  top_lat = 3.0,
+  bottom_lat = 4.0
+) {
   if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
       is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
     stop("'show_bridge_openings' must be TRUE or FALSE")
