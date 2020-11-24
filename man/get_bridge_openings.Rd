@@ -2,10 +2,17 @@
 % Please edit documentation in R/get_bridge_openings.R
 \name{get_bridge_openings}
 \alias{get_bridge_openings}
-\title{Get all the real time bridge openings in the Netherlands}
+\title{Get real time bridge openings}
 \usage{
-get_bridge_openings()
+get_bridge_openings(fake_data = FALSE)
+}
+\arguments{
+\item{fake_data}{Indicates whether to return test data.
+(GPS location of the Martini tower.)}
 }
 \description{
-Get all the real time bridge openings in the Netherlands
+Get real time bridge openings
+}
+\examples{
+# Put example code here
 }

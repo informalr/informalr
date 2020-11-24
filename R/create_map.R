@@ -1,6 +1,6 @@
 #' Create map
 #'
-#' Fetch a map of The Netherlands from OpenStreetMap
+#' Fetch a map of Groningen from OpenStreetMap
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
@@ -10,10 +10,12 @@
 #' @param top_lat top lattitude
 #' @param bottom_lat bottom lattitude
 #' on top of the base map
+#' @param fake_data Indicates whether to use test data
 #' @export
 create_map <- function(
   png_filename,
   show_bridge_openings = TRUE,
+  fake_data = FALSE,
   right_lon = 1.0,
   left_lon = 2.0,
   top_lat = 3.0,
@@ -27,7 +29,7 @@ create_map <- function(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings) {
-    data <- informalr::get_bridge_openings()
+    data <- informalr::get_bridge_openings(fake_data = fake_data)
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data <- data[data$lat >= bbox["y", "min"] &
