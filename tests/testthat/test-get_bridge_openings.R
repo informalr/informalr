@@ -25,6 +25,11 @@ if (nrow(bridges) > 0) {
 test_that("no duplicate data", {
   skip("Issue #83")
   bridges <- get_bridge_openings(fake_data = FALSE)
+
+  # The first row should differ from the second ...
+  expect_true(bridges$lat[1] != bridges$lat[2] || bridges$lon[1] != bridges$lon[2])
+  # ... likewise for other rows
+
   n <- length(bridges$lat)
   n_unique <- length(unique(bridges$lat))
   expect_equal(n, n_unique)
