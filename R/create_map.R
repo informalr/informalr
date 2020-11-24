@@ -5,6 +5,7 @@
 #'
 #' @param png_filename name of the PNG that the map will be saved to
 #' @param show_bridge_openings Add layer with bridge openings
+#' @param show_car_traffic_density Add layer of car traffic density
 #' @param right_lon right longetitude
 #' @param left_lon left longetitude
 #' @param top_lat top lattitude
@@ -16,6 +17,7 @@ create_map <- function(
   png_filename,
   show_bridge_openings = TRUE,
   fake_data = FALSE,
+  show_car_traffic_density = "fake",
   right_lon = 1.0,
   left_lon = 2.0,
   top_lat = 3.0,
