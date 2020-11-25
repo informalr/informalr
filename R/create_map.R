@@ -23,7 +23,7 @@ create_map <- function(
   top_lat = 3.0,
   bottom_lat = 4.0
 ) {
-  check_show_bridge_openings(show_bridge_openings)
+  informalr::check_show_bridge_openings(show_bridge_openings)
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))

@@ -9,6 +9,7 @@
 #' does not add any bridge openings to the map.
 #' @export
 create_map_viewer <- function(show_bridge_openings = "yes") {
+  informalr::check_show_bridge_openings(show_bridge_openings)
   map <- leaflet::leaflet()
   map <- leaflet::addTiles(map)
   map <- leaflet::setView(map, lng = 6.8, lat = 53.3, zoom = 9)
