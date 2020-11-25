@@ -38,7 +38,7 @@ Ordered alphabetically on first name:
 
 Name                                         |Role
 ---------------------------------------------|-----------------
-[Alexine](https://github.com/alexinedewit)   |Newbie
+[Alexine](https://github.com/alexinedewit)   |Junior!
 [Bara](https://github.com/barawaclawik)      |Newbie
 [Claudio](https://github.com/janclod)        |Junior, front-end
 [Frans](https://github.com/fransbianchi)     |Junior
@@ -221,8 +221,14 @@ If there are no such Issues, create an Issue for `richelbilderbeek` to add these
 
  * Shiny tutorial: https://github.com/FrieseWoudloper/shiny-workshop
 
-## Videos
+## Progress
 
- * 2020-10-27: [YouTube](https://youtu.be/Pc1e-9WiDuM) [Download](http://richelbilderbeek.nl/informalr_20201027.ogv)
+### 2020-11-24
+
+![](man/figures/20201124.png)
+
+### 2020-10-27
+
+Video: [YouTube](https://youtu.be/Pc1e-9WiDuM) [Download](http://richelbilderbeek.nl/informalr_20201027.ogv)
 
 
