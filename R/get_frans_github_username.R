@@ -4,6 +4,6 @@
 #' get_frans_github_username()
 #' @author Frans
 #' @export
-get_richels_github_username <- function() {
+get_frans_github_username <- function() {
   "fransbianchi"
 }
