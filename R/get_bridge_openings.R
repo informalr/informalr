@@ -12,7 +12,7 @@ get_bridge_openings <- function(fake_data = FALSE) {
     return(d)
   } else {
     url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
-    destdir <- rappdirs::user_cache_dir(appname = "informalr")
+    destdir <- tempdir()
     destfile <- file.path(destdir, "measurement_current.xml.gz")
     utils::download.file(url, destfile)
     tempfile <- tempfile()
