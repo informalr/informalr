@@ -10,7 +10,6 @@ Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)  
 `frans`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=frans)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=frans)](https://codecov.io/github/informalr/informalr/branch/frans)
 `geert`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=geert)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=geert)](https://codecov.io/github/informalr/informalr/branch/geert)
 `jan`    |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=jan)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=jan)](https://codecov.io/github/informalr/informalr/branch/jan)
-`lizzie` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=lizzie)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=lizzie)](https://codecov.io/github/informalr/informalr/branch/lizzie)
 `richel` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=richel)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=richel)](https://codecov.io/github/informalr/informalr/branch/richel)
 `stefano`|[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=stefano)](https://travis-ci.org/informalr/informalr)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=stefano)](https://codecov.io/github/informalr/informalr/branch/stefano)
 `willy`  |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=willy)](https://travis-ci.org/informalr/informalr)  |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=willy)](https://codecov.io/github/informalr/informalr/branch/willy)
@@ -44,7 +43,6 @@ Name                                         |Role
 [Frans](https://github.com/fransbianchi)     |Junior
 [Geert](https://github.com/bogeert)          |Junior, back-end
 [Jan](https://github.com/janderkkotlarski)   |Newbie
-[Lizzie](https://github.com/Lizzie-Roeble)   |Newbie
 [Pamela](https://github.com/Pamgd29)         |Newbie
 [Richel](https://github.com/richelbilderbeek)|Team leader
 [Stefano](https://github.com/swom)           |Newbie 
