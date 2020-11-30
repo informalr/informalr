@@ -19,7 +19,6 @@ Imports:
     R.utils,
     utils,
     xml2,
-    rappdirs,
     shiny,
     leaflet
 Language: en-US
