@@ -31,9 +31,6 @@ test_that("no duplicate data", {
 
   # How to simplify this?
   # for(i in 1:length(bridges$lat)) {
-  #   print(i)
-  #   print(bridges$lat[i])
-  #   print(bridges$lat[i + 1])
     bool <- bridges$lat[1] != bridges$lat[2] || bridges$lon[1] != bridges$lon[2]
     expect_true(bool)
   # }
