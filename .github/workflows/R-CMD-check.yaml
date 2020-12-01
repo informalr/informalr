@@ -5,10 +5,21 @@ on:
     branches:
       - main
       - master
+      - develop
+      - alexine
+      - bara
+      - claudio
+      - frans
+      - geert
+      - jan
+      - richel
+      - stefano
+      - willy
   pull_request:
     branches:
       - main
       - master
+      - develop
 
 name: R-CMD-check
 
