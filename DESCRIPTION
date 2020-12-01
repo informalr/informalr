@@ -24,7 +24,8 @@ Imports:
     leaflet
 Language: en-US
 Encoding: UTF-8
-Suggests: 
+Suggests:
+    ggmap, 
     knitr,
     lintr,
     rmarkdown,
