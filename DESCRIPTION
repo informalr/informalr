@@ -15,20 +15,20 @@ VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/informalr/
 BugReports: https://github.com/richelbilderbeek/informalr/issues
 Imports:
-    ggmap,
-    ggplot2,
-    ggthemes,
-    osmdata,
+    leaflet,
     R.utils,
     utils,
     xml2,
-    rappdirs,
-    shiny
+    shiny,
+    osmdata,
+    leaflet
 Language: en-US
 Encoding: UTF-8
-Suggests: 
+Suggests:
+    ggmap, 
     knitr,
     lintr,
     rmarkdown,
     testthat (>= 2.1.0),
-    tibble
+    tibble,
+    shinytest
