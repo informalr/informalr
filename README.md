@@ -1,5 +1,9 @@
 # informalr
 
+<!-- badges: start -->
+  [![R build status](https://github.com/informalr/informalr/workflows/R-CMD-check/badge.svg)](https://github.com/informalr/informalr/actions)
+<!-- badges: end -->
+
 Branch   |[![Travis CI logo](man/figures/TravisCI.png)](https://travis-ci.org)                                                      |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
 ---------|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |[![Build Status](https://travis-ci.org/informalr/informalr.svg?branch=master)](https://travis-ci.org/informalr/informalr) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
