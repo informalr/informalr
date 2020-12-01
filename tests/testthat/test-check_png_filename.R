@@ -1,5 +1,3 @@
-
-
 test_that("check png_filename argument", {
   expect_error(
     create_map(
