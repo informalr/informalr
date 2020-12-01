@@ -4,21 +4,33 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
-#' @param show_bridge_openings Add layer with bridge openings
+#' @param show_bridge_openings character string indicating whether or not
+#' bridge openings are plotted on top of the basemap. The default,
+#' \code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
+#' adds one fake bridge opening in the center of Groningen. \code{"no"}
+#' does not add any bridge openings to the map.
+#' @param right_lon right longetitude
+#' @param left_lon left longetitude
+#' @param top_lat top lattitude
+#' @param bottom_lat bottom lattitude
 #' on top of the base map
-#' @param fake_data Indicates whether to use test data
 #' @export
-create_map <- function(png_filename, show_bridge_openings = TRUE,
-                       fake_data = FALSE) {
-  if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
-      is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
-    stop("'show_bridge_openings' must be TRUE or FALSE")
+create_map <- function(
+  png_filename,
+  show_bridge_openings = "yes",
+  right_lon = 1.0,
+  left_lon = 2.0,
+  top_lat = 3.0,
+  bottom_lat = 4.0
+) {
+  informalr::check_show_bridge_openings(show_bridge_openings)
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
-  if (show_bridge_openings) {
-    data <- informalr::get_bridge_openings(fake_data = fake_data)
+  if (show_bridge_openings %in% c("yes", "fake")) {
+    data <- informalr::get_bridge_openings(
+      fake_data = (show_bridge_openings == "fake"))
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data <- data[data$lat >= bbox["y", "min"] &
