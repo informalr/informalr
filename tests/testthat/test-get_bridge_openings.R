@@ -21,11 +21,20 @@ if (nrow(bridges) > 0) {
 
 }
 
+test_that("no NA data", {
+  skip("Issue #141")
+  # Need to write code here to expose issue
+})
+
 test_that("no duplicate data", {
   bridges <- get_bridge_openings(fake_data = FALSE)
 
-  # The first row should differ from the second ...
-  bool <- bridges$lat[1] != bridges$lat[2] || bridges$lon[1] != bridges$lon[2]
-  expect_true(bool)
-  # ... likewise for other rows
+  # How to simplify this?
+  # for(i in 1:length(bridges$lat)) {
+  #   print(i)
+  #   print(bridges$lat[i])
+  #   print(bridges$lat[i + 1])
+    bool <- bridges$lat[1] != bridges$lat[2] || bridges$lon[1] != bridges$lon[2]
+    expect_true(bool)
+  # }
 })
