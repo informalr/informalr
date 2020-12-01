@@ -21,11 +21,13 @@ Imports:
     xml2,
     shiny,
     osmdata,
-    leaflet
+    leaflet,
+    ggmap, 
+    ggplot2,
+    rlang
 Language: en-US
 Encoding: UTF-8
 Suggests:
-    ggmap, 
     knitr,
     lintr,
     rmarkdown,
