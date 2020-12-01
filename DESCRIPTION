@@ -20,10 +20,12 @@ Imports:
     utils,
     xml2,
     shiny,
+    osmdata,
     leaflet
 Language: en-US
 Encoding: UTF-8
-Suggests: 
+Suggests:
+    ggmap, 
     knitr,
     lintr,
     rmarkdown,
