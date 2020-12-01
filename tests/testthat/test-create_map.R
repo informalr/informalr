@@ -32,6 +32,7 @@ test_that("show bridge openings", {
 })
 
 test_that("show a certain rectangle of the map", {
+  skip("Issue 97. Issue #94")
   png_filename <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
