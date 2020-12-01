@@ -74,36 +74,3 @@ test_that("show accidents", {
     )
   )
 })
-
-test_that("check show_bridge_openings argument", {
-  expect_error(
-    create_map(
-      show_bridge_openings = 42
-    ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
-  )
-  expect_error(
-    create_map(
-      show_bridge_openings = c(TRUE, FALSE)
-    ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
-  )
-  expect_error(
-    create_map(
-      show_bridge_openings = NULL
-    ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
-  )
-  expect_error(
-    create_map(
-      show_bridge_openings = c()
-    ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
-  )
-  expect_error(
-    create_map(
-      show_bridge_openings = NA
-    ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
-  )
-})

@@ -15,15 +15,6 @@
 #' @param bottom_lat bottom lattitude
 #' on top of the base map
 #' @export
-create_map <- function(png_filename, show_bridge_openings = TRUE,
-                       fake_data = FALSE) {
-  if (length(show_bridge_openings) != 1 || is.na(show_bridge_openings) ||
-      is.null(show_bridge_openings) || !is.logical(show_bridge_openings))
-    stop("'show_bridge_openings' must be TRUE or FALSE")
-
-  informalr::check_png_filename(png_filename)
-
-=======
 create_map <- function(
   png_filename,
   show_bridge_openings = "yes",
@@ -32,6 +23,7 @@ create_map <- function(
   top_lat = 3.0,
   bottom_lat = 4.0
 ) {
+  informalr::check_png_filename(png_filename)
   informalr::check_show_bridge_openings(show_bridge_openings)
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(

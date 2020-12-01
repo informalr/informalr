@@ -3,11 +3,8 @@
 export(add_four_numbers)
 export(add_two_numbers)
 export(app)
-<<<<<<< HEAD
 export(check_png_filename)
-=======
 export(check_show_bridge_openings)
->>>>>>> develop
 export(create_map)
 export(create_map_viewer)
 export(divide_three_numbers)
