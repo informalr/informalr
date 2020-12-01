@@ -22,25 +22,20 @@ jobs:
       - name: Check
         run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
-#
-#     PhantomJS (cannot ruthlessly add)
-# 
-#      - name: Find PhantomJS path
-#        id: phantomjs
-#        run: |
-#          echo "::set-output name=path::$(Rscript -e 'cat(shinytest:::phantom_paths()[[1]])')"
-#      - name: Cache PhantomJS
-#        uses: actions/cache@v1
-#        with:
-#          path: ${{ steps.phantomjs.outputs.path }}
-#          key: ${{ runner.os }}-phantomjs
-#          restore-keys: ${{ runner.os }}-phantomjs
-#      - name: Install PhantomJS
-#        run: >
-#          Rscript
-#          -e "if (!shinytest::dependenciesInstalled()) shinytest::installDependencies()"
-#
-#
+      - name: Find PhantomJS path
+        id: phantomjs
+        run: |
+          echo "::set-output name=path::$(Rscript -e 'cat(shinytest:::phantom_paths()[[1]])')"
+      - name: Cache PhantomJS
+        uses: actions/cache@v1
+        with:
+          path: ${{ steps.phantomjs.outputs.path }}
+          key: ${{ runner.os }}-phantomjs
+          restore-keys: ${{ runner.os }}-phantomjs
+      - name: Install PhantomJS
+        run: >
+          Rscript
+          -e "if (!shinytest::dependenciesInstalled()) shinytest::installDependencies()"
   # Also test coverage
   test-coverage:
     runs-on: macOS-latest
