@@ -3,13 +3,18 @@
 export(add_four_numbers)
 export(add_two_numbers)
 export(app)
+<<<<<<< HEAD
 export(check_png_filename)
+=======
+export(check_show_bridge_openings)
+>>>>>>> develop
 export(create_map)
 export(create_map_viewer)
 export(divide_three_numbers)
 export(get_alexines_github_username)
 export(get_bridge_openings)
 export(get_claudios_github_username)
+export(get_frans_github_username)
 export(get_geerts_github_username)
 export(get_jans_github_username)
 export(get_lizzie_github_username)

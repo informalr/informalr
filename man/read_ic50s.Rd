@@ -4,15 +4,18 @@
 \alias{read_ic50s}
 \title{Read demo data}
 \usage{
-read_ic50s()
+read_ic50s(filename = "2016-third-quarter-stolen-guns.csv")
+}
+\arguments{
+\item{filename}{The name of the file in
+\code{inst/extdata} with the demo data}
 }
 \value{
-A dataframe with the contents of the
-\code{2016-third-quarter-stolen-guns.csv} file.
+A dataframe with the demo data.
 }
 \description{
-Read the \code{2016-third-quarter-stolen-guns.csv} file
-in \code{inst/extdata}.
+Read the file in \code{inst/extdata}
+with the demo data.
 }
 \examples{
 data <- read_ic50s()
