@@ -19,9 +19,6 @@ jobs:
           install.packages(c("remotes", "rcmdcheck"))
           remotes::install_deps(dependencies = TRUE)
         shell: Rscript {0}
-      - name: Check
-        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
-        shell: Rscript {0}
       - name: Find PhantomJS path
         id: phantomjs
         run: |
@@ -36,6 +33,9 @@ jobs:
         run: >
           Rscript
           -e "if (!shinytest::dependenciesInstalled()) shinytest::installDependencies()"
+      - name: Check
+        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
+        shell: Rscript {0}
   # Also test coverage
   test-coverage:
     runs-on: macOS-latest
