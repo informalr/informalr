@@ -21,7 +21,6 @@ Imports:
     xml2,
     shiny,
     osmdata,
-    ggmap, 
     ggplot2,
     rlang
 Language: en-US
@@ -32,4 +31,5 @@ Suggests:
     rmarkdown,
     testthat (>= 2.1.0),
     tibble,
-    shinytest
+    shinytest,
+    ggmap
