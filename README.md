@@ -37,7 +37,7 @@ Ordered alphabetically on first name:
 
 Name                                         |Role
 ---------------------------------------------|-----------------
-[Alexine](https://github.com/alexinedewit)   |Junior!
+[Alexine](https://github.com/alexinedewit)   |Junior
 [Bara](https://github.com/barawaclawik)      |Newbie
 [Claudio](https://github.com/janclod)        |Junior, front-end
 [Frans](https://github.com/fransbianchi)     |Junior
@@ -47,7 +47,7 @@ Name                                         |Role
 [Pamela](https://github.com/Pamgd29)         |Newbie
 [Richel](https://github.com/richelbilderbeek)|Team leader
 [Stefano](https://github.com/swom)           |Newbie 
-[Willy](https://github.com/FrieseWoudloper)  |Junior, back-end
+[Willy](https://github.com/FrieseWoudloper)  |Medior
 
 ## Meetings
 
