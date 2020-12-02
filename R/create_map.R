@@ -36,10 +36,12 @@ create_map <- function(
                  data$lat <= bbox["y", "max"] &
                  data$lon >= bbox["x", "min"] &
                  data$lon <= bbox["x", "max"], ]
+    lon <- NULL; rm(lon) # nolint, fixes warning: no visible binding for global variable
+    lat <- NULL; rm(lat) # nolint, fixes warning: no visible binding for global variable
     p <- p  +
       ggplot2::geom_point(data = data,
-                          ggplot2::aes(x = rlang::.data[["lon"]],
-                                       y = rlang::.data[["lat"]]),
+                          ggplot2::aes(x = lon,
+                                       y = lat),
                           colour = I("red"), size = I(3))
     }
   suppressMessages(ggplot2::ggsave(filename = png_filename, plot = p))
