@@ -38,7 +38,8 @@ create_map <- function(
                  data$lon <= bbox["x", "max"], ]
     p <- p  +
       ggplot2::geom_point(data = data,
-                          ggplot2::aes(x = rlang::.data[["lon"]], y = rlang::.data[["lat"]]),
+                          ggplot2::aes(x = rlang::.data[["lon"]],
+                                       y = rlang::.data[["lat"]]),
                           colour = I("red"), size = I(3))
     }
   suppressMessages(ggplot2::ggsave(filename = png_filename, plot = p))
