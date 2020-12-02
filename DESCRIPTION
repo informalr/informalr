@@ -21,7 +21,6 @@ Imports:
     xml2,
     shiny,
     osmdata,
-    leaflet,
     ggmap, 
     ggplot2,
     rlang
