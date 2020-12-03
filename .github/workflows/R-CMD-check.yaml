@@ -43,6 +43,7 @@ jobs:
         shell: Rscript {0}
   # Also test coverage
   test-coverage:
+    needs: R-CMD-check
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
