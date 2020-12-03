@@ -19,4 +19,15 @@ if (nrow(bridges) > 0) {
     expect_true(all(is.numeric(bridges$lat)))
     expect_true(all(is.numeric(bridges$lon)))
   })
+
 }
+
+test_that("no duplicate data", {
+  skip("Issue #83")
+  bridges <- get_bridge_openings(fake_data = FALSE)
+
+  # The first row should differ from the second ...
+  bool <- bridges$lat[1] != bridges$lat[2] || bridges$lon[1] != bridges$lon[2]
+  expect_true(bool)
+  # ... likewise for other rows
+})
