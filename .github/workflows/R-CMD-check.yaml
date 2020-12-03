@@ -44,16 +44,9 @@ jobs:
         run: |
           options(install.packages.check.source = "no")
           if (!shinytest::dependenciesInstalled()) shinytest::installDependencies()
-      - name: Run tests
+      - name: Check
+        run: rcmdcheck::rcmdcheck(args = "--no-manual", error_on = "error")
         shell: Rscript {0}
-        run: |
-          shiny::runTests(".", assert = TRUE)
-      - name: Upload test results
-        if: failure()
-        uses: actions/upload-artifact@master
-        with:
-          name: ${{ runner.os }}-r${{ matrix.config.r }}-tests
-          path: tests
   # Also test coverage
   test-coverage:
     runs-on: macOS-latest
