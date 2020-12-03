@@ -1,2 +1,2 @@
 library(shinytest)
-shinytest::testApp("../")
+shinytest::testApp("../", compareImages = grepl("^Ubuntu", utils::osVersion))
