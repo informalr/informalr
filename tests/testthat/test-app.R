@@ -1,8 +1,6 @@
 library(shinytest)
 # This file is for testing the applications in the apps/ directory.
 
-library(shinytest)
-
 test_that("app() works", {
   # Don't run these tests on the CRAN build servers
   skip_on_cran()
