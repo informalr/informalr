@@ -1,5 +1,3 @@
-library(shiny)
-
 #' Shiny App
 #' @note
 #' This is a Shiny web application.

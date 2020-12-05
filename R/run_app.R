@@ -2,8 +2,8 @@
 #'
 #' @export
 run_app <- function() {
-  shinyApp(
-    ui = fluidPage(
+  shiny::shinyApp(
+    ui = shiny::fluidPage(
       leaflet::leafletOutput(outputId = "map", height = 400)
     ),
     server = function(input, output, session) {
