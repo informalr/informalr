@@ -1,7 +1,5 @@
-context("app")
-# This file is for testing the applications in the apps/ directory.
-
 library(shinytest)
+# This file is for testing the applications in the apps/ directory.
 
 test_that("app() works", {
   # Don't run these tests on the CRAN build servers
@@ -10,5 +8,6 @@ test_that("app() works", {
   # Use compareImages=FALSE because the expected image screenshots were created
   # on a Mac, and they will differ from screenshots taken on the CI platform,
   # which runs on Linux.
-  expect_pass(testApp("apps/app/", compareImages = FALSE))
+  app <- "apps/app/"
+  expect_pass(testApp(app, suffix = strsplit(utils::osVersion, " ")[[1]][1]))
 })
