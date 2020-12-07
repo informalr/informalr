@@ -4,7 +4,7 @@
 \alias{check_show_bridge_openings}
 \title{Check the value of `show_bridge_openings`}
 \usage{
-check_show_bridge_openings(show_bridge_openings)
+check_show_bridge_openings(a)
 }
 \arguments{
 \item{show_bridge_openings}{character string indicating whether or not

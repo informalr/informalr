@@ -103,7 +103,7 @@ test_that("check show_bridge_openings argument", {
   )
   expect_error(
     create_map(
-      show_bridge_openings = c(TRUE, FALSE)
+      show_bridge_openings = c("yes", "no")
     ),
     "'show_bridge_openings' must be TRUE or FALSE"
   )

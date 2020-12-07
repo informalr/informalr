@@ -1,6 +1,6 @@
 #' Get fake bridge openings
 #'
-#' @return
+#' @return dataframe with fake bridge opening
 get_fake_bridge_openings <- function() {
-  data.frame(lat = 53.219167, lon = 6.568056)
+  return(data.frame(lat = 53.219167, lon = 6.568056))
 }

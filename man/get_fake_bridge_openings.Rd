@@ -7,7 +7,7 @@
 get_fake_bridge_openings()
 }
 \value{
-
+dataframe with fake bridge opening
 }
 \description{
 Get fake bridge openings
