@@ -13,6 +13,7 @@
 #' @param left_lon left longitude
 #' @param top_lat top latitude
 #' @param bottom_lat bottom latitude
+#' @importFrom rlang .data
 #' @export
 create_map <- function(
   png_filename,
