@@ -4,14 +4,11 @@
 \alias{create_map_viewer}
 \title{Create map viewer}
 \usage{
-create_map_viewer(show_bridge_openings = "yes")
+create_map_viewer(show_bridge_openings = TRUE)
 }
 \arguments{
-\item{show_bridge_openings}{character string indicating whether or not
-bridge openings are plotted on top of the basemap. The default,
-\code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
-adds one fake bridge opening in the center of Groningen. \code{"no"}
-does not add any bridge openings to the map.}
+\item{show_bridge_openings}{boolean indicating whether or not to
+show bridge openings on top of base map}
 }
 \description{
 Create an interactive map viewer.

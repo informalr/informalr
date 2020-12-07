@@ -1,8 +1,13 @@
 test_that("use", {
-  expect_true(nrow(get_bridge_openings(fake_data = TRUE)) > 0)
+  mockery::stub(
+    create_map,
+    "informalr::get_bridge_openings",
+    get_fake_bridge_openings
+  )
+  expect_true(nrow(get_bridge_openings()) > 0)
 })
 
-bridges <- get_bridge_openings(fake_data = FALSE)
+bridges <- get_bridge_openings()
 if (nrow(bridges) > 0) {
   test_that("longitude", {
     expect_true(as.double(bridges$lon)[1] <= 180)
@@ -27,7 +32,7 @@ test_that("no NA data", {
 })
 
 test_that("no duplicate data", {
-  bridges <- get_bridge_openings(fake_data = FALSE)
+  bridges <- get_bridge_openings()
 
   # How to simplify this?
   # for(i in 1:length(bridges$lat)) {

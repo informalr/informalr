@@ -4,11 +4,7 @@
 \alias{get_bridge_openings}
 \title{Get real time bridge openings}
 \usage{
-get_bridge_openings(fake_data = FALSE)
-}
-\arguments{
-\item{fake_data}{Indicates whether to return test data.
-(GPS location of the Martini tower.)}
+get_bridge_openings()
 }
 \description{
 Get real time bridge openings

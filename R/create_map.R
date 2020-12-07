@@ -4,11 +4,8 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
-#' @param show_bridge_openings character string indicating whether or not
-#' bridge openings are plotted on top of the basemap. The default,
-#' \code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
-#' adds one fake bridge opening in the center of Groningen. \code{"no"}
-#' does not add any bridge openings to the map.
+#' @param show_bridge_openings boolean indicating whether or not to
+#' show bridge openings on top of base map
 #' @param right_lon right longitude
 #' @param left_lon left longitude
 #' @param top_lat top latitude
@@ -16,7 +13,7 @@
 #' @export
 create_map <- function(
   png_filename,
-  show_bridge_openings = "yes",
+  show_bridge_openings = TRUE,
   right_lon = 1.0,
   left_lon = 2.0,
   top_lat = 3.0,
@@ -25,11 +22,11 @@ create_map <- function(
   informalr::check_show_bridge_openings(show_bridge_openings)
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- suppressMessages(
-    ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
+        ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE)
+    )
   p <- ggmap::ggmap(groningen)
-  if (show_bridge_openings %in% c("yes", "fake")) {
-    data <- informalr::get_bridge_openings(
-      fake_data = (show_bridge_openings == "fake"))
+  if (show_bridge_openings) {
+    data <- informalr::get_bridge_openings()
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data <- data[data$lat >= bbox["y", "min"] &
@@ -41,5 +38,7 @@ create_map <- function(
                           ggplot2::aes(x = .data$lon, y = .data$lat),
                           colour = I("red"), size = I(3))
     }
-  suppressMessages(ggplot2::ggsave(filename = png_filename, plot = p))
+  suppressMessages(
+        ggplot2::ggsave(filename = png_filename, plot = p)
+    )
 }

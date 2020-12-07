@@ -21,19 +21,7 @@ library(informalr)
 ```{r}
 png_filename <- tempfile(fileext = ".png")
 create_map(
-  png_filename = png_filename,
-  show_bridge_openings = "no"
-)
-knitr::include_graphics(png_filename)
-```
-
-
-```{r}
-
-png_filename <- tempfile(fileext = ".png")
-create_map(
-  png_filename = png_filename,
-  show_bridge_openings = "yes"
+  png_filename = png_filename
 )
 knitr::include_graphics(png_filename)
 ```

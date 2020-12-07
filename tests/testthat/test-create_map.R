@@ -1,34 +1,18 @@
-test_that("show fake bridge openings", {
-  png_filename_basemap <- tempfile(fileext = ".png")
-  expect_silent(
-    create_map(
-      show_bridge_openings = "no",
-      png_filename = png_filename_basemap
-    )
-  )
-  expect_true(file.exists(png_filename_basemap))
+test_that("Show bridge openings on top of base map", {
+  f_base_map <- tempfile(fileext = ".png")
+  expect_silent(create_map(f_base_map, show_bridge_openings = FALSE))
+  expect_true(file.exists(f_base_map))
 
-  png_filename_fake <- tempfile(fileext = ".png")
-  expect_silent(
-    create_map(
-      show_bridge_openings = "fake",
-      png_filename = png_filename_fake
-    )
+  mockery::stub(
+    create_map,
+    "informalr::get_bridge_openings",
+    get_fake_bridge_openings
   )
-  expect_true(file.exists(png_filename_fake))
-  expect_true(file.size(png_filename_basemap) !=
-                file.size(png_filename_fake))
-})
+  f_openings <- tempfile(fileext = ".png")
+  expect_silent(create_map(f_openings))
+  expect_true(file.exists(f_openings))
 
-test_that("show bridge openings", {
-  png_filename_bridge_openings <- tempfile(fileext = ".png")
-  expect_silent(
-    create_map(
-      show_bridge_openings = "yes",
-      png_filename = png_filename_bridge_openings
-    )
-  )
-  expect_true(file.exists(png_filename_bridge_openings))
+  expect_true(file.size(f_base_map) != file.size(f_openings))
 })
 
 test_that("show a certain rectangle of the map", {
@@ -37,7 +21,7 @@ test_that("show a certain rectangle of the map", {
   expect_silent(
     create_map(
       png_filename = png_filename,
-      show_bridge_openings = "yes",
+      show_bridge_openings = TRUE,
       left_lon = 6.50, # The left longiture
       right_lon = 7.0, # The right-hand-side longiture
       top_lat = 53.3, # The upper latitude
@@ -115,30 +99,30 @@ test_that("check show_bridge_openings argument", {
     create_map(
       show_bridge_openings = 42
     ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
+    "'show_bridge_openings' must be TRUE or FALSE"
   )
   expect_error(
     create_map(
       show_bridge_openings = c(TRUE, FALSE)
     ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
+    "'show_bridge_openings' must be TRUE or FALSE"
   )
   expect_error(
     create_map(
       show_bridge_openings = NULL
     ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
+    "'show_bridge_openings' must be TRUE or FALSE"
   )
   expect_error(
     create_map(
       show_bridge_openings = c()
     ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
+    "'show_bridge_openings' must be TRUE or FALSE"
   )
   expect_error(
     create_map(
       show_bridge_openings = NA
     ),
-    "'show_bridge_openings' must be 'yes', 'no' or 'fake'"
+    "'show_bridge_openings' must be TRUE or FALSE"
   )
 })

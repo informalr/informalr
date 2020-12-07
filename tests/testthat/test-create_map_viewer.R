@@ -1,5 +1,10 @@
 test_that("use", {
-  map <- create_map_viewer(show_bridge_openings = "fake")
+  mockery::stub(
+    create_map_viewer,
+    "informalr::get_bridge_openings",
+    get_fake_bridge_openings
+  )
+  map <- create_map_viewer()
   expect_true(class(map)[1] == "leaflet")
   expect_true(is.object(map))
 })
