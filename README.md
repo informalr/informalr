@@ -44,7 +44,6 @@ Name                                         |Role
 [Geert](https://github.com/bogeert)          |Junior, back-end
 [Jan](https://github.com/janderkkotlarski)   |Newbie
 [Lizzie](https://github.com/Lizzie-Roeble)   |Newbie
-[Pamela](https://github.com/Pamgd29)         |Newbie
 [Richel](https://github.com/richelbilderbeek)|Team leader
 [Stefano](https://github.com/swom)           |Newbie 
 [Willy](https://github.com/FrieseWoudloper)  |Medior
@@ -76,7 +75,7 @@ End of lesson            |20:00
 ## Coding via Discord
 
 For those that prefer online, we use Discord to chat.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
 He'll add you to the `informalr` server.
 
 ## Code of Conduct
@@ -90,11 +89,8 @@ contact [Willy](https://github.com/friesewoudloper).
 
 Week|Activity
 ----|----------
- 47 |Code of conduct + code reviews, discover members fit for pair programming
- 48 |Pair programming
- 49 |.
  50 |.
- 51 |.
+ 51 |Last time before holiday
  52 |Christmas holiday
 
 ## FAQ
