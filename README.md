@@ -39,7 +39,7 @@ Name                                         |Role
 ---------------------------------------------|-----------------
 [Alexine](https://github.com/alexinedewit)   |Junior
 [Bara](https://github.com/barawaclawik)      |Newbie
-[Claudio](https://github.com/janclod)        |Junior, front-end
+[Claudio](https://github.com/janclod)        |Medior
 [Frans](https://github.com/fransbianchi)     |Junior
 [Geert](https://github.com/bogeert)          |Junior, back-end
 [Jan](https://github.com/janderkkotlarski)   |Newbie
