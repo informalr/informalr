@@ -27,20 +27,27 @@ bridge openings are plotted on top of the basemap. The default,
 \code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
 adds one fake bridge opening in the center of Groningen. \code{"no"}
 does not add any bridge openings to the map.}
-\item{show_bridge_openings}{Add layer with bridge openings}
 
+<<<<<<< HEAD
 \item{fake_data}{Indicates whether to use test data}
 
 \item{show_car_traffic_density}{Add layer of car traffic density}
 
 \item{right_lon}{right longetitude}
+=======
+\item{right_lon}{right longitude}
+>>>>>>> develop
 
-\item{left_lon}{left longetitude}
+\item{left_lon}{left longitude}
 
-\item{top_lat}{top lattitude}
+\item{top_lat}{top latitude}
 
+<<<<<<< HEAD
 \item{bottom_lat}{bottom lattitude
 on top of the base map}
+=======
+\item{bottom_lat}{bottom latitude}
+>>>>>>> develop
 }
 \description{
 Fetch a map of Groningen from OpenStreetMap

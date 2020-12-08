@@ -19,15 +19,17 @@ Imports:
     R.utils,
     utils,
     xml2,
-    rappdirs,
     shiny,
-    leaflet
+    osmdata,
+    ggplot2,
+    rlang
 Language: en-US
 Encoding: UTF-8
-Suggests: 
+Suggests:
     knitr,
     lintr,
     rmarkdown,
     testthat (>= 2.1.0),
     tibble,
-    shinytest
+    shinytest,
+    ggmap
