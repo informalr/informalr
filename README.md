@@ -57,7 +57,7 @@ Name                                         |Role
 [Frans](https://github.com/fransbianchi)     |Junior
 [Geert](https://github.com/bogeert)          |Junior, back-end
 [Jan](https://github.com/janderkkotlarski)   |Newbie
-[Pamela](https://github.com/Pamgd29)         |Newbie
+[Lizzie](https://github.com/Lizzie-Roeble)   |Newbie
 [Richel](https://github.com/richelbilderbeek)|Team leader
 [Stefano](https://github.com/swom)           |Newbie 
 [Willy](https://github.com/FrieseWoudloper)  |Junior, back-end
