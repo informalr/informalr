@@ -9,11 +9,10 @@
 #' \code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
 #' adds one fake bridge opening in the center of Groningen. \code{"no"}
 #' does not add any bridge openings to the map.
-#' @param right_lon right longetitude
-#' @param left_lon left longetitude
-#' @param top_lat top lattitude
-#' @param bottom_lat bottom lattitude
-#' on top of the base map
+#' @param right_lon right longitude
+#' @param left_lon left longitude
+#' @param top_lat top latitude
+#' @param bottom_lat bottom latitude
 #' @export
 create_map <- function(
   png_filename,
@@ -42,7 +41,8 @@ create_map <- function(
     lat <- NULL; rm(lat) # nolint, fixes warning: no visible binding for global variable
     p <- p  +
       ggplot2::geom_point(data = data,
-                          ggplot2::aes(x = lon, y = lat),
+                          ggplot2::aes(x = lon,
+                                       y = lat),
                           colour = I("red"), size = I(3))
     }
   suppressMessages(ggplot2::ggsave(filename = png_filename, plot = p))

@@ -21,14 +21,15 @@ Imports:
     xml2,
     shiny,
     osmdata,
-    ggplot2
+    ggplot2,
+    rlang
 Language: en-US
 Encoding: UTF-8
 Suggests:
-    ggmap, 
     knitr,
     lintr,
     rmarkdown,
     testthat (>= 2.1.0),
     tibble,
-    shinytest
+    shinytest,
+    ggmap
