@@ -57,7 +57,7 @@ test_that("show bike traffic density", {
 })
 
 test_that("show car traffic density", {
-  skip("Issue 98. Issue #98")
+  png_filename <- tempfile(fileext = ".png")
   expect_silent(
     create_map(
       png_filename = png_filename,

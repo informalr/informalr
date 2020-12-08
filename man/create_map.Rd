@@ -7,6 +7,8 @@
 create_map(
   png_filename,
   show_bridge_openings = "yes",
+  fake_data = FALSE,
+  show_car_traffic_density = "fake",
   right_lon = 1,
   left_lon = 2,
   top_lat = 3,
@@ -22,13 +24,16 @@ bridge openings are plotted on top of the basemap. The default,
 adds one fake bridge opening in the center of Groningen. \code{"no"}
 does not add any bridge openings to the map.}
 
-\item{right_lon}{right longitude}
+\item{show_car_traffic_density}{Add layer of car traffic density}
 
-\item{left_lon}{left longitude}
+\item{right_lon}{right longetitude}
 
-\item{top_lat}{top latitude}
+\item{left_lon}{left longetitude}
 
-\item{bottom_lat}{bottom latitude}
+\item{top_lat}{top lattitude}
+
+\item{bottom_lat}{bottom lattitude
+on top of the base map}
 }
 \description{
 Fetch a map of Groningen from OpenStreetMap
