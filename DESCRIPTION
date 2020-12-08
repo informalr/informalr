@@ -21,8 +21,7 @@ Imports:
     xml2,
     shiny,
     osmdata,
-    ggplot2,
-    rlang
+    ggplot2
 Language: en-US
 Encoding: UTF-8
 Suggests:
