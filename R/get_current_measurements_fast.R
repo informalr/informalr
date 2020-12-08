@@ -7,8 +7,9 @@
 get_car_densities <- function() {
   #' download the positions of the measurement loops from NDW site
   url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
-  cachedir <- rappdirs::user_cache_dir(appname = "informalr")
-  destdir <- file.path(cachedir, "extdata")
+  #cachedir <- rappdirs::user_cache_dir(appname = "informalr")
+  #destdir <- file.path(cachedir, "extdata")
+  destdir <- tempdir()
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
   destfile <- file.path(destdir, "measurement_current.xml.gz")
   #' unzip the file
@@ -30,8 +31,9 @@ get_car_densities <- function() {
   lat <- xml2::xml_find_first(parents, lat_q) %>% xml2::xml_text()
   #' now download the second file with all the traffic densities
   url <- "http://opendata.ndw.nu/trafficspeed.xml.gz"
-  cachedir <- rappdirs::user_cache_dir(appname = "informalr")
-  destdir <- file.path(cachedir, "extdata")
+  #cachedir <- rappdirs::user_cache_dir(appname = "informalr")
+  #destdir <- file.path(cachedir, "extdata")
+  destdir <- tempdir()
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
   destfile <- file.path(destdir, "trafficspeed.xml.gz")
   utils::download.file(url, destfile)
