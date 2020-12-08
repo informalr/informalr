@@ -4,28 +4,17 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
-<<<<<<< HEAD
-#' @param show_bridge_openings Add layer with bridge openings
 #' @param show_car_traffic_density Add layer of car traffic density
-=======
 #' @param show_bridge_openings character string indicating whether or not
 #' bridge openings are plotted on top of the basemap. The default,
 #' \code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
 #' adds one fake bridge opening in the center of Groningen. \code{"no"}
 #' does not add any bridge openings to the map.
-<<<<<<< HEAD
->>>>>>> develop
 #' @param right_lon right longetitude
 #' @param left_lon left longetitude
 #' @param top_lat top lattitude
 #' @param bottom_lat bottom lattitude
 #' on top of the base map
-=======
-#' @param right_lon right longitude
-#' @param left_lon left longitude
-#' @param top_lat top latitude
-#' @param bottom_lat bottom latitude
->>>>>>> develop
 #' @export
 create_map <- function(
   png_filename,
