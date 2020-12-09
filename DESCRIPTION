@@ -1,5 +1,5 @@
 Package: informalr
-Title: Learn R Informally In A Team
+Title: Learn R Informally in a Team
 Version: 0.3
 Authors@R: c(
     person("Richèl J.C.", "Bilderbeek", email = "richel@richelbilderbeek.nl", role = c("aut", "cre"), comment = c(ORCID = "0000-0003-1107-7049")))
@@ -22,7 +22,8 @@ Imports:
     shiny,
     osmdata,
     ggplot2,
-    rlang
+    rlang,
+    magrittr
 Language: en-US
 Encoding: UTF-8
 Suggests:

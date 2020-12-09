@@ -1,12 +1,14 @@
-#' Create map
+#' Create map with car traffic densities.
 #'
-#' Fetch a map of Groningen from OpenStreetMap
-#' and save it as a PNG-file.
+#' Fetch a map of Groningen from OpenStreetMap,
+#' add car traffic densities and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
+#' @param show_measurements Logical indicating whether or not to plot
+#' car traffic densities on top of the base map
 #' @export
-create_map_with_car_traffic_densities <- function(png_filename,
-                                                  show_measurements=TRUE) {
+create_map_traffic_densities <- function(png_filename,
+                                         show_measurements = TRUE) {
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- ggmap::get_map(bbox, maptype = "toner_stamen")
   p <- ggmap::ggmap(groningen)
