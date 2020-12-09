@@ -44,8 +44,9 @@ get_car_densities <- function() {
   # because it finds one more location than density
   # and because it only finds the density on one position (rijbaan, weghelft)
   site_names_2 <- xml2::xml_attr(
-    xml2::xml_find_all(doc, ".//d1:siteMeasurements/d1:measurementSiteReference")
-  , "id")
+    xml2::xml_find_all(doc,
+                       ".//d1:siteMeasurements/d1:measurementSiteReference"),
+    "id")
   dens_q <- paste0(".//d1:siteMeasurements/d1:measuredValue[1]/",
                    "d1:measuredValue/d1:basicData/d1:vehicleFlow/",
                    "d1:vehicleFlowRate")
