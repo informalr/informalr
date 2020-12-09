@@ -25,7 +25,8 @@ create_map <- function(
 ) {
   informalr::check_show_bridge_openings(show_bridge_openings)
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
-  groningen <- suppressMessages(ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
+  groningen <- suppressMessages(
+    ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings %in% c("yes", "fake")) {
     data <- informalr::get_bridge_openings(
