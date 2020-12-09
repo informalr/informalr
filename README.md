@@ -1,6 +1,6 @@
 # informalr
 
-Branch   |GitHub Actions                                                                                       |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
+Branch   |[GitHub Actions](https://github.com/informalr/informalr/actions)                                     |[![Codecov logo](man/figures/Codecov.png)](https://www.codecov.io)
 ---------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------
 `master` |![R-CMD-check](https://github.com/informalr/informalr/workflows/R-CMD-check/badge.svg?branch=master) |[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=master)](https://codecov.io/github/informalr/informalr/branch/master)
 `develop`|![R-CMD-check](https://github.com/informalr/informalr/workflows/R-CMD-check/badge.svg?branch=develop)|[![codecov.io](https://codecov.io/github/informalr/informalr/coverage.svg?branch=develop)](https://codecov.io/github/informalr/informalr/branch/develop)
@@ -37,17 +37,16 @@ Ordered alphabetically on first name:
 
 Name                                         |Role
 ---------------------------------------------|-----------------
-[Alexine](https://github.com/alexinedewit)   |Junior!
+[Alexine](https://github.com/alexinedewit)   |Junior
 [Bara](https://github.com/barawaclawik)      |Newbie
-[Claudio](https://github.com/janclod)        |Junior, front-end
+[Claudio](https://github.com/janclod)        |Medior
 [Frans](https://github.com/fransbianchi)     |Junior
 [Geert](https://github.com/bogeert)          |Junior, back-end
 [Jan](https://github.com/janderkkotlarski)   |Newbie
 [Lizzie](https://github.com/Lizzie-Roeble)   |Newbie
-[Pamela](https://github.com/Pamgd29)         |Newbie
 [Richel](https://github.com/richelbilderbeek)|Team leader
 [Stefano](https://github.com/swom)           |Newbie 
-[Willy](https://github.com/FrieseWoudloper)  |Junior, back-end
+[Willy](https://github.com/FrieseWoudloper)  |Medior
 
 ## Meetings
 
@@ -76,7 +75,7 @@ End of lesson            |20:00
 ## Coding via Discord
 
 For those that prefer online, we use Discord to chat.
-To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`. Add Pam as well @Pam González#5830.
+To join, send Richel a Discord Friend Request: `richelbilderbeek#9002`.
 He'll add you to the `informalr` server.
 
 ## Code of Conduct
@@ -90,11 +89,8 @@ contact [Willy](https://github.com/friesewoudloper).
 
 Week|Activity
 ----|----------
- 47 |Code of conduct + code reviews, discover members fit for pair programming
- 48 |Pair programming
- 49 |.
  50 |.
- 51 |.
+ 51 |Last time before holiday
  52 |Christmas holiday
 
 ## FAQ
