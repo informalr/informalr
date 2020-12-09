@@ -7,8 +7,6 @@
 get_car_densities <- function() {
   #' download the positions of the measurement loops from NDW site
   url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
-  #cachedir <- rappdirs::user_cache_dir(appname = "informalr")
-  #destdir <- file.path(cachedir, "extdata")
   destdir <- tempdir()
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
   destfile <- file.path(destdir, "measurement_current.xml.gz")
@@ -26,13 +24,12 @@ get_car_densities <- function() {
   lat_q <- ".//d1:measurementSiteLocation//d1:locationForDisplay/d1:latitude"
   #'value<-xml2::xml_find_first(parents, value_query) %>% xml2::xml_text()
   site_names_1 <- xml2::xml_find_all(doc,
-                                   ".//d1:measurementSiteRecord") %>% xml2::xml_attr("id")
-  lon <- xml2::xml_find_first(parents, lon_q) %>% xml2::xml_text()
-  lat <- xml2::xml_find_first(parents, lat_q) %>% xml2::xml_text()
+                                   ".//d1:measurementSiteRecord") %>%
+                                   xml2::xml_attr("id")
+  lon <- xml2::xml_text(xml2::xml_find_first(parents, lon_q))
+  lat <- xml2::xml_text(xml2::xml_find_first(parents, lat_q))
   #' now download the second file with all the traffic densities
   url <- "http://opendata.ndw.nu/trafficspeed.xml.gz"
-  #cachedir <- rappdirs::user_cache_dir(appname = "informalr")
-  #destdir <- file.path(cachedir, "extdata")
   destdir <- tempdir()
   if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
   destfile <- file.path(destdir, "trafficspeed.xml.gz")
@@ -46,11 +43,16 @@ get_car_densities <- function() {
   #' the following part is still incorrect,
   #' because it finds one more location than density
   #' and because it only finds the density on one position (rijbaan, weghelft)
-  site_names_2 <- xml2::xml_find_all(doc,
-                                   ".//d1:siteMeasurements/d1:measurementSiteReference"
-  ) %>% xml2::xml_attr("id")
-  dens_q <- ".//d1:siteMeasurements/d1:measuredValue[1]/d1:measuredValue/d1:basicData/d1:vehicleFlow/d1:vehicleFlowRate"
-  density <- xml2::xml_find_all(doc, dens_q) %>% xml2::xml_text()
+  site_names_2 <- xml2::xml_find_all(
+    doc,
+    ".//d1:siteMeasurements/d1:measurementSiteReference"
+  ) %>%
+    xml2::xml_attr("id")
+  dens_q <- paste0(".//d1:siteMeasurements/d1:measuredValue[1]/",
+                   "d1:measuredValue/d1:basicData/d1:vehicleFlow/",
+                   "d1:vehicleFlowRate")
+  density <- xml2::xml_find_all(doc, dens_q) %>%
+    xml2::xml_text()
   #' this part is terribly slow
   #' if the whole thing is done (with for(i in site_names_1)),
   #' that is why I currently only check the first 1000
