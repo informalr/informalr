@@ -10,10 +10,9 @@ test_that("app() and run_app() work", {
   # First test app to set up the shinytest work flow
   app1 <- "apps/app/"
   expect_pass(testApp(app1, suffix = strsplit(utils::osVersion, " ")[[1]][1]))
-  # # run_app
-  # # Second app: testing leaflet
-  # app2 <- "apps/run_app/"
-  # expect_pass(testApp(app2,
-  #                     compareImages = FALSE,
-  #                     suffix = strsplit(utils::osVersion, " ")[[1]][1]))
+  # run_app
+  # Second app: testing leaflet
+  app2 <- "apps/run_app/"
+  os <- strsplit(utils::osVersion, " ")[[1]][1]
+  expect_pass(testApp(app2, compareImages = FALSE, suffix = os))
 })
