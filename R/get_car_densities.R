@@ -9,7 +9,8 @@
 #' }
 get_car_densities <- function() {
   # Download the positions of the measurement loops from NDW site
-  doc <- get_xml("http://opendata.ndw.nu/measurement_current.xml.gz")
+  url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
+  doc <- informalr::get_xml(url)
 
   # Find parent nodes in the XML with all the measurement points
   parents <- xml2::xml_find_all(doc, ".//d1:measurementSiteRecord")
