@@ -1,5 +1,4 @@
-app <- ShinyDriver$new("../../")
+app <- ShinyDriver$new("../../", timeoutSecs = 20000)
 app$snapshotInit("mytest")
 
-app$snapshot()
 app$snapshot()
