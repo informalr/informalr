@@ -9,7 +9,8 @@
 #' }
 get_car_densities <- function() {
   # Download the positions of the measurement loops from NDW site
-  doc <- get_xml("http://opendata.ndw.nu/measurement_current.xml.gz")
+  url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
+  doc <- informalr::get_xml(url)
 
   # Find parent nodes in the XML with all the measurement points
   parents <- xml2::xml_find_all(doc, ".//d1:measurementSiteRecord")
@@ -23,7 +24,8 @@ get_car_densities <- function() {
   lat <- xml2::xml_text(xml2::xml_find_first(parents, lat_q))
 
   # Now download the second file with all the traffic densities
-  doc <- get_xml("http://opendata.ndw.nu/trafficspeed.xml.gz")
+  url <- "http://opendata.ndw.nu/trafficspeed.xml.gz"
+  doc <- informalr::get_xml(url)
 
   # Now extract the location names and the traffic densities
   # The following part is still incorrect,
