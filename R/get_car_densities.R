@@ -5,19 +5,12 @@
 #'
 #' @examples
 #' \dontrun{
-#' get_car_densities()
+#' get_car_densities("http://opendata.ndw.nu/brugopeningen.xml.gz")
 #' }
 get_car_densities <- function() {
   # Download the positions of the measurement loops from NDW site
-  url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
-  destdir <- tempdir()
-  if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
-  destfile <- file.path(destdir, "measurement_current.xml.gz")
-  utils::download.file(url, destfile)
-  tempfile <- tempfile()
-  R.utils::gunzip(destfile, tempfile)
-  doc <- xml2::read_xml(tempfile)
-  file.remove(tempfile)
+  doc <- get_xml("http://opendata.ndw.nu/measurement_current.xml.gz")
+
   # Find parent nodes in the XML with all the measurement points
   parents <- xml2::xml_find_all(doc, ".//d1:measurementSiteRecord")
   # Get object values, longitudes and site names
@@ -28,17 +21,10 @@ get_car_densities <- function() {
   , "id")
   lon <- xml2::xml_text(xml2::xml_find_first(parents, lon_q))
   lat <- xml2::xml_text(xml2::xml_find_first(parents, lat_q))
+
   # Now download the second file with all the traffic densities
-  url <- "http://opendata.ndw.nu/trafficspeed.xml.gz"
-  destdir <- tempdir()
-  if (!file.exists(destdir)) dir.create(destdir, recursive = TRUE)
-  destfile <- file.path(destdir, "trafficspeed.xml.gz")
-  utils::download.file(url, destfile)
-  tempfile <- tempfile()
-  # Unzip this file as well
-  R.utils::gunzip(destfile, tempfile)
-  doc <- xml2::read_xml(tempfile)
-  file.remove(tempfile)
+  doc <- get_xml("http://opendata.ndw.nu/trafficspeed.xml.gz")
+
   # Now extract the location names and the traffic densities
   # The following part is still incorrect,
   # because it finds one more location than density
@@ -68,6 +54,7 @@ get_car_densities <- function() {
     }
   }
   car_densities <- site_names_1
+
   # Return the dataframe
   data.frame(car_densities = car_densities, lon = lon, lat = lat)
 }

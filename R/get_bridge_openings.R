@@ -11,14 +11,7 @@ get_bridge_openings <- function(fake_data = FALSE) {
     d <- data.frame(lat = 53.219167, lon = 6.568056)
     return(d)
   } else {
-    url <- "http://opendata.ndw.nu/brugopeningen.xml.gz"
-    destdir <- tempdir()
-    destfile <- file.path(destdir, "measurement_current.xml.gz")
-    utils::download.file(url, destfile)
-    tempfile <- tempfile()
-    R.utils::gunzip(destfile, tempfile)
-    doc <- xml2::read_xml(tempfile)
-    file.remove(tempfile)
+    doc <- get_xml("http://opendata.ndw.nu/brugopeningen.xml.gz")
     ns <- xml2::xml_ns(doc)
     c1 <- ".//d1:situationRecord[d1:probabilityOfOccurrence/text() = 'certain']"
     c2 <- "/d1:groupOfLocations/d1:locationForDisplay/d1:latitude"
