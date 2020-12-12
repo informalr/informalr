@@ -106,7 +106,9 @@ jobs:
           name: ${{ runner.os }}-r${{ matrix.config.r }}-results
           path: check
 
-
+      - name: Test coverage
+        run: covr::codecov()
+        shell: Rscript {0}
 
       - name: Lint
         run: lintr::expect_lint_free()
