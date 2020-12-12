@@ -7,7 +7,7 @@
 #'
 #' @examples
 #' get_xml("http://opendata.ndw.nu/brugopeningen.xml.gz")
-get_xml <- function(url){
+get_xml <- function(url) {
   zip_file <- tempfile(fileext = ".gz")
   utils::download.file(url, zip_file)
   xml_file <- tempfile(fileext = ".xml")
@@ -16,4 +16,3 @@ get_xml <- function(url){
   file.remove(xml_file)
   return(doc)
 }
-

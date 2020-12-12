@@ -14,6 +14,6 @@ Get current measurements of traffic
 }
 \examples{
 \dontrun{
-get_car_densities()
+get_car_densities("http://opendata.ndw.nu/brugopeningen.xml.gz")
 }
 }
