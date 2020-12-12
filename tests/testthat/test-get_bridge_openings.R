@@ -27,6 +27,7 @@ test_that("no NA data", {
 })
 
 test_that("no duplicate data", {
+  skip("Issue #142")
   df <- get_bridge_openings(fake_data = FALSE)
   expect_true(anyDuplicated(df) == 0)
 })
