@@ -15,8 +15,18 @@ if (nrow(bridges) > 0) {
   })
 
   test_that("latitude and longitude are numerical", {
-    skip("Issue 96. Issue #96")
     expect_true(all(is.numeric(bridges$lat)))
     expect_true(all(is.numeric(bridges$lon)))
   })
+
 }
+
+test_that("no NA data", {
+  skip("Issue #141")
+  # Need to write code here to expose issue
+})
+
+test_that("no duplicate data", {
+  df <- get_bridge_openings(fake_data = FALSE)
+  expect_true(anyDuplicated(df) == 0)
+})

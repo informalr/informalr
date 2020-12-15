@@ -1,5 +1,3 @@
-library(shiny)
-
 #' Shiny App
 #' @note
 #' This is a Shiny web application.
@@ -22,11 +20,11 @@ library(shiny)
 app <- function() {
   # Create shinyApp object with ui and server
   shiny::shinyApp(ui <- shiny::fluidPage(shiny::plotOutput("map")),
-                     server <- function(input, output) {
-                       output$map <- shiny::renderImage({
-                         filename <- "bike_app_stub.png"
-                         # Return a list containing the filename
-                         list(src = filename)
-                       }, deleteFile = FALSE)
-                     })
+                  server <- function(input, output) {
+                    output$map <- shiny::renderImage({
+                      filename <- "bike_app_stub.png"
+                      # Return a list containing the filename
+                      list(src = filename)
+                    }, deleteFile = FALSE)
+                  })
 }
