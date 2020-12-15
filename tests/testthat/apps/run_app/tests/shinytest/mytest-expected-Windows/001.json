@@ -1,0 +1,130 @@
+{
+  "input": {
+    "map_bounds": {
+      "north": 53.6267243624707,
+      "east": 8.12164306640625,
+      "south": 52.9701462354933,
+      "west": 5.47943115234375
+    },
+    "map_center": {
+      "lng": 6.8,
+      "lat": 53.3
+    },
+    "map_zoom": 9
+  },
+  "output": {
+    "map": {
+      "x": {
+        "options": {
+          "crs": {
+            "crsClass": "L.CRS.EPSG3857",
+            "code": null,
+            "proj4def": null,
+            "projectedBounds": null,
+            "options": {
+
+            }
+          }
+        },
+        "calls": [
+          {
+            "method": "addTiles",
+            "args": [
+              "//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              null,
+              null,
+              {
+                "minZoom": 0,
+                "maxZoom": 18,
+                "tileSize": 256,
+                "subdomains": "abc",
+                "errorTileUrl": "",
+                "tms": false,
+                "noWrap": false,
+                "zoomOffset": 0,
+                "zoomReverse": false,
+                "opacity": 1,
+                "zIndex": 1,
+                "detectRetina": false,
+                "attribution": "&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"
+              }
+            ]
+          },
+          {
+            "method": "addMarkers",
+            "args": [
+              53.219167,
+              6.568056,
+              null,
+              null,
+              null,
+              {
+                "interactive": true,
+                "draggable": false,
+                "keyboard": true,
+                "title": "",
+                "alt": "",
+                "zIndexOffset": 0,
+                "opacity": 1,
+                "riseOnHover": false,
+                "riseOffset": 250
+              },
+              null,
+              null,
+              null,
+              null,
+              null,
+              {
+                "interactive": false,
+                "permanent": false,
+                "direction": "auto",
+                "opacity": 1,
+                "offset": [
+                  0,
+                  0
+                ],
+                "textsize": "10px",
+                "textOnly": false,
+                "className": "",
+                "sticky": true
+              },
+              null
+            ]
+          }
+        ],
+        "setView": [
+          [
+            53.3,
+            6.8
+          ],
+          9,
+          [
+
+          ]
+        ],
+        "limits": {
+          "lat": [
+            53.219167,
+            53.219167
+          ],
+          "lng": [
+            6.568056,
+            6.568056
+          ]
+        }
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+
+  }
+}
