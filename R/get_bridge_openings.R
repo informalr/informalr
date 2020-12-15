@@ -29,6 +29,7 @@ get_bridge_openings <- function(fake_data = FALSE) {
     lon <- xml2::xml_find_all(doc, paste0(c1, c3), ns) %>%
            xml2::xml_text() %>%
            as.numeric()
-    return(data.frame(lat = lat, lon = lon))
+    df <- unique(data.frame(lat = lat, lon = lon))
+    return(df)
   }
 }
