@@ -27,11 +27,7 @@ test_that("no NA data", {
 })
 
 test_that("no duplicate data", {
-  bridges <- get_bridge_openings(fake_data = FALSE)
-
-  # How to simplify this?
-  # for(i in 1:length(bridges$lat)) {
-    bool <- bridges$lat[1] != bridges$lat[2] || bridges$lon[1] != bridges$lon[2]
-    expect_true(bool)
-  # }
+  skip("Issue #142")
+  df <- get_bridge_openings(fake_data = FALSE)
+  expect_true(anyDuplicated(df) == 0)
 })
