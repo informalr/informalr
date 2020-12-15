@@ -25,8 +25,8 @@ get_car_densities <- function() {
   #' Get object values, longitudes and site names
   #'value_query <-".//d1:measurementSiteName/d1:values/d1:value"
   left <- ".//d1:measurementSiteLocation//d1:locationForDisplay/"
-  lon_q <- paste(left,"d1:longitude", sep="")
-  lat_q <- paste(left,"d1:latitude", sep="")
+  lon_q <- paste(left, "d1:longitude", sep = "")
+  lat_q <- paste(left, "d1:latitude", sep = "")
   #'value<-xml2::xml_find_first(parents, value_query
   #') %>% xml2::xml_text()
   site_names_1 <- xml2::xml_find_all(doc,
@@ -57,20 +57,17 @@ get_car_densities <- function() {
                 ".//d1:siteMeasurements/d1:measurementSiteReference"
   ) %>% xml2::xml_attr("id")
   dens_q <- ".//d1:siteMeasurements/d1:measuredValue[1]/"
-  dens_q <- paste(dens_q,"d1:measuredValue/d1:basicData/", sep="")
-  dens_q <- paste(dens_q,"d1:vehicleFlow/d1:vehicleFlowRate", sep="")
+  dens_q <- paste(dens_q, "d1:measuredValue/d1:basicData/", sep = "")
+  dens_q <- paste(dens_q, "d1:vehicleFlow/d1:vehicleFlowRate", sep = "")
   density <- xml2::xml_find_all(doc, dens_q
                                 ) %>% xml2::xml_integer() #nolint
-  #' this part is terribly slow
-  #' if the whole thing is done (with for(i in site_names_1)),
-  #' that is why I currently only check the first 1000
   x <- data.frame(site_names_1 = site_names_1, lon = lon, lat = lat)
   nr <- length(density)
-  site_names_2<-data.frame(site_names_2=site_names_2)
-  site_names_2<-dplyr::slice(site_names_2,1:nr)
+  site_names_2 <- data.frame(site_names_2 = site_names_2)
+  site_names_2 <- dplyr::slice(site_names_2, 1:nr)
   y <- data.frame(site_names_2 = site_names_2, density = density)
   names(y)[1] <- "site_names_1"
-  result_cars <-  dplyr::inner_join(x,y, by = NULL, copy = NULL)
+  result_cars <-  dplyr::inner_join(x, y, by = NULL, copy = NULL)
   car_densities <- dplyr::pull(result_cars, 4)
   lon <- dplyr::pull(result_cars, 2)
   lat <- dplyr::pull(result_cars, 3)
