@@ -1,5 +1,5 @@
 ---
-title: "informalr: some trivial mathematical functions"
+title: "willy"
 author: "Willy Tadema"
 output: rmarkdown::html_vignette
 date: "`r Sys.Date()`"

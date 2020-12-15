@@ -4,10 +4,31 @@
 \alias{create_map}
 \title{Create map}
 \usage{
-create_map(png_filename)
+create_map(
+  png_filename,
+  show_bridge_openings = "yes",
+  right_lon = 1,
+  left_lon = 2,
+  top_lat = 3,
+  bottom_lat = 4
+)
 }
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
+
+\item{show_bridge_openings}{character string indicating whether or not
+bridge openings are plotted on top of the basemap. The default,
+\code{"yes"} adds the real time bridge openings to the map. \code{"fake"}
+adds one fake bridge opening in the center of Groningen. \code{"no"}
+does not add any bridge openings to the map.}
+
+\item{right_lon}{right longitude}
+
+\item{left_lon}{left longitude}
+
+\item{top_lat}{top latitude}
+
+\item{bottom_lat}{bottom latitude}
 }
 \description{
 Fetch a map of Groningen from OpenStreetMap

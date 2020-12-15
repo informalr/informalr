@@ -1,18 +1,21 @@
 #' Read demo data
 #'
-#' Read the \code{ic50s.csv} file in \code{inst/extdata}.
+#' Read the file in \code{inst/extdata}
+#' with the demo data.
 #'
-#' @return A dataframe with the contents of the \code{ic50s.csv} file.
+#' @param filename The name of the file in
+#' \code{inst/extdata} with the demo data
+#' @return A dataframe with the demo data.
 #' @export
 #'
 #' @examples
 #' data <- read_ic50s()
-read_ic50s <- function() {
-  full <- system.file("extdata", "ic50s.csv", package = "informalr")
+read_ic50s <- function(filename = "2016-third-quarter-stolen-guns.csv") {
+  full <- system.file("extdata", filename, package = "informalr")
   if (!file.exists(full)) {
-    stop("File inst/extdata/ic50s.csv does not exist.")
+    stop(paste0("File inst/extdata/", filename, " does not exist."))
   }
   data <- utils::read.csv(full, stringsAsFactors = FALSE)
-  data$tool <- as.factor(data$tool)
+  data$tool <- as.factor(data$Model)
   return(data)
 }
