@@ -5,7 +5,7 @@
 #'
 #' @param png_filename name of the PNG that the map will be saved to
 #' @export
-create_map_with_car_traffic_densities <- function(png_filename,
+create_map_car_densities <- function(png_filename,
                                                   show_measurements=TRUE) {
   bbox <- osmdata::getbb("Groningen", featuretype = "state")
   groningen <- ggmap::get_map(bbox, maptype = "toner_stamen")
@@ -16,12 +16,12 @@ create_map_with_car_traffic_densities <- function(png_filename,
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data$car_densities <- as.numeric(data$car_densities)
-    data$car_densities <- data$car_densities / 30
+    data$car_densities <- data$car_densities / 100
     p <- p  +
       ggplot2::geom_point(data = data,
                           ggplot2::aes(x = data$lon, y = data$lat),
                           colour = I("red"), size = data$car_densities)
                           }
-  #colour = I("red"), size = I(3), label = data$value)}
+  #' colour = I("red"), size = I(3), label = data$value)}
   ggplot2::ggsave(filename = png_filename, plot = p)
 }
