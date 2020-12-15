@@ -1,5 +1,6 @@
 #' Get current measurements of traffic
 #'
+#' @importFrom magrittr "%>%"
 #' @export
 #'
 #' @examples
@@ -32,9 +33,9 @@ get_car_densities <- function() {
   site_names_1 <- xml2::xml_find_all(doc,
               ".//d1:measurementSiteRecord") %>% xml2::xml_attr("id")
   lon <- xml2::xml_find_first(parents, lon_q
-                              )  %>% xml2::xml_text() #nolint
+                              )  %>% xml2::xml_text()
   lat <- xml2::xml_find_first(parents, lat_q
-                              )  %>% xml2::xml_text() #nolint
+                              )  %>% xml2::xml_text()
   #' now download the second file with all the traffic densities
   url <- "http://opendata.ndw.nu/trafficspeed.xml.gz"
   #' cachedir <- rappdirs::user_cache_dir(appname = "informalr")
@@ -60,7 +61,7 @@ get_car_densities <- function() {
   dens_q <- paste(dens_q, "d1:measuredValue/d1:basicData/", sep = "")
   dens_q <- paste(dens_q, "d1:vehicleFlow/d1:vehicleFlowRate", sep = "")
   density <- xml2::xml_find_all(doc, dens_q
-                                ) %>% xml2::xml_integer() #nolint
+                                ) %>% xml2::xml_integer()
   x <- data.frame(site_names_1 = site_names_1, lon = lon, lat = lat)
   nr <- length(density)
   site_names_2 <- data.frame(site_names_2 = site_names_2)
