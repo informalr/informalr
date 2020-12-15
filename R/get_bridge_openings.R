@@ -2,7 +2,7 @@
 #'
 #' @param fake_data Indicates whether to return test data.
 #' (GPS location of the Martini tower.)
-#' @importFrom(magrittr,"%>%")
+#' @importFrom magrittr "%>%"
 #' @export
 #'
 #' @examples
