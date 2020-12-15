@@ -5,6 +5,7 @@
 #' @examples
 #' # Put example code here
 get_car_densities <- function() {
+  library(magrittr)
   #' download the positions of the measurement loops from NDW site
   url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
   #' cachedir <- rappdirs::user_cache_dir(appname = "informalr")
