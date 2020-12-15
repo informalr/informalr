@@ -30,8 +30,7 @@ create_map <- function(
     ggmap::get_map(bbox, maptype = "toner_stamen", quiet = TRUE))
   p <- ggmap::ggmap(groningen)
   if (show_bridge_openings %in% c("yes", "fake")) {
-    data <- informalr::get_bridge_openings(
-      fake_data = (show_bridge_openings == "fake"))
+    data <- informalr::get_bridge_openings()
     data$lat <- as.numeric(data$lat)
     data$lon <- as.numeric(data$lon)
     data <- data[data$lat >= bbox["y", "min"] &

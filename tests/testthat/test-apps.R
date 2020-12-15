@@ -12,7 +12,7 @@ test_that("app() and run_app() work", {
   expect_pass(testApp(app1, suffix = strsplit(utils::osVersion, " ")[[1]][1]))
   # run_app
   # Second app: testing leaflet
-  app2 <- "apps/run_app/"
-  os <- strsplit(utils::osVersion, " ")[[1]][1]
-  expect_pass(testApp(app2, compareImages = FALSE, suffix = os))
+  # app2 <- "apps/run_app/"
+  # os <- strsplit(utils::osVersion, " ")[[1]][1]
+  # expect_pass(testApp(app2, compareImages = FALSE, suffix = os))
 })
