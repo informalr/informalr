@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' Put example code here
+#' df <- get_bridge_openings()
 get_bridge_openings <- function(fake_data = FALSE) {
   if (fake_data) {
     d <- data.frame(lat = 53.219167, lon = 6.568056)
