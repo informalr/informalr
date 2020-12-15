@@ -20,17 +20,8 @@ if (nrow(bridges) > 0) {
   })
 
   test_that("NA data", {
-    # Mock out get_brige_openings
-    # f <- get_bridge_openings(fake_data = FALSE)
-    # mock <- mockery::mock(data.frame(lat = c(NaN, NaN), lon = c(NaN, NaN)))
-    # mockery::stub(get_bridge_openings, 'get_bridge_openings', mock)
-    # print(get_bridge_openings(fake_data = FALSE))
-    # expect_false(is.nan(get_bridge_openings(fake_data = FALSE)))
-    # Generate some mock data
-    # m <- mockery::mock(12, NaN, 23)
-    # expect_false(all(is.nan(m())))
-    # expect_true(all(is.nan(m())))
-    # expect_false(all(is.nan(m())))
+    skip("Issue #141")
+    #Write test to expose this issue
   })
 }
 
