@@ -5,8 +5,6 @@
 #' @examples
 #' # Put example code here
 get_car_densities <- function() {
-  requireNamespace(magrittr)
-  requireNamespace(dplyr)
   #' library(magrittr)
   #' library(dplyr)
   #' download the positions of the measurement loops from NDW site
@@ -26,13 +24,17 @@ get_car_densities <- function() {
   parents <- xml2::xml_find_all(doc, ".//d1:measurementSiteRecord")
   #' Get object values, longitudes and site names
   #'value_query <-".//d1:measurementSiteName/d1:values/d1:value"
-  lon_q <- ".//d1:measurementSiteLocation//d1:locationForDisplay/d1:longitude"
-  lat_q <- ".//d1:measurementSiteLocation//d1:locationForDisplay/d1:latitude"
-  #'value<-xml2::xml_find_first(parents, value_query) %>% xml2::xml_text()
+  left <- ".//d1:measurementSiteLocation//d1:locationForDisplay/"
+  lon_q <- paste(left,"d1:longitude", sep="")
+  lat_q <- paste(left,"d1:latitude", sep="")
+  #'value<-xml2::xml_find_first(parents, value_query
+  #') %>% xml2::xml_text()
   site_names_1 <- xml2::xml_find_all(doc,
-                                     ".//d1:measurementSiteRecord") %>% xml2::xml_attr("id")
-  lon <- xml2::xml_find_first(parents, lon_q)  %>% xml2::xml_text()
-  lat <- xml2::xml_find_first(parents, lat_q)  %>% xml2::xml_text()
+              ".//d1:measurementSiteRecord") %>% xml2::xml_attr("id")
+  lon <- xml2::xml_find_first(parents, lon_q
+                              )  %>% xml2::xml_text() #nolint
+  lat <- xml2::xml_find_first(parents, lat_q
+                              )  %>% xml2::xml_text() #nolint
   #' now download the second file with all the traffic densities
   url <- "http://opendata.ndw.nu/trafficspeed.xml.gz"
   #' cachedir <- rappdirs::user_cache_dir(appname = "informalr")
@@ -49,12 +51,16 @@ get_car_densities <- function() {
   #' now extract the location names and the traffic densities
   #' the following part is still incorrect,
   #' because it finds one more location than density
-  #' and because it only finds the density on one position (rijbaan, weghelft)
+  #' and because it only finds the density on one position
+  #' (rijbaan, weghelft)
   site_names_2 <- xml2::xml_find_all(doc,
-                                     ".//d1:siteMeasurements/d1:measurementSiteReference"
+                ".//d1:siteMeasurements/d1:measurementSiteReference"
   ) %>% xml2::xml_attr("id")
-  dens_q <- ".//d1:siteMeasurements/d1:measuredValue[1]/d1:measuredValue/d1:basicData/d1:vehicleFlow/d1:vehicleFlowRate"
-  density <- xml2::xml_find_all(doc, dens_q)  %>% xml2::xml_integer()
+  dens_q <- ".//d1:siteMeasurements/d1:measuredValue[1]/"
+  dens_q <- paste(dens_q,"d1:measuredValue/d1:basicData/", sep="")
+  dens_q <- paste(dens_q,"d1:vehicleFlow/d1:vehicleFlowRate", sep="")
+  density <- xml2::xml_find_all(doc, dens_q
+                                ) %>% xml2::xml_integer() #nolint
   #' this part is terribly slow
   #' if the whole thing is done (with for(i in site_names_1)),
   #' that is why I currently only check the first 1000
