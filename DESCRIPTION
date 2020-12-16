@@ -23,7 +23,8 @@ Imports:
     osmdata,
     ggplot2,
     rlang,
-    magrittr
+    magrittr,
+    dplyr
 Language: en-US
 Encoding: UTF-8
 Suggests:
