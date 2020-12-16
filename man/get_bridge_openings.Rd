@@ -14,5 +14,5 @@ get_bridge_openings(fake_data = FALSE)
 Get real time bridge openings
 }
 \examples{
-# Put example code here
+df <- get_bridge_openings()
 }
