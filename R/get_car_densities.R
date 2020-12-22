@@ -4,9 +4,7 @@
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' get_car_densities()
-#' }
 get_car_densities <- function() {
   # Download the positions of the measurement loops from NDW site
   url <- "http://opendata.ndw.nu/measurement_current.xml.gz"
