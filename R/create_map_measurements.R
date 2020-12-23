@@ -1,10 +1,10 @@
-#' Create map
+#' Create a map of Groningen with car densities.
 #'
-#' Fetch a map of Groningen from OpenStreetMap
-#' and save it as a PNG-file.
+#' Fetch a map of Groningen and plot the densities of cars in the area
+#' using the data from the Dutch government.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
-#' @param show_measurements plot measurements on the map
+#' @param show_measurements plot measurements on the map YES/NO?
 #'
 #' @export
 create_map_car_densities <- function(png_filename,

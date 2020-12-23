@@ -18,6 +18,6 @@ Get current measurements of traffic
 Get current measurements of traffic
 }
 \examples{
-get_car_densities()
+\dontrun{get_car_densities()}
 # Put example code here
 }
