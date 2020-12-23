@@ -4,6 +4,8 @@
 #' and save it as a PNG-file.
 #'
 #' @param png_filename name of the PNG that the map will be saved to
+#' @param show_measurements plot measurements on the map
+#'
 #' @export
 create_map_car_densities <- function(png_filename,
                                      show_measurements=TRUE) {
@@ -22,6 +24,6 @@ create_map_car_densities <- function(png_filename,
                           ggplot2::aes(x = data$lon, y = data$lat),
                           colour = I("red"), size = data$car_densities)
   }
-  #' colour = I("red"), size = I(3), label = data$value)}
+  # colour = I("red"), size = I(3), label = data$value)}
   ggplot2::ggsave(filename = png_filename, plot = p)
   }
