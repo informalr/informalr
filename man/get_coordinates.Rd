@@ -4,10 +4,10 @@
 \alias{get_coordinates}
 \title{Collect GPS coordinates from the NDW website}
 \usage{
-get_coordinates(cat = "measurements")
+get_coordinates(category = "measurements")
 }
 \arguments{
-\item{cat}{specify category (measurements,...)}
+\item{category}{specify category (measurements,...)}
 }
 \description{
 This function fetches GPS coordinates from online sources:
