@@ -4,7 +4,6 @@
 #' measurements: http://opendata.ndw.nu/measurement_current.xml.gz
 #' Add others here ...
 #'
-#' @importFrom magrittr `%>%`
 #' @importFrom stats `na.omit`
 #'
 #' @param category specify category (measurements,...)
@@ -46,5 +45,5 @@ get_coordinates <- function(category = "measurements") {
   } else {
     stop(paste0("Category unknown: ", category))
   }
-  data.frame(lat = as.numeric(lat), lon = as.numeric(lon)) %>% na.omit()
+  na.omit(data.frame(lat = as.numeric(lat), lon = as.numeric(lon)))
 }
