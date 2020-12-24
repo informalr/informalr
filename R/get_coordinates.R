@@ -4,6 +4,9 @@
 #' measurements: http://opendata.ndw.nu/measurement_current.xml.gz
 #' Add others here ...
 #'
+#' @importFrom magrittr `%>%`
+#' @importFrom stats `na.omit`
+#'
 #' @param category specify category (measurements,...)
 #'
 #' @examples
@@ -11,9 +14,6 @@
 #' \dontrun{get_coordinates("measurements")}
 #'
 #' @author Claudio Tiecher
-#'
-#' @importFrom magrittr `%>%`
-#' @importFrom stats `na.omit`
 #'
 #' @export
 get_coordinates <- function(category = "measurements") {
