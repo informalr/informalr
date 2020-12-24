@@ -9,6 +9,7 @@
 #' @examples
 #' \dontrun{get_coordinates()}
 #' \dontrun{get_coordinates("measurements")}
+#'
 #' @author Claudio Tiecher
 #'
 #' @importFrom magrittr `%>%`
