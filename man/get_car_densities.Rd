@@ -9,9 +9,6 @@ get_car_densities()
 
 get_car_densities()
 }
-\value{
-
-}
 \description{
 Get current measurements of traffic
 

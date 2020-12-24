@@ -1,6 +1,6 @@
 #' Get current measurements of traffic
 #'
-#' @importFrom magrittr `%>%`
+#' @importFrom magrittr "%>%"
 #'
 #' @export
 #'

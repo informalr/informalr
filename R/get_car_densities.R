@@ -1,6 +1,5 @@
 #' Get current measurements of traffic
 #'
-#' @return
 #' @export
 #'
 #' @examples
