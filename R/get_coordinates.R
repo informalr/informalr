@@ -1,7 +1,3 @@
-#' @importFrom magrittr %>%
-#' @importFrom stats `na.omit`
-NULL
-
 #' Collect GPS coordinates from the NDW website
 #'
 #'
@@ -16,6 +12,9 @@ NULL
 #' \dontrun{get_coordinates("measurements")}
 #'
 #' @author Claudio Tiecher
+#'
+#' @importFrom magrittr %>%
+#' @importFrom stats na.omit
 #'
 #' @export
 get_coordinates <- function(category = "measurements") {
