@@ -1,4 +1,4 @@
-#' @importFrom magrittr "%>%"
+#' @importFrom magrittr %>%
 #' @importFrom stats `na.omit`
 NULL
 
