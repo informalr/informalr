@@ -46,5 +46,5 @@ get_coordinates <- function(category = "measurements") {
   } else {
     stop(paste0("Category unknown: ", category))
   }
-  na.omit(data.frame(lat = as.numeric(lat), lon = as.numeric(lon)))
+  data.frame(lat = as.numeric(lat), lon = as.numeric(lon)) %>% na.omit()
 }
