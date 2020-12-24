@@ -1,10 +1,13 @@
+#' @importFrom magrittr `%>%`
+#' @importFrom stats `na.omit`
+NULL
+
 #' Collect GPS coordinates from the NDW website
+#'
 #'
 #' This function fetches GPS coordinates from online sources:
 #' measurements: http://opendata.ndw.nu/measurement_current.xml.gz
 #' Add others here ...
-#'
-#' @importFrom stats `na.omit`
 #'
 #' @param category specify category (measurements,...)
 #'
@@ -45,5 +48,5 @@ get_coordinates <- function(category = "measurements") {
   } else {
     stop(paste0("Category unknown: ", category))
   }
-  na.omit(data.frame(lat = as.numeric(lat), lon = as.numeric(lon)))
+  data.frame(lat = as.numeric(lat), lon = as.numeric(lon)) %>% na.omit()
 }
