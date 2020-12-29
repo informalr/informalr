@@ -71,6 +71,10 @@ jobs:
           remotes::install_cran("lintr")
         shell: Rscript {0}
 
+      - name: Install package
+        if: runner.os == 'macOS' || runner.os == 'Linux'
+        run: R CMD INSTALL .
+
       - name: Install shinytest (so that phantomJS can be installed)
         run: |
           Rscript -e "remotes::install_local('.')"
