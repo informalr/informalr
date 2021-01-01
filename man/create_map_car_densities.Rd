@@ -2,16 +2,16 @@
 % Please edit documentation in R/create_map_measurements.R
 \name{create_map_car_densities}
 \alias{create_map_car_densities}
-\title{Create map}
+\title{Create a map of Groningen with car densities.}
 \usage{
 create_map_car_densities(png_filename, show_measurements = TRUE)
 }
 \arguments{
 \item{png_filename}{name of the PNG that the map will be saved to}
 
-\item{show_measurements}{plot measurements on the map}
+\item{show_measurements}{plot measurements on the map YES/NO?}
 }
 \description{
-Fetch a map of Groningen from OpenStreetMap
-and save it as a PNG-file.
+Fetch a map of Groningen and plot the densities of cars in the area
+using the data from the Dutch government.
 }

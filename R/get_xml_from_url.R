@@ -4,7 +4,7 @@
 #' @export
 #'
 #' @examples
-#' get_xml_from_url("http://opendata.ndw.nu/brugopeningen.xml.gz")
+#' \dontrun{get_xml_from_url("http://opendata.ndw.nu/brugopeningen.xml.gz")}
 get_xml_from_url <- function(url) {
   destdir <- tempdir()
   destfile <- file.path(destdir, "measurement_current.xml.gz")

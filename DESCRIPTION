@@ -24,7 +24,8 @@ Imports:
     ggplot2,
     rlang,
     magrittr,
-    dplyr
+    dplyr,
+    stats
 Language: en-US
 Encoding: UTF-8
 Suggests:

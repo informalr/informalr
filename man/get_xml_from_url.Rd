@@ -13,5 +13,5 @@ get_xml_from_url(url)
 Download the xml file found at the given url
 }
 \examples{
-get_xml_from_url("http://opendata.ndw.nu/brugopeningen.xml.gz")
+\dontrun{get_xml_from_url("http://opendata.ndw.nu/brugopeningen.xml.gz")}
 }
