@@ -5,6 +5,5 @@
 # roxygen namespace tags. Modify with care!
 ## usethis namespace: start
 #' @importFrom magrittr %>%
-#' @importFrom stats na.omit
 ## usethis namespace: end
 NULL
