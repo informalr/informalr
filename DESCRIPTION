@@ -9,7 +9,6 @@ Description:
     One way is to join the informalr team.
     There, one can learn R informally in a team.
 License: GPL-3
-LazyData: true
 RoxygenNote: 7.1.1
 VignetteBuilder: knitr
 URL: https://github.com/richelbilderbeek/informalr/
