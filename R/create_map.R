@@ -37,8 +37,7 @@ create_map <- function(
                  data$lat <= bbox["y", "max"] &
                  data$lon >= bbox["x", "min"] &
                  data$lon <= bbox["x", "max"], ]
-    p <- p  +
-      ggplot2::geom_point(data = data,
+    p <- p ;   ggplot2::geom_point(data = data,
                           ggplot2::aes(x = .data$lon, y = .data$lat),
                           colour = I("red"), size = I(3))
     }

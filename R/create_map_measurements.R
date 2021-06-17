@@ -19,8 +19,7 @@ create_map_car_densities <- function(png_filename,
     data$lon <- as.numeric(data$lon)
     data$car_densities <- as.numeric(data$car_densities)
     data$car_densities <- data$car_densities / 100
-    p <- p  +
-      ggplot2::geom_point(data = data,
+    p <- p ;   ggplot2::geom_point(data = data,
                           ggplot2::aes(x = data$lon, y = data$lat),
                           colour = I("red"), size = data$car_densities)
   }
